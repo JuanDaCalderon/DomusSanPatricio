@@ -1,0 +1,16 @@
+#: locale=es
+
+## Tour
+
+### Description
+
+### Título
+tour.name = Sin Título 2
+
+## Media
+
+### Título
+panorama_FB0B602F_EFFA_5536_41DE_273E0A5E5183.label = Bedroom
+panorama_FD532FEB_EFFA_6B3E_4196_2A6748B2C798.label = Rooms Hall
+panorama_FD535AD7_EFFA_5516_41EC_103DDCD65537.label = Living
+panorama_FD5465C3_EFFA_5F6E_4186_E9C902F6E0F2.label = Entrance

@@ -1,0 +1,16 @@
+#: locale=es
+
+## Tour
+
+### Description
+
+### Título
+tour.name = Sin Título 2
+
+## Media
+
+### Título
+panorama_DB80C668_CB85_E05B_41AA_59EA1C847556.label = Cuarto vista 2
+panorama_DB80F24C_CB85_E05B_41E6_5B4A07B846DF.label = Cuarto vista 1
+panorama_DB820E86_CB85_E0D7_41E1_8D603CC45895.label = Corredor
+panorama_DCE5C8AC_CB85_E0DB_41DC_85EA061BF928.label = Sala

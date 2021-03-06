@@ -1,0 +1,16 @@
+#: locale=es
+
+## Tour
+
+### Description
+
+### Título
+tour.name = Sin Título 1
+
+## Media
+
+### Título
+panorama_C01696A3_CB82_E0CC_41BE_20924946F873.label = Sala
+panorama_C0A024C9_CB82_A05D_41D4_DB6BE767264E.label = Cuarto vista 2
+panorama_C0A06154_CB82_A04B_418C_4D67E7B4E112.label = Cuarto vista 1
+panorama_C0AF3DD1_CB82_E04C_41E1_4D138079670C.label = Corredor

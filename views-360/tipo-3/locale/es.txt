@@ -1,0 +1,16 @@
+#: locale=es
+
+## Tour
+
+### Description
+
+### Título
+tour.name = Apartamento Tipo 3
+
+## Media
+
+### Título
+panorama_DEDE0D93_CB8D_E0CD_41DF_4664A271B52F.label = Entrada
+panorama_DF2F2BCC_CB8D_A05B_41D9_6CDF26BE7FA1.label = Cuarto 2
+panorama_DF2F8DBA_CB8D_A03F_41E7_6353DD8AD8EB.label = Comedor
+panorama_DF2FA998_CB8E_60FB_41C5_3E267F2C32F5.label = Cuarto principal

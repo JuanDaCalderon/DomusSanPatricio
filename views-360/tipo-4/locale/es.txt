@@ -1,0 +1,16 @@
+#: locale=es
+
+## Tour
+
+### Description
+
+### Título
+tour.name = Sin Título 1
+
+## Media
+
+### Título
+panorama_E50CE5AA_EFBE_5F3E_41C5_DE812C4EAC99.label = 1
+panorama_E6F837B7_EFBE_3B16_41D2_B3C7A5CCC825.label = 4
+panorama_E6F862C6_EFBE_3576_41C7_74AF05D0A45A.label = 3
+panorama_E6FF3DC4_EFBE_2F6A_41E5_DBE149540E92.label = 2

@@ -1,0 +1,18 @@
+#: locale=es
+
+## Tour
+
+### Description
+
+### Título
+tour.name = Sin Título 3
+
+## Media
+
+### Título
+panorama_FAE80BCD_EFCA_6B7A_4185_E7D4118DCC44.label = Cafe
+panorama_FCD50620_EFCA_5D2A_41E1_90315500AE5C.label = Co-working
+panorama_FCD52039_EFCA_351A_41BF_8F69C296A933.label = Lobby
+panorama_FCD5DB45_EFCA_2B6A_41EC_AB569194B504.label = Gym
+panorama_FCD5E645_EFCA_3D6A_41DE_4D1A7AD54450.label = Ping Pong
+panorama_FCD6912F_EFCA_5736_41A3_4BCB30870FB2.label = Cinema
