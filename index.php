@@ -67,7 +67,7 @@
                     </h5>
                 </div>
             </div>
-            <div class="carousel-item">
+            <!--<div class="carousel-item">
                 <img class="d-block w-100" src="assets/carousel/home/08.jpg" data-color="lightblue" alt="First Image">
                 <div class="carousel-caption d-md-block">
                     <h5>
@@ -76,7 +76,7 @@
                         <span>Una zona didáctica e interactiva </span>
                     </h5>
                 </div>
-            </div>
+            </div>-->
         </div>
         <!-- Controls -->
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -90,7 +90,7 @@
     </div>
 </section>   
 
-<section class="container-fluid mt-5 pt-5 pb-5">
+<section class="container-fluid mt-5 pt-5 pb-5" style="display:none;">
     <div class="container">
         <h2><span>DOMUS </span> SAN PATRICIO</h2>
         <h1>UN MODELO PARA CADA<span> <br>ESTILO DE VIDA</span></h1>
@@ -98,7 +98,7 @@
     </div>
 </section>
 
-<section class="container-fluid pt-3 pr-3 pl-0 pb-0 bg-grey">
+<section class="container-fluid pt-3 pr-3 pl-0 pb-0 bg-grey"  style="display:none;">
     <div class="container-fluid bg-greyLight">
         <div class="row justify-content-start">
             <div class="col-12 col-sm-6 pl-0">
@@ -117,7 +117,7 @@
 </section>
 
 
-<section class="amenities container-fluid pt-3 pl-3 pr-0 pb-4 bg-grey">
+<section class="amenities container-fluid pt-3 pl-3 pr-0 pb-4 bg-grey"  style="display:none;">
     <div class="container-fluid bg-greyLight">
         <div class="row justify-content-end">
             <div class="col-12 col-sm-5 pr-5 pt-4">

@@ -1,6 +1,7 @@
 <?php
     //$base_url="http://www.dynamikcollective.com/clients/hoyosluque/webapp/";
-    $base_url="http://localhost:8888/clients/hoyosluque/repo-webapp/DomusSanPatricio"; 
+    $base_url="http://www.proyectodomus.com/sanpatricio";
+    //$base_url="http://localhost:8888/clients/hoyosluque/repo-webapp/DomusSanPatricio"; 
     //$base_url="http://localhost/DomusSanPatricio/"; 
 ?>
 <head>
