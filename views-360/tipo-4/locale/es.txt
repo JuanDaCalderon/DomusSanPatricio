@@ -5,12 +5,15 @@
 ### Description
 
 ### Título
-tour.name = Sin Título 1
+tour.name = Tipo4-tour
 
 ## Media
 
 ### Título
-panorama_E50CE5AA_EFBE_5F3E_41C5_DE812C4EAC99.label = 1
-panorama_E6F837B7_EFBE_3B16_41D2_B3C7A5CCC825.label = 4
-panorama_E6F862C6_EFBE_3576_41C7_74AF05D0A45A.label = 3
-panorama_E6FF3DC4_EFBE_2F6A_41E5_DBE149540E92.label = 2
+album_0236EC4A_18DE_E982_41A7_9501B658DF41.label = Galeria de imágenes
+album_0236EC4A_18DE_E982_41A7_9501B658DF41_0.label = Comply 1
+panorama_157015B6_186B_DA82_41A6_4CBFAE89BD33.label = 3
+panorama_157023C7_186A_3E82_4192_F863E74C8280.label = 5
+panorama_1571CAB9_186A_2E8E_419B_20C5A812EC8F.label = 1
+panorama_1571CCC5_186A_2A86_41A1_831CAE268408.label = 2
+panorama_15A6DE69_186B_E98E_41B5_82EC56ACFDDB.label = 4

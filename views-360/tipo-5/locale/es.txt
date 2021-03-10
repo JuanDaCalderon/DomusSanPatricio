@@ -5,12 +5,12 @@
 ### Description
 
 ### Título
-tour.name = Sin Título 2
+tour.name = Sin Título 5
 
 ## Media
 
 ### Título
-panorama_FB0B602F_EFFA_5536_41DE_273E0A5E5183.label = Bedroom
-panorama_FD532FEB_EFFA_6B3E_4196_2A6748B2C798.label = Rooms Hall
-panorama_FD535AD7_EFFA_5516_41EC_103DDCD65537.label = Living
-panorama_FD5465C3_EFFA_5F6E_4186_E9C902F6E0F2.label = Entrance
+panorama_0A8A2440_182E_39FE_41A6_A1EB6C3AF67C.label = Rooms Hall
+panorama_152AA3C2_182E_5E82_41B3_A8F8090E2121.label = Bedroom
+panorama_152AFEAE_182E_2682_41B3_D8F2ED82E80D.label = Entrance
+panorama_1535F99A_182E_2A82_4199_BEDA5D12F3B8.label = Living

@@ -5,14 +5,14 @@
 ### Description
 
 ### Título
-tour.name = Sin Título 3
+tour.name = Sin Título 6
 
 ## Media
 
 ### Título
-panorama_FAE80BCD_EFCA_6B7A_4185_E7D4118DCC44.label = Cafe
-panorama_FCD50620_EFCA_5D2A_41E1_90315500AE5C.label = Co-working
-panorama_FCD52039_EFCA_351A_41BF_8F69C296A933.label = Lobby
-panorama_FCD5DB45_EFCA_2B6A_41EC_AB569194B504.label = Gym
-panorama_FCD5E645_EFCA_3D6A_41DE_4D1A7AD54450.label = Ping Pong
-panorama_FCD6912F_EFCA_5736_41A3_4BCB30870FB2.label = Cinema
+panorama_15C932F1_183B_DE9E_41A5_D7BA36162938.label = Lobby
+panorama_15C94396_183B_FE82_41A4_54FD30EF8042.label = Cinema
+panorama_15C9495A_183B_EB82_41B8_5767562E39FA.label = Gym
+panorama_15C98897_183B_EA82_4191_B0E178414806.label = Cafe
+panorama_15C98E5C_183B_E986_41B1_C6EB2006770A.label = Co-working
+panorama_15FE3DAF_183A_2A82_41B4_C27B4B61065B.label = Ping Pong

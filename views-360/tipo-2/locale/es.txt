@@ -5,12 +5,16 @@
 ### Description
 
 ### Título
-tour.name = Sin Título 2
+tour.name = Tipo2-Tour
 
 ## Media
 
 ### Título
-panorama_DB80C668_CB85_E05B_41AA_59EA1C847556.label = Cuarto vista 2
-panorama_DB80F24C_CB85_E05B_41E6_5B4A07B846DF.label = Cuarto vista 1
-panorama_DB820E86_CB85_E0D7_41E1_8D603CC45895.label = Corredor
-panorama_DCE5C8AC_CB85_E0DB_41DC_85EA061BF928.label = Sala
+album_0C77407A_1826_5982_419A_8F4335813E45.label = Galería de imágenes
+album_0C77407A_1826_5982_419A_8F4335813E45_0.label = Comply 3
+album_0C77407A_1826_5982_419A_8F4335813E45_1.label = Comply 2
+album_0C77407A_1826_5982_419A_8F4335813E45_2.label = Comply 1
+panorama_0B72F226_182D_D982_41AF_4D293FABC501.label = 4
+panorama_14A8C94A_182E_2B82_41AB_D20F2EE84448.label = 3
+panorama_14B870F7_182E_3A82_41B7_97A0FDFE2D38.label = 2
+panorama_14B87829_182E_298E_418E_1E4EDAF13BD9.label = 1
