@@ -1,0 +1,732 @@
+/* ----------------VARIABLES SASS, MIXINS------------------------- */
+$FuenteSansSerif: "Montserrat", sans-serif;
+$FuenteSerif: "Cormorant Garamond", serif;
+$BreakPointSmall: 576px;
+$BreakPointMedium: 768px;
+$BreakPointLarge: 992px;
+$BreakPointExtraLarge: 1200px;
+
+$SizeFontsPX: (
+  Font16: 16px,
+  Font45: 45px,
+  Font30: 30px,
+  Font22: 22px,
+  Font28: 28px,
+  Font12: 12px,
+  Font27: 27px,
+  Font15: 15px,
+  Font24: 24px,
+  Font35: 35px,
+  Font14: 14px,
+  Font70: 70px,
+  Font40: 40px,
+  Font90: 90px,
+  Font47: 47px,
+  Font31: 31px,
+  Font42: 42px,
+  Font120: 120px,
+);
+$SizeFontsREM: (
+  FontR1125: 1.125rem,
+  FontR1: 1rem,
+);
+
+$SizeFontsEM: (
+  FontE13: 1.3em,
+);
+$ColorsHexa: (
+  Transparent: transparent,
+  PrimaryGray: #324652,
+  SecundaryGray: #3b4756,
+  DarkGray: #2e3239,
+  DarGray2: #1c222a,
+  PrimaryWhite: #fff,
+  BgGrayLight: #c0c6cd,
+  BgGrayLight2: #cdd1d7,
+);
+$FontWeights: (
+  w100: 100,
+  w400: 400,
+  w500: 500,
+  w600: 600,
+  w700: 700,
+  w800: 800,
+  w900: 900,
+);
+
+@mixin Width($width) {
+  width: $width;
+}
+@mixin Height($height) {
+  height: $height;
+}
+@mixin Width_Height($width, $height) {
+  width: $width;
+  height: $height;
+}
+@mixin PaddingX($Left, $Right) {
+  padding-left: $Left;
+  padding-right: $Right;
+}
+@mixin PaddingY($Top, $Bottom) {
+  padding-top: $Top;
+  padding-bottom: $Bottom;
+}
+@mixin PaddingXY($Top, $Right, $Bottom, $Left) {
+  padding-top: $Top;
+  padding-right: $Right;
+  padding-bottom: $Bottom;
+  padding-left: $Left;
+}
+@mixin MarginX($Left, $Right) {
+  margin-left: $Left;
+  margin-right: $Right;
+}
+@mixin MarginY($Top, $Bottom) {
+  margin-top: $Top;
+  margin-bottom: $Bottom;
+}
+@mixin MarginXY($Top, $Right, $Bottom, $Left) {
+  margin-top: $Top;
+  margin-right: $Right;
+  margin-bottom: $Bottom;
+  margin-left: $Left;
+}
+@mixin HeaderNav {
+  padding: 9px 10px;
+  background: rgba(86, 95, 107, 0.9);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/*---------------------- ESTILOS SASS ------------ */
+
+body {
+  font-family: $FuenteSansSerif;
+  font-size: map-get($SizeFontsPX, Font16);
+  color: map-get($ColorsHexa, PrimaryGray);
+}
+html {
+  scroll-behavior: smooth;
+}
+p {
+  font-size: map-get($SizeFontsPX, Font16);
+}
+li {
+  p {
+    padding: 0;
+    margin: 0;
+  }
+}
+.modal-backdrop {
+  background-color: map-get($ColorsHexa, SecundaryGray);
+}
+.modal-backdrop.show {
+  opacity: 0.65;
+}
+
+/*---------------------------------------------------START MAIN HEADER-----------------------------------*/
+#main-logo {
+  display: block;
+  z-index: 200;
+  position: relative;
+  padding: 10px;
+  transition: all 2s;
+  background: rgba(86, 95, 107, 0.9);
+  a.main-logo {
+    img {
+      @include Width(80px);
+    }
+  }
+}
+
+header {
+  a.close-nav {
+    display: none;
+  }
+  a.open-nav {
+    display: inline-block;
+  }
+}
+
+header a.close-nav img,
+header a.open-nav img {
+  @include Width(23px);
+}
+
+header a.close-nav,
+header a.open-nav {
+  @include HeaderNav();
+}
+.show-logo {
+  transition: all 2s;
+  background: rgba(86, 95, 107, 0) !important;
+}
+/*---------------------------------------END OF MAIN HEADER STYLES----------------*/
+/*SIDE BAR NAV*/
+/*.side-bar-hide{
+    display:none;
+}
+.side-bar-show{
+    display:block;
+}*/
+/*----------------------------------------START OF SIDE BAR STYLES------------------*/
+.side-bar {
+  @include Height(100%);
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: -213px;
+  background-color: rgba(86, 95, 107, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 100px;
+  @include Width(213px);
+  a {
+    color: map-get($ColorsHexa, PrimaryWhite);
+  }
+  h3 {
+    display: block;
+    border-bottom: solid 1px #6f7780;
+    a {
+      font-size: map-get($SizeFontsREM, FontR1125);
+      display: block;
+      position: relative;
+      top: 13px;
+      left: 6px;
+      text-transform: uppercase;
+    }
+  }
+  ul {
+    margin: 10px;
+    list-style-type: none;
+    padding: 0;
+    li {
+      list-style-type: none;
+    }
+  }
+  ul.sub-menu {
+    margin: 5%;
+    background-color: rgba(86, 95, 107, 0.5);
+    display: block;
+    @include Width(90%);
+    li {
+      border-bottom: solid 1px #6f7780;
+      padding: 12px 0;
+    }
+    a {
+      font-family: $FuenteSerif;
+      font-size: map-get($SizeFontsREM, FontR1);
+      padding-left: 10px;
+    }
+  }
+}
+/*--------------------------------END OF SIDE BAR STYLES------------------*/
+
+/*-------------------------------CAROUSEL STYLES-------------------------*/
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.carousel-inner {
+  h5 {
+    font-family: $FuenteSerif;
+    font-size: map-get($SizeFontsPX, Font45) !important;
+    text-shadow: 0 10px 15px map-get($ColorsHexa, DarGray2);
+    abbr {
+      font-family: $FuenteSansSerif;
+      font-weight: map-get($FontWeights, w800);
+      text-transform: uppercase;
+      font-size: map-get($SizeFontsPX, Font30) !important;
+      display: block;
+    }
+    small {
+      font-size: map-get($SizeFontsPX, Font22) !important;
+      display: block;
+    }
+    span {
+      font-size: map-get($SizeFontsPX, Font28);
+      display: block;
+    }
+  }
+}
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 100px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: map-get($ColorsHexa, PrimaryWhite);
+  text-align: right;
+  font-size: map-get($SizeFontsPX, Font16);
+}
+.carousel-indicators {
+  bottom: 60px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  font-family: $FuenteSerif;
+  font-size: map-get($SizeFontsPX, Font45);
+  background: none !important;
+  font-weight: map-get($FontWeights, w100);
+}
+/*---------------------------------------END OF CAROUSEL STYLES---------------------------------------*/
+
+/*----------------------------------------FOOTER STYLES-------------------------------------------------*/
+footer {
+  display: inline-block;
+  position: relative;
+  bottom: 0;
+  @include Width(100%);
+  background-color: map-get($ColorsHexa, SecundaryGray);
+  padding: 10px;
+  z-index: 300;
+  p,
+  a {
+    color: map-get($ColorsHexa, PrimaryWhite);
+    font-size: map-get($SizeFontsPX, Font12);
+    display: inline-block;
+    font-weight: map-get($FontWeights, w500);
+    padding: 0;
+    margin: 0;
+  }
+  a,
+  span {
+    text-decoration: none;
+    font-weight: map-get($FontWeights, w700);
+  }
+}
+/*---------------------------------------END OF FOOTER STYLES-------------------------------------------------*/
+
+/*---------------------------------------ITEMS LIST-----------------------------------------------------------*/
+section.top {
+  margin-top: 10%;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 45px 0;
+}
+section.bottom {
+  padding-top: 45px;
+  padding-bottom: 70px;
+  .card.mb-2 {
+    background-repeat: no-repeat;
+    background-color: transparent;
+    @include Height(210px);
+    @include Width(100%);
+    background-size: cover;
+  }
+  .btn-primary {
+    color: map-get($ColorsHexa, PrimaryWhite);
+    background-color: rgba(0, 0, 0, 0.2);
+    bottom: 0px;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    font-weight: map-get($FontWeights, w700);
+    @include Height(100%);
+    @include Width(100%);
+    border: 0 solid green;
+    border-radius: 0;
+    vertical-align: bottom;
+    line-height: 365px;
+    text-align: right;
+    &:hover {
+      color: map-get($ColorsHexa, PrimaryWhite);
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+  }
+}
+section.bottom.dark {
+  background-color: map-get($ColorsHexa, DarkGray);
+}
+section.bottom.light {
+  background-color: map-get($ColorsHexa, PrimaryWhite);
+}
+.card {
+  border: 0px solid rgba(0, 0, 0, 0);
+  border-radius: 0;
+}
+.controls-top {
+  text-align: right;
+  position: relative;
+  top: 44px;
+  z-index: 2;
+  left: -5px;
+}
+a.btn-floating {
+  color: map-get($ColorsHexa, PrimaryWhite);
+  border: solid 2px map-get($ColorsHexa, PrimaryWhite);
+  display: inline-block;
+  @include Height(32px);
+  @include Width(32px);
+  text-align: center;
+  line-height: 28px;
+  border-radius: 21px;
+  font-weight: map-get($FontWeights, w400);
+  font-size: map-get($SizeFontsPX, Font27);
+  position: absolute;
+  top: -40px;
+  right: 0px;
+  background-color: #2e3239;
+  transition: all 0.3s;
+  &:hover {
+    background-color: map-get($ColorsHexa, PrimaryWhite);
+    color: map-get($ColorsHexa, DarkGray);
+    text-decoration: none;
+  }
+}
+a.btn-floating.prev {
+  right: 40px;
+  text-indent: -2px;
+}
+a.btn-floating.next {
+  text-indent: 2px;
+}
+
+.apartments-list {
+  background-image: url(../assets/carousel/home/04.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.amenities-list {
+  background-image: url(../assets/carousel/home/04.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*------------------------------------------------------------END OF ITEMS LIST-----------------------------------------*/
+
+/*-------------------------------------------------------ITEM DETAIL STYLES------------------------------------------------*/
+
+section#more-info {
+  @include PaddingY(50px, 50px);
+}
+section#about-this {
+  padding-bottom: 50px;
+}
+
+section#about-this {
+  .inner-block {
+    background: url(../assets/bg-more-info.jpg) no-repeat center;
+    background-size: cover;
+    @include PaddingXY(25px, 25px, 11px, 25px);
+    color: map-get($ColorsHexa, PrimaryWhite);
+    text-shadow: 0px 4px 3px #000;
+    p {
+      small {
+        font-size: map-get($SizeFontsPX, Font15);
+        display: block;
+      }
+      font-size: map-get($SizeFontsPX, Font24);
+      display: block;
+      line-height: 28px;
+      font-weight: map-get($FontWeights, w600);
+      /* padding-top: 22px; */
+      border-left: none;
+      padding: 28px;
+      padding-bottom: 25px;
+      border-bottom: solid 1px;
+      text-align: center;
+    }
+    h4 {
+      color: map-get($ColorsHexa, PrimaryWhite);
+    }
+  }
+}
+section#tour {
+  position: relative;
+}
+.gallery-access {
+  position: relative;
+  display: inline-table;
+}
+
+/*-----------------------------------------END OF ITEM DETAIL STYLES--------------------------------------------*/
+
+/*-------------------------------------------TYPO STYLES--------------------------------------------------------*/
+h1,
+h2,
+h3 {
+  color: map-get($ColorsHexa, PrimaryGray);
+  font-weight: map-get($FontWeights, w400);
+  text-transform: uppercase;
+  text-align: left;
+  span {
+    font-weight: map-get($FontWeights, w900);
+  }
+}
+h1 {
+  font-size: map-get($SizeFontsPX, Font35);
+}
+h2 {
+  font-size: map-get($SizeFontsPX, Font16);
+}
+h3 {
+  font-size: map-get($SizeFontsPX, Font24);
+  color: map-get($ColorsHexa, PrimaryWhite);
+}
+h4 {
+  text-transform: uppercase;
+  font-size: map-get($SizeFontsPX, Font24);
+}
+
+/*---------------------------------------------END OF TYPE STYLES------------------------------------------------------*/
+
+/*---------------------------------------------START CUSTOM BUTTONS---------------------------------------------------*/
+.btn-type-01 {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 30px;
+  color: map-get($ColorsHexa, PrimaryWhite);
+  background-color: rgb(86, 95, 107);
+  text-align: center;
+  @include Width(230px);
+  border-radius: 35px;
+  font-weight: map-get($FontWeights, w700);
+  text-transform: uppercase;
+  font-size: map-get($SizeFontsPX, Font14);
+  border: none;
+  transition: all 0.2s;
+  &:hover {
+    text-decoration: none;
+    background-color: map-get($ColorsHexa, DarGray2);
+    color: map-get($ColorsHexa, PrimaryWhite);
+  }
+}
+a.more-info {
+  position: fixed;
+  bottom: 60px;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+.gallery-access-button {
+  position: absolute;
+  color: map-get($ColorsHexa, PrimaryWhite);
+  background: map-get($ColorsHexa, SecundaryGray);
+  border: none;
+  @include Width_Height(40px, 40px);
+  font-size: map-get($SizeFontsEM, FontE13);
+  outline: 0px !important;
+  border: solid 1px #3b4756;
+  transition: all 0.2s;
+  &:hover {
+    color: map-get($ColorsHexa, PrimaryWhite);
+    color: map-get($ColorsHexa, SecundaryGray);
+    border: solid 1px map-get($ColorsHexa, SecundaryGray);
+  }
+}
+.gallery-access-button.open {
+  right: 0;
+  bottom: 0;
+}
+.gallery-access-button.closed {
+  right: 0;
+  top: -40px;
+}
+.floor-plans-access-button,
+.floor-plans-access-button:hover {
+  color: map-get($ColorsHexa, PrimaryWhite);
+  text-decoration: none;
+}
+
+a.floor-plans-access-button.open {
+  i {
+    text-indent: 0;
+  }
+}
+.btn-hide {
+  display: none;
+  opacity: 0;
+}
+.btn-show {
+  display: block !important;
+  opacity: 1;
+}
+.to-tour {
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  z-index: 1000;
+  display: none;
+}
+/*--------------------------------END OF CUSTYOM BUTTONS--------------------------------*/
+
+/*---------------------------------START POP UP STYES--------------------------------------------*/
+.modal.fade {
+  .modal-content {
+    border: 0;
+    border-radius: 0;
+  }
+  .modal-header {
+    height: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    border: 0;
+  }
+  .modal-body {
+    padding: 0;
+    text-align: center;
+  }
+  h5 {
+    color: map-get($ColorsHexa, PrimaryWhite);
+    font-size: map-get($SizeFontsPX, Font14) !important;
+    padding: 5px;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: $FuenteSansSerif !important;
+    text-align: center;
+    bottom: 0;
+    background: map-get($ColorsHexa, SecundaryGray);
+  }
+  .carousel-caption {
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+  }
+}
+/*-----------------------------------------END OF POP UP STYLES------------------------------------------*/
+
+/* START OF NEW HOME STYLES*/
+
+section.bg-grey {
+  color: map-get($ColorsHexa, BgGrayLight);
+}
+div.bg-greyLight {
+  color: map-get($ColorsHexa, BgGrayLight2);
+}
+
+/*------------------------------------------END OF NEW HOME STYLES-----------------------------------------*/
+
+/*-------------------------------------------RESPONSIVE STYLES------------------------------------------------*/
+/* Extra small devices (portrait phones, less than 576px)*/
+/* No media query since this is the default in Bootstrap*/
+
+/* -------------------------------------Small devices (landscape phones, 576px and up)*/
+@media (min-width: $BreakPointSmall) {
+  .carousel-inner {
+    h5 {
+      abbr {
+        font-size: map-get($SizeFontsPX, Font30) !important;
+      }
+    }
+  }
+}
+
+/* ---------------------------------------Medium devices (tablets, 768px and up) */
+@media (min-width: $BreakPointMedium) {
+  .carousel-inner {
+    h5 {
+      abbr {
+        font-size: map-get($SizeFontsPX, Font70) !important;
+      }
+      span {
+        font-size: map-get($SizeFontsPX, Font40);
+        display: block;
+      }
+    }
+  }
+}
+
+/* -------------------------------------------Large devices (desktops, 992px and up)*/
+@media (min-width: $BreakPointLarge) {
+  /*MAIN HEADER*/
+  #main-logo {
+    display: inline-block;
+    z-index: 200;
+    position: fixed;
+    padding: 10px;
+    transition: all 2s;
+    background: rgba(86, 95, 107, 0.9);
+    top: 0;
+  }
+  #main-logo a.main-logo img {
+    @include Width(193px);
+  }
+  header {
+    a.close-nav,
+    a.open-nav {
+      left: 223px;
+      right: inherit;
+    }
+  }
+  .carousel-inner {
+    h5 {
+      abbr {
+        font-size: map-get($SizeFontsPX, Font90) !important;
+      }
+      small {
+        font-size: map-get($SizeFontsPX, Font42) !important;
+        display: block;
+      }
+      span {
+        font-size: map-get($SizeFontsPX, Font70);
+        display: block;
+      }
+    }
+  }
+  footer {
+    position: fixed;
+    display: block;
+  }
+  .controls-top {
+    text-align: right;
+    position: relative;
+  }
+  h1 {
+    font-size: map-get($SizeFontsPX, Font47);
+  }
+
+  h2 {
+    font-size: map-get($SizeFontsPX, Font24);
+  }
+  h4 {
+    text-transform: uppercase;
+    font-size: map-get($SizeFontsPX, Font31);
+  }
+  section#more-info {
+    padding-top: 100px;
+  }
+
+  section#about-this {
+    .inner-block {
+      p {
+        font-size: map-get($SizeFontsPX, Font30);
+        display: block;
+        line-height: 28px;
+        font-weight: map-get($FontWeights, w600);
+        border-left: solid 1px;
+        border-bottom: none;
+        padding: 25px 16px;
+        text-align: left;
+      }
+    }
+  }
+  .gallery-access-button.closed {
+    right: -40px;
+    top: 0px;
+  }
+
+  a.floor-plans-access-button.open {
+    i {
+      text-indent: 20px;
+    }
+  }
+}
+
+/* ---------------------------------------------------Extra large devices (large desktops, 1200px and up) */
+@media (min-width: $BreakPointExtraLarge) {
+  .carousel-inner {
+    h5 {
+      abbr {
+        font-size: map-get($SizeFontsPX, Font120) !important;
+      }
+    }
+  }
+}
+
+/* ------------------------------------------------END RESPONSIVE STYLES--------------------------------------------*/
