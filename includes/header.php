@@ -1,8 +1,8 @@
 <?php
     //$base_url="http://www.dynamikcollective.com/clients/hoyosluque/webapp/";
-    //$base_url="http://www.proyectodomus.com/sanpatricio";
+    $base_url="http://www.proyectodomus.com/sanpatricio";
     //$base_url="http://localhost:8888/clients/hoyosluque/repo-webapp/DomusSanPatricio"; 
-    $base_url="http://localhost/DomusSanPatricio/"; 
+    //$base_url="http://localhost/DomusSanPatricio/"; 
 ?>
 <head>
     <title>DOMUS | San Patricio</title>
@@ -37,6 +37,7 @@
                 <h3><a href="<?php echo $base_url ?>/amenities/index.php">Amenities</a></h3>
                 <ul class="sub-menu">
                     <li><a href="<?php echo $base_url ?>/amenities/areas-comunes/index.php">Áreas comúnes</a></li>
+                    <li><a href="<?php echo $base_url ?>/amenities/roof-top/index.php">Roof top</a></li>
                 </ul>
             </li>
             <li>
