@@ -141,12 +141,12 @@
 
 <script>
 var $item = $('.carousel-item'); 
-var $itemres = $('.amenities'); 
+/* var $itemres = $('.amenities');  */
 var $wHeight = $(window).height();
-if ($wHeight >= 1080) {
+/* if ($wHeight >= 1080) {
     $wHeight = $wHeight - $itemres.height();
     console.log($wHeight);
-}
+} */
 $item.eq(0).addClass('active');
 $item.height($wHeight); 
 $item.addClass('full-screen');
