@@ -5,12 +5,15 @@
 ### Description
 
 ### Título
-tour.name = Sin Título 5
+tour.name = Tipo5-tour
 
 ## Media
 
 ### Título
-panorama_0A8A2440_182E_39FE_41A6_A1EB6C3AF67C.label = Rooms Hall
-panorama_152AA3C2_182E_5E82_41B3_A8F8090E2121.label = Bedroom
-panorama_152AFEAE_182E_2682_41B3_D8F2ED82E80D.label = Entrance
-panorama_1535F99A_182E_2A82_4199_BEDA5D12F3B8.label = Living
+album_4FF590CF_4171_CC75_41C6_36D2D560F668.label = Album de Fotos Comply 1
+album_4FF590CF_4171_CC75_41C6_36D2D560F668_0.label = Comply 1
+album_4FF590CF_4171_CC75_41C6_36D2D560F668_1.label = Comply 2
+panorama_4A676577_4130_5415_41CE_06F780AC9260.label = Rooms Hall
+panorama_4A6DC661_4130_D42D_41D0_3AB7F711BC7B.label = Entrance
+panorama_4A784149_4130_CC7D_41CA_81F7328C317E.label = Bedroom
+panorama_4A859034_4133_CC2B_41AD_3F76A35C5524.label = Living

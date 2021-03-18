@@ -5,14 +5,15 @@
 ### Description
 
 ### Título
-tour.name = Sin Título 6
+tour.name = ZonasComunes-tour
 
 ## Media
 
 ### Título
-panorama_15C932F1_183B_DE9E_41A5_D7BA36162938.label = Lobby
-panorama_15C94396_183B_FE82_41A4_54FD30EF8042.label = Cinema
-panorama_15C9495A_183B_EB82_41B8_5767562E39FA.label = Gym
-panorama_15C98897_183B_EA82_4191_B0E178414806.label = Cafe
-panorama_15C98E5C_183B_E986_41B1_C6EB2006770A.label = Co-working
-panorama_15FE3DAF_183A_2A82_41B4_C27B4B61065B.label = Ping Pong
+panorama_4D037E59_4661_8A4C_41C4_BA4BA63E1D6C.label = Co-working 2
+panorama_4D4B42C0_4666_9ABC_41CD_F0E1D53CC4B1.label = Cafe
+panorama_4D4EC723_4663_9BFC_41C2_5F73D87112A1.label = Ping Pong
+panorama_4D551078_4661_B64C_418B_0C7C35CF128E.label = Co-working
+panorama_4D6927A3_4662_9AFC_41CD_7906B88D6154.label = Gym
+panorama_4D69634C_4661_FA45_41CB_ED8AE177AADD.label = Cinema
+panorama_4D77DBEC_4662_8A44_4197_B62F4068102F.label = Lobby
