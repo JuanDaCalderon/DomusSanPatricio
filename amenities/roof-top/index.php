@@ -15,26 +15,14 @@
     <div class="col-sm-7">
       <h2><span>DOMUS</span> SAN PATRICIO</h2>
       <h1>Amenities <span>Roof top</span></h1>
-      <p>
-      Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+      <h2><span>Roof top Norte</span></h2>
+      <p class="text-justify pr-md-5">
+        Espacio para disfrutar de una vista 360° sobre la ciudad, para compartir los mejores momentos alrededor de un completo bbq, teppanyaki y un área tipo lounge.
       </p>
-      <ul>
-        <li>
-          <p>1 alcoba con Vestier y baño privado</p>
-        </li>
-        <li>
-          <p>área de homework</p>
-        </li>
-        <li>
-          <p>división mueble en madera con sistema giratorio de tv para doble uso (alcoba y zona social)</p>
-        </li>
-        <li>
-          <p>Sala con balcón</p>
-        </li>
-        <li>
-          <p>Cocina abierta con mesón para dos puestos, espacio para nevera y lavadora</p>
-        </li>
-      </ul>
+      <h2><span>Roof top Sur</span></h2>
+      <p class="text-justify pr-md-5">
+        Si te gusta respirar aire fresco y distraerte tendrás todo en un mismo sitio en esta terraza con golfito, ping pong y espacio de yoga
+      </p>
     </div>
     <div class="col-sm-5 gallery-access p-0">
       <img class="img-fluid" src="<?php echo $base_url ?>/assets/galleries/tipo-a/01.jpg" alt="Chania">
@@ -46,28 +34,19 @@
 </section>
 <section id="about-this" class="container">
   <div class="">
-    <div class="col-sm-12 inner-block">
-      <div class="row">
-        <div class="col">
-          <h4>Acerca <br>de este <br>apartamento</h4>
+    <div class="col-sm-12 inner-block pb-0 pt-5">
+    <div class="row">
+        <div class="col-sm-12 col-xl-3 text-sm-justify">
+          <h4 class="text-sm-center text-xl-left">Acerca <br>de este <br>amenitie</h4>
         </div>
-        <div class="col">
-          <p>
-            <small>Área construida</small>120mts<sup>2</sup>
+        <div class="col-12 col-lg-7">
+          <p class="h-75">
+            <small>Comodidades incluidas</small>
+            <span class="h6 font-weight-light">BBQ, sonido para conectar equipos, luces integrada, chimeneas para el área lounge, sillones cómodos, golfito, ping pong, espacio para colocar mats de yoga.</span>
           </p>
         </div>
         <div class="col">
-          <p>
-            <small>Área privada</small>120mts<sup>2</sup>
-          </p>
-        </div>
-        <div class="col">
-          <p>
-            <small>Precio</small>$600'000.000<sup>cop</sup>
-          </p>
-        </div>
-        <div class="col">
-          <p>      
+          <p class="h-75">      
             <a href="#" class="floor-plans-access-button open" data-toggle="modal" data-target="#popUpFloorPlans">
               <small>Planos</small><i class="bi bi-columns"></i>
             </a>

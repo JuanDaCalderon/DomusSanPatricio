@@ -14,27 +14,27 @@
   <div class="row">
     <div class="col-sm-7">
       <h2><span>DOMUS</span> SAN PATRICIO</h2>
-      <h1>Apartamento <span>Áreas comúnes</span></h1>
-      <p>
-      Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+      <h1>Amenities <span>Áreas comúnes</span></h1>
+      <h2><span>Lobby</span></h2>
+      <p class="text-justify pr-md-5">
+        Amplitud, diseño y estilo, elementos que se juntan en armonía para lograr este espacio cálido de bienvenida.
       </p>
-      <ul>
-        <li>
-          <p>1 alcoba con Vestier y baño privado</p>
-        </li>
-        <li>
-          <p>área de homework</p>
-        </li>
-        <li>
-          <p>división mueble en madera con sistema giratorio de tv para doble uso (alcoba y zona social)</p>
-        </li>
-        <li>
-          <p>Sala con balcón</p>
-        </li>
-        <li>
-          <p>Cocina abierta con mesón para dos puestos, espacio para nevera y lavadora</p>
-        </li>
-      </ul>
+      <h2><span>Coworking</span></h2>
+      <p class="text-justify pr-md-5">
+        Como complemento, cuenta con una amplia zona de coworking que potencializa el concepto de trabajo en casa, Contará con un amplio salón con áreas amobladas para compartir y trabajar, un salón de juntas y terraza al aire libre, dejando a su disposición dispensadores, un coffe station y cómodos espacios para hacer de tus negocios y reuniones una experiencia única.
+      </p>
+      <h2><span>Teatrino</span></h2>
+      <p class="text-justify pr-md-5">
+        un espacio confortable con toda la nueva tecnología, para compartir con amigos y familiares. 
+      </p>
+      <h2><span>Gimnasio</span></h2>
+      <p class="text-justify pr-md-5">
+        donde se conectan mente y cuerpo formando un equilibrio.
+      </p>
+      <h2><span>Playground</span></h2>
+      <p class="text-justify pr-md-5">
+        y si tienes hijos o sobrinos también puedes disfrutar de nuestra zona de multijuegos con pista infantil didáctica e interactiva
+      </p>
     </div>
     <div class="col-sm-5 gallery-access p-0">
       <img class="img-fluid" src="<?php echo $base_url ?>/assets/galleries/tipo-a/01.jpg" alt="Chania">
@@ -46,33 +46,27 @@
 </section>
 <section id="about-this" class="container">
   <div class="">
-    <div class="col-sm-12 inner-block">
+    <div class="col-sm-12 inner-block pb-0 pt-5">
       <div class="row">
-        <div class="col">
-          <h4>Acerca <br>de este <br>apartamento</h4>
-        </div>
-        <div class="col">
-          <p>
-            <small>Área construida</small>120mts<sup>2</sup>
-          </p>
-        </div>
-        <div class="col">
-          <p>
-            <small>Área privada</small>120mts<sup>2</sup>
-          </p>
-        </div>
-        <div class="col">
-          <p>
-            <small>Precio</small>$600'000.000<sup>cop</sup>
-          </p>
-        </div>
-        <div class="col">
-          <p>      
-            <a href="#" class="floor-plans-access-button open" data-toggle="modal" data-target="#popUpFloorPlans">
-              <small>Planos</small><i class="bi bi-columns"></i>
-            </a>
+          <div class="col-sm-12 col-xl-3 text-sm-justify">
+            <h4 class="text-sm-center text-xl-left">Acerca <br>de este <br>amenitie</h4>
+          </div>
+          <div class="col-12 col-lg-7">
+            <p class="h-75">
+              <small>Comodidades incluidas</small>
+              <span class="h6 font-weight-light">wifi completo para coworking, salon de juntas amoblado, salon de coworking con espacios individuales, terraza al aire libre junto a la sala, dispensadores de bebidas y groceries, coffe station. <br><br>
+<!--               maquinas multifuncionales, caminadora, bancas, mancuernas, espacio para trx, balon medicinal, step, espacio para yoga, bicicleta. <br><br>
+              multijuegos para infantes, pista didactica e interactiva para niños menores de 5 años. -->
+              </span>
             </p>
-        </div>
+          </div>
+          <div class="col">
+            <p class="h-75">      
+              <a href="#" class="floor-plans-access-button open" data-toggle="modal" data-target="#popUpFloorPlans">
+                <small>Planos</small><i class="bi bi-columns"></i>
+              </a>
+              </p>
+          </div>
       </div>
     </div>
   </div>

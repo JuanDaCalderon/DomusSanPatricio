@@ -15,24 +15,27 @@
     <div class="col-sm-7">
       <h2><span>DOMUS</span> SAN PATRICIO</h2>
       <h1>Apartamento <span>tipo 3</span></h1>
-      <p>
-      Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+      <p class="text-justify pr-md-5">
+        Disfruta de la mejor distribución en estos 90 mtr<sup>2</sup> lleno de diseño, comodidad y el lujo que esperas en tu nuevo hogar, sus espacios de home office te harán sentir que el trabajo en casa no es un problema.
       </p>
       <ul>
         <li>
-          <p>1 alcoba con Vestier y baño privado</p>
+          <p>Salón cocina, home office y terraza.</p>
         </li>
         <li>
-          <p>área de homework</p>
+          <p>Baño social.</p>
         </li>
         <li>
-          <p>división mueble en madera con sistema giratorio de tv para doble uso (alcoba y zona social)</p>
+          <p>Cocina abierta con isla y mesón de 4 puestos.</p>
         </li>
         <li>
-          <p>Sala con balcón</p>
+          <p>Zona de lavandería.</p>
         </li>
         <li>
-          <p>Cocina abierta con mesón para dos puestos, espacio para nevera y lavadora</p>
+          <p>Alcoba principal con balcón, vestier y baño privado.</p>
+        </li>
+        <li>
+          <p>Segunda alcoba con baño privado.</p>
         </li>
       </ul>
     </div>
@@ -47,16 +50,16 @@
 <section id="about-this" class="container">
   <div class="">
     <div class="col-sm-12 inner-block">
-      <div class="row">
-        <div class="col">
-          <h4>Acerca <br>de este <br>apartamento</h4>
+    <div class="row">
+        <div class="col-sm-12 col-xl-3 text-sm-justify">
+          <h4 class="text-sm-center text-xl-left">Acerca <br>de este <br>apartamento</h4>
         </div>
-        <div class="col">
+        <div class="col-12 col-sm-6 col-lg-3 col-xl-2">
           <p>
-            <small>Área construida</small>120mts<sup>2</sup>
+            <small>Área construida</small>90.12mts<sup>2</sup>
           </p>
         </div>
-        <div class="col">
+        <div class="col-12 col-sm-6 col-lg-3 col-xl-2">
           <p>
             <small>Área privada</small>120mts<sup>2</sup>
           </p>
