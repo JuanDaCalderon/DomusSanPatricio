@@ -40,13 +40,13 @@
           <h4 class="text-sm-center text-xl-left">Acerca <br>de este <br>amenitie</h4>
         </div>
         <div class="col-12 col-lg-7">
-          <p class="h-75">
+          <p class="text-justify">
             <small>Comodidades incluidas</small>
             <span class="h6 font-weight-light">BBQ, sonido para conectar equipos, luces integrada, chimeneas para el área lounge, sillones cómodos, golfito, ping pong, espacio para colocar mats de yoga.</span>
           </p>
         </div>
         <div class="col">
-          <p class="h-75">      
+          <p>      
             <a href="#" class="floor-plans-access-button open" data-toggle="modal" data-target="#popUpFloorPlans">
               <small>Planos</small><i class="bi bi-columns"></i>
             </a>

@@ -52,7 +52,7 @@
             <h4 class="text-sm-center text-xl-left">Acerca <br>de este <br>amenitie</h4>
           </div>
           <div class="col-12 col-lg-7">
-            <p class="h-75">
+            <p class="text-justify">
               <small>Comodidades incluidas</small>
               <span class="h6 font-weight-light">wifi completo para coworking, salon de juntas amoblado, salon de coworking con espacios individuales, terraza al aire libre junto a la sala, dispensadores de bebidas y groceries, coffe station. <br><br>
 <!--               maquinas multifuncionales, caminadora, bancas, mancuernas, espacio para trx, balon medicinal, step, espacio para yoga, bicicleta. <br><br>
@@ -61,7 +61,7 @@
             </p>
           </div>
           <div class="col">
-            <p class="h-75">      
+            <p>      
               <a href="#" class="floor-plans-access-button open" data-toggle="modal" data-target="#popUpFloorPlans">
                 <small>Planos</small><i class="bi bi-columns"></i>
               </a>
