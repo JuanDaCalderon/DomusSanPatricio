@@ -28,7 +28,7 @@
 <body id="main-content" class="<?php echo $section?>">
     <header class="">
         <div class="row no-gutters">
-            <nav class="navbar navbar-expand-md p-0">
+            <nav class="navbar navbar-expand-md w-100 p-0 pr-3">
                 <!-- Brand -->
                 <a class="navbar-brand" href="<?php echo $base_url ?>">
                     <img src="<?php echo $base_url ?>/assets/logo.svg">
@@ -39,7 +39,7 @@
                     </span>
                 </button>
                 <!-- Links -->
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <div class="collapse navbar-collapse pl-3 pb-2 pt-0" id="collapsibleNavbar">
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
