@@ -90,10 +90,92 @@
     </div>
 </section>   
 
+<section id="mc_embed_signup" class="signup-form">
+    <div class="container">
+        <form action="https://proyectodomus.us1.list-manage.com/subscribe/post?u=84f309e64dfcb60806074423c&amp;id=a3a35433d4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div class="form-container row mt-5 mt-lg-0">
+                <div class="col-12">
+                    <div class="form-row">
+                        <div class="col">
+                            <h5 class="text-center title-type-2">
+                                Déjanos tus datos y muy pronto un asesor se comunicará contigo
+                            </h5>
+                            <p class="text-justify text-type-02">
+                                Estas apoco de tener tu propio espacio en <span>DOMUS San Patricio</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="form-row pt-1 pb-0 pb-xl-1">
+                        <div class="col-12 col-xl-6">
+                            <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME" placeholder="Nombre">    
+                        </div>
+                        <div class="col-12 col-xl-6">
+                            <input type="text" value="" name="LNAME" class="form-control" class="" id="mce-LNAME" placeholder="Apellido">    
+                        </div>
+                    </div>
+                    <div class="form-row pt-0 pb-1 pt-xl-1">
+                        <div class="col-12 col-xl-6">
+                            <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Email">
+                        </div>
+                        <div class="col-12 col-xl-6">
+                            <input type="number" name="MMERGE3" class="form-control" value="" id="mce-MMERGE3" placeholder="Teléfono">
+                        </div>
+                    </div>
+                    <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div> 
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                        <input type="text" name="b_84f309e64dfcb60806074423c_a3a35433d4" tabindex="-1" value="">
+                    </div>
+                    <div class="form-row">
+                        <div class="col-sm-2">
+                        <input type="checkbox" value="1" name="group[379942][1]" id="mce-group[379942]-379942-0">
+                        </div>
+                        <div class="col-12 col-sm-10">
+                        <label for="mce-group[379942]-379942-0">Acepto los términos y condiciones de proyectodomus.com</label>
+                        </div>
+                    </div>
+                    <div class="clear text-center">
+                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>        
+
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[3]='MMERGE3';ftypes[3]='phone'; /*
+        * Translated default messages for the $ validation plugin.
+        * Locale: ES
+        */
+        $.extend($.validator.messages, {
+        required: "Este campo es obligatorio.",
+        remote: "Por favor, rellena este campo.",
+        email: "Por favor, escribe una dirección de correo válida",
+        url: "Por favor, escribe una URL válida.",
+        date: "Por favor, escribe una fecha válida.",
+        dateISO: "Por favor, escribe una fecha (ISO) válida.",
+        number: "Por favor, escribe un número entero válido.",
+        digits: "Por favor, escribe sólo dígitos.",
+        creditcard: "Por favor, escribe un número de tarjeta válido.",
+        equalTo: "Por favor, escribe el mismo valor de nuevo.",
+        accept: "Por favor, escribe un valor con una extensión aceptada.",
+        maxlength: $.validator.format("Por favor, no escribas más de {0} caracteres."),
+        minlength: $.validator.format("Por favor, no escribas menos de {0} caracteres."),
+        rangelength: $.validator.format("Por favor, escribe un valor entre {0} y {1} caracteres."),
+        range: $.validator.format("Por favor, escribe un valor entre {0} y {1}."),
+        max: $.validator.format("Por favor, escribe un valor menor o igual a {0}."),
+        min: $.validator.format("Por favor, escribe un valor mayor o igual a {0}.")
+        });}(jQuery));var $mcj = jQuery.noConflict(true);
+    </script>
+        <!--End mc_embed_signup-->
+</section>
+
 <section id="apartments">
     <div class="container">
         <div class="row">
-        <div class="col-sm-5 mt-5 pt-3">
+        <div class="col-12 col-lg-5 mt-5 pt-3">
             <h4 class="title-type-01">ESPACIOS para compartir y disfrutar</h4>
             <p class="text-type-01">
             El proyecto de vivienda DOMUS San Patricio es un espacio para vivir y mostrar. Contarás con una variedad de complementos para que disfrutes con tu familia, amigos y equipo de trabajo.
@@ -101,7 +183,7 @@
                 <span>CREANDO EXPERIENCIAS</span>
             </p>
         </div>
-        <div class="col-sm-7 gallery">
+        <div class="col-12 col-lg-5 mt-4 mt-lg-0 gallery">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
@@ -144,7 +226,7 @@
                         conoce todos<br>los modelos<br>de apartamento<br>que tenemos<br>para tí
                     </h4>
                     <div class="row pt-4 mt-5">
-                        <div class="col-sm-6 gallery-access">
+                        <div class="col-sm-6 mb-4 mb-sm-0 gallery-access">
                             <a class="imgPopUp" data-toggle="modal" data-target="#popUpGallery">
                                 <img class="img-fluid" src="assets/stills/tipo1/comply1.jpg" data-color="lightblue" alt="First Image">
                             </a>
@@ -164,7 +246,7 @@
                 </div>
                 <div class="col-md-12 col-lg-6 bg-golden">
                     <div class="row">
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 mb-4 mb-sm-0">
                             <a class="imgPopUp" data-toggle="modal" data-target="#popUpGallery">
                                 <img class="img-fluid" src="assets/stills/tipo3/comply1.jpg" data-color="lightblue" alt="First Image">
                             </a>
@@ -325,85 +407,13 @@
     </div>
 </section>
 
-<section id="mc_embed_signup" class="signup-form">
-<div class="container">
-    <form action="https://proyectodomus.us1.list-manage.com/subscribe/post?u=84f309e64dfcb60806074423c&amp;id=a3a35433d4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <div class="form-container col-sm-4">
-            <div class="form-row">
-                <div class="col">
-                    <h5 class="title-type-2">
-                        Déjanos tus datos y muy pronto un asesor se comunicará contigo
-                    </h5>
-                    <p class="text-type-02">
-                        Estas apoco de tener tu propio espacio en <span>DOMUS San Patricio</span>
-                    </p>
-                </div>
-            </div>
-            <div class="form-row pt-1 pb-1">
-                <div class="col">
-                    <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME" placeholder="Nombre">    
-                </div>
-                <div class="col">
-                    <input type="text" value="" name="LNAME" class="form-control" class="" id="mce-LNAME" placeholder="Apellido">    
-                </div>
-            </div>
-            <div class="form-row pt-1 pb-1">
-                <div class="col">
-                    <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Email">
-                </div>
-                <div class="col">
-                    <input type="number" name="MMERGE3" class="form-control" value="" id="mce-MMERGE3" placeholder="Teléfono">
-                </div>
-            </div>
-            <div id="mce-responses" class="clear">
-                <div class="response" id="mce-error-response" style="display:none"></div>
-                <div class="response" id="mce-success-response" style="display:none"></div>
-            </div> 
-            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-            <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                <input type="text" name="b_84f309e64dfcb60806074423c_a3a35433d4" tabindex="-1" value="">
-            </div>
-            <div class="form-row">
-                <input type="checkbox" value="1" name="group[379942][1]" id="mce-group[379942]-379942-0"><label for="mce-group[379942]-379942-0">Acepto los términos y condiciones de proyectodomus.com</label>
-            </div>
-            <div class="clear">
-                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-            </div>
-        </div>
-    </form>
-</div>        
 
-    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[3]='MMERGE3';ftypes[3]='phone'; /*
-        * Translated default messages for the $ validation plugin.
-        * Locale: ES
-        */
-        $.extend($.validator.messages, {
-        required: "Este campo es obligatorio.",
-        remote: "Por favor, rellena este campo.",
-        email: "Por favor, escribe una dirección de correo válida",
-        url: "Por favor, escribe una URL válida.",
-        date: "Por favor, escribe una fecha válida.",
-        dateISO: "Por favor, escribe una fecha (ISO) válida.",
-        number: "Por favor, escribe un número entero válido.",
-        digits: "Por favor, escribe sólo dígitos.",
-        creditcard: "Por favor, escribe un número de tarjeta válido.",
-        equalTo: "Por favor, escribe el mismo valor de nuevo.",
-        accept: "Por favor, escribe un valor con una extensión aceptada.",
-        maxlength: $.validator.format("Por favor, no escribas más de {0} caracteres."),
-        minlength: $.validator.format("Por favor, no escribas menos de {0} caracteres."),
-        rangelength: $.validator.format("Por favor, escribe un valor entre {0} y {1} caracteres."),
-        range: $.validator.format("Por favor, escribe un valor entre {0} y {1}."),
-        max: $.validator.format("Por favor, escribe un valor menor o igual a {0}."),
-        min: $.validator.format("Por favor, escribe un valor mayor o igual a {0}.")
-        });}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-        <!--End mc_embed_signup-->
-</section>
 
 
 <script>
 
     var $item = $('#home-carousel .carousel-item'); 
-    var $wHeight = 700;
+    var $wHeight = 750;
     $item.height($wHeight); 
 
     $('#home-carousel .carousel-item img').each(function() {

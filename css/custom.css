@@ -439,14 +439,16 @@ h4 {
 }
 
 h4.title-type-01 {
-  font-size: 42px;
+  font-size: 40px;
   font-weight: 700;
+  text-align: center;
 }
 
 h4.title-type-02 {
-  font-size: 42px;
+  font-size: 30px;
   font-weight: 700;
   color: #fff;
+  text-align: center;
 }
 
 p.text-type-01 {
@@ -454,6 +456,7 @@ p.text-type-01 {
   font-weight: 400;
   font-family: "Cormorant Garamond", serif;
   line-height: 30px;
+  text-align: justify;
 }
 
 p.text-type-01 span {
@@ -615,6 +618,10 @@ a.floor-plans-access-button.open i {
 
 /*-----------------------------------------END OF POP UP STYLES------------------------------------------*/
 /* START OF NEW HOME STYLES*/
+section#home-carousel ol.carousel-indicators {
+  bottom: 25px;
+}
+
 section.bg-grey {
   color: #c0c6cd;
 }
@@ -683,7 +690,7 @@ body.home-web
 }
 
 body.home-web #apartments {
-  padding: 80px 0px 80px 0;
+  padding: 0px 0px 80px 0;
 }
 
 body.home-web #apartments .carousel {
@@ -692,7 +699,7 @@ body.home-web #apartments .carousel {
 
 body.home-web #apartments .carousel ol.carousel-indicators {
   bottom: 7px;
-  left: -98px;
+  margin-left: 0;
   right: auto;
 }
 
@@ -718,7 +725,7 @@ body.home-web #apartments .carousel .carousel-inner {
 body.home-web #apartments .gallery:after {
   display: block;
   width: 256px;
-  height: 496px;
+  height: 100%;
   background: url(../assets/bg-gallery-home.png) no-repeat center;
   -webkit-box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
   box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
@@ -748,13 +755,15 @@ body.home-web form#mc-embedded-subscribe-form {
 }
 
 body.home-web form#mc-embedded-subscribe-form .form-container {
-  position: absolute;
-  top: 240px;
-  z-index: 1000;
-  display: block;
-  background: rgba(255, 255, 255, 0.9);
+  /*       position: absolute;
+      top: 240px; */
+  /*  z-index: 1000; */
+  /* display: block; */
+  background: rgba(183, 168, 149, 0.1);
+  -webkit-box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
   padding: 50px;
-  right: 100px;
+  /* right: 100px; */
 }
 
 body.home-web form#mc-embedded-subscribe-form input {
@@ -779,8 +788,8 @@ body.home-web form#mc-embedded-subscribe-form input[type="checkbox"] {
 }
 
 body.home-web .text-container {
-  width: 50%;
-  text-align: left;
+  width: 100%;
+  text-align: right;
 }
 
 /*------------------------------------------END OF NEW HOME STYLES-----------------------------------------*/
@@ -792,6 +801,9 @@ body.home-web .text-container {
   .carousel-inner h5 abbr {
     font-size: 30px !important;
   }
+  body.home-web #apartments .gallery:after {
+    height: 496px;
+  }
 }
 
 /* ---------------------------------------Medium devices (tablets, 768px and up) */
@@ -802,6 +814,12 @@ body.home-web .text-container {
   .carousel-inner h5 span {
     font-size: 40px;
     display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  section#home-carousel div.carousel div.carousel-item {
+    height: 600px !important;
   }
 }
 
@@ -876,7 +894,38 @@ body.home-web .text-container {
     text-indent: 20px;
   }
   .pb-lg-6 {
-    padding-bottom: 5rem !important;
+    padding-bottom: 6rem !important;
+  }
+  h4.title-type-02 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+    text-align: left;
+  }
+  h4.title-type-01 {
+    font-size: 42px;
+    font-weight: 700;
+    text-align: left;
+  }
+  body.home-web #apartments {
+    padding: 80px 0px 80px 0;
+  }
+  .carousel-indicators {
+    margin-left: 0%;
+  }
+  body.home-web form#mc-embedded-subscribe-form .form-container {
+    max-width: 41.666667%;
+    position: absolute;
+    top: 200px;
+    z-index: 1000;
+    display: block;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 50px;
+    right: 75px;
+  }
+  body.home-web .text-container {
+    width: 50%;
+    text-align: left;
   }
 }
 
@@ -884,6 +933,14 @@ body.home-web .text-container {
 @media (min-width: 1200px) {
   .carousel-inner h5 abbr {
     font-size: 60px !important;
+  }
+  .carousel-indicators {
+    margin-left: 15%;
+  }
+  body.home-web form#mc-embedded-subscribe-form .form-container {
+    max-width: 33.333333%;
+    top: 260px;
+    right: 200px;
   }
 }
 

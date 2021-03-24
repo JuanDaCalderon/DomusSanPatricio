@@ -489,13 +489,15 @@ h4 {
   font-size: map-get($SizeFontsPX, Font24);
 }
 h4.title-type-01 {
-  font-size: map-get($SizeFontsPX, Font42);
+  font-size: map-get($SizeFontsPX, Font40);
   font-weight: map-get($FontWeights, w700);
+  text-align: center;
 }
 h4.title-type-02 {
-  font-size: map-get($SizeFontsPX, Font42);
+  font-size: map-get($SizeFontsPX, Font30);
   font-weight: map-get($FontWeights, w700);
   color: map-get($ColorsHexa, PrimaryWhite);
+  text-align: center;
 }
 p.text-type-01 {
   font-size: map-get($SizeFontsPX, Font24);
@@ -505,6 +507,7 @@ p.text-type-01 {
   span {
     font-weight: map-get($FontWeights, w700);
   }
+  text-align: justify;
 }
 p.text-type-02 {
   font-size: map-get($SizeFontsPX, Font14);
@@ -645,7 +648,11 @@ a.floor-plans-access-button.open {
 /*-----------------------------------------END OF POP UP STYLES------------------------------------------*/
 
 /* START OF NEW HOME STYLES*/
-
+section#home-carousel {
+  ol.carousel-indicators {
+    bottom: 25px;
+  }
+}
 section.bg-grey {
   color: map-get($ColorsHexa, BgGrayLight);
 }
@@ -699,12 +706,12 @@ body.home-web {
     }
   }
   #apartments {
-    padding: 80px 0px 80px 0;
+    padding: 0px 0px 80px 0;
     .carousel {
       padding: 80px 30px 80px 0;
       ol.carousel-indicators {
         bottom: 7px;
-        left: -98px;
+        margin-left: 0;
         right: auto;
         li {
           display: block;
@@ -726,7 +733,7 @@ body.home-web {
     .gallery:after {
       display: block;
       width: 256px;
-      height: 496px;
+      height: 100%;
       background: url(../assets/bg-gallery-home.png) no-repeat center;
       box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
       content: "";
@@ -749,13 +756,14 @@ body.home-web {
   form#mc-embedded-subscribe-form {
     margin: 0;
     .form-container {
-      position: absolute;
-      top: 240px;
-      z-index: 1000;
-      display: block;
-      background: rgba(255, 255, 255, 0.9);
+      /*       position: absolute;
+      top: 240px; */
+      /*  z-index: 1000; */
+      /* display: block; */
+      background: rgba(183, 168, 149, 0.1);
+      box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
       padding: 50px;
-      right: 100px;
+      /* right: 100px; */
     }
     input {
       background-color: rgba(50, 70, 82, 0.1);
@@ -777,8 +785,8 @@ body.home-web {
     }
   }
   .text-container {
-    width: 50%;
-    text-align: left;
+    width: 100%;
+    text-align: right;
   }
 }
 
@@ -794,6 +802,13 @@ body.home-web {
     h5 {
       abbr {
         font-size: map-get($SizeFontsPX, Font30) !important;
+      }
+    }
+  }
+  body.home-web {
+    #apartments {
+      .gallery:after {
+        height: 496px;
       }
     }
   }
@@ -813,7 +828,15 @@ body.home-web {
     }
   }
 }
-
+@media (max-width: $BreakPointMedium) {
+  section#home-carousel {
+    div.carousel {
+      div.carousel-item {
+        height: 600px !important;
+      }
+    }
+  }
+}
 /* -------------------------------------------Large devices (desktops, 992px and up)*/
 @media (min-width: $BreakPointLarge) {
   /*MAIN HEADER*/
@@ -899,7 +922,46 @@ body.home-web {
     }
   }
   .pb-lg-6 {
-    padding-bottom: 3rem !important;
+    padding-bottom: 6rem !important;
+  }
+  h4.title-type-02 {
+    font-size: map-get($SizeFontsPX, Font42);
+    font-weight: map-get($FontWeights, w700);
+    color: map-get($ColorsHexa, PrimaryWhite);
+    text-align: left;
+  }
+  h4.title-type-01 {
+    font-size: map-get($SizeFontsPX, Font42);
+    font-weight: map-get($FontWeights, w700);
+    text-align: left;
+  }
+  body.home-web {
+    #apartments {
+      padding: 80px 0px 80px 0;
+    }
+  }
+  .carousel-indicators {
+    margin-left: 0%;
+  }
+  body.home-web {
+    form#mc-embedded-subscribe-form {
+      .form-container {
+        max-width: 41.666667%;
+        position: absolute;
+        top: 200px;
+        z-index: 1000;
+        display: block;
+        background: rgba(255, 255, 255, 0.9);
+        padding: 50px;
+        right: 75px;
+      }
+    }
+  }
+  body.home-web {
+    .text-container {
+      width: 50%;
+      text-align: left;
+    }
   }
 }
 
@@ -909,6 +971,18 @@ body.home-web {
     h5 {
       abbr {
         font-size: map-get($SizeFontsPX, Font60) !important;
+      }
+    }
+  }
+  .carousel-indicators {
+    margin-left: 15%;
+  }
+  body.home-web {
+    form#mc-embedded-subscribe-form {
+      .form-container {
+        max-width: 33.333333%;
+        top: 260px;
+        right: 200px;
       }
     }
   }
