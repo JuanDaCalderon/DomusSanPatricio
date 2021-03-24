@@ -20,6 +20,8 @@ $SizeFontsPX: (
   Font14: 14px,
   Font70: 70px,
   Font40: 40px,
+  Font50: 50px,
+  Font60: 60px,
   Font90: 90px,
   Font47: 47px,
   Font31: 31px,
@@ -36,7 +38,7 @@ $SizeFontsEM: (
 );
 $ColorsHexa: (
   Transparent: transparent,
-  PrimaryGray: #324652,
+  PrimaryGray: rgba(39, 35, 45, 0.9),
   SecundaryGray: #3b4756,
   DarkGray: #2e3239,
   DarGray2: #1c222a,
@@ -53,6 +55,17 @@ $FontWeights: (
   w800: 800,
   w900: 900,
 );
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
 
 @mixin Width($width) {
   width: $width;
@@ -99,6 +112,7 @@ $FontWeights: (
   top: 10px;
   right: 10px;
 }
+
 
 /*---------------------- ESTILOS SASS ------------ */
 
@@ -274,6 +288,9 @@ header a.open-nav {
   background: none !important;
   font-weight: map-get($FontWeights, w100);
 }
+.carousel-inner img {
+  width: 100%;
+}
 /*---------------------------------------END OF CAROUSEL STYLES---------------------------------------*/
 
 /*----------------------------------------FOOTER STYLES-------------------------------------------------*/
@@ -282,7 +299,7 @@ footer {
   position: relative;
   bottom: 0;
   @include Width(100%);
-  background-color: map-get($ColorsHexa, SecundaryGray);
+  background-color: map-get($ColorsHexa, PrimaryGray);
   padding: 10px;
   z-index: 300;
   p,
@@ -471,6 +488,34 @@ h3 {
 h4 {
   text-transform: uppercase;
   font-size: map-get($SizeFontsPX, Font24);
+
+}
+h4.title-type-01{
+  font-size: map-get($SizeFontsPX, Font42);
+  font-weight: map-get($FontWeights, w700);
+}
+h4.title-type-02{
+  font-size: map-get($SizeFontsPX, Font42);
+  font-weight: map-get($FontWeights, w700);
+  color: map-get($ColorsHexa, PrimaryWhite);
+}
+p.text-type-01{
+  font-size: map-get($SizeFontsPX, Font24);
+  font-weight: map-get($FontWeights, w400);
+  font-family: $FuenteSerif;
+  line-height: map-get($SizeFontsPX, Font30);
+  span{
+    font-weight: map-get($FontWeights, w700);
+  }
+}
+p.text-type-02{
+  font-size: map-get($SizeFontsPX, Font14);
+  font-weight: map-get($FontWeights, w400);
+  font-family: $FuenteSerif;
+  line-height: map-get($SizeFontsPX, Font16);
+  span{
+    font-weight: map-get($FontWeights, w700);
+  }
 }
 
 /*---------------------------------------------END OF TYPE STYLES------------------------------------------------------*/
@@ -599,6 +644,140 @@ section.bg-grey {
 div.bg-greyLight {
   color: map-get($ColorsHexa, BgGrayLight2);
 }
+button:focus{
+  outline:none;
+}
+body.home-web{
+  header{
+    background: map-get($ColorsHexa, PrimaryGray);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    a.navbar-brand{
+      margin: 12px;
+      max-width: 192px;
+      display: block;
+      img{
+        width: 100%;
+      }
+    }
+    ul.navbar-nav{
+      text-transform: uppercase;
+      a{
+        color: map-get($ColorsHexa, PrimaryWhite);
+      }
+      div.dropdown-menu{
+        background: map-get($ColorsHexa, PrimaryGray);
+        text-transform: capitalize;
+        border-radius: 0;
+        padding: 0;
+        border: none;
+        padding: 10px 15px;
+        a.dropdown-item{
+          border-bottom: solid 1px rgba(255, 255, 255, 0.15);
+          font-family: $FuenteSerif;
+          padding: 5px 10px;
+        }
+        :hover{
+            color: #fff;
+            background: #00000052;
+        }
+        .navbar-toggler-icon:focus {
+          border:none;
+          outline:none;
+
+        }
+
+      }
+    }
+
+  }
+  #apartments{
+    padding: 80px 0px 80px 0;
+    .carousel{
+      padding: 80px 30px 80px 0;
+      ol.carousel-indicators{
+        bottom: 7px;
+        left: -98px;
+        right: auto;
+        li {
+          display: block;
+          width: 8px;
+          height: 8px;
+          border-radius: 10px;
+          border: none;
+          background-color: #a99d8a;
+          opacity:1;
+        }
+        li.active{
+          background-color: #34303b;
+        }
+      }
+      .carousel-inner{
+        box-shadow:0 0 23px rgba(0, 0, 0, .4);
+      }
+
+    }
+    .gallery:after{
+      display: block;
+      width: 256px;
+      height: 496px;
+      background: url(../assets/bg-gallery-home.png) no-repeat center;
+      box-shadow:0 0 23px rgba(0, 0, 0, .4);
+      content:'';
+      z-index: -1;
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+  #amenities{
+    background: url(../assets/bg-amenities-block.jpg) no-repeat center;
+    img{
+      box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
+    }
+    .inner-bg{
+      background: url(../assets/bg-amenities-color.png) repeat-y center;
+      padding:180px 0;
+    }
+
+  }
+  form#mc-embedded-subscribe-form {
+    .form-container{
+      position: absolute;
+      top: 240px;
+      z-index: 9999;
+      display: block;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 50px;
+      right: 100px;
+    }
+    input {
+      background-color: rgba(50, 70, 82, 0.1);
+      border: none;
+      border-radius: 0;
+      font-family: $FuenteSerif;
+      color: #34303b;
+    }
+    label{
+      font-family: $FuenteSerif;
+      font-size: map-get($SizeFontsPX, Font14) !important;
+      color: #34303b;
+    }
+    input[type="checkbox"]{
+      position: relative;
+      top: 4px;
+      margin-right: 4px;
+      margin-left: 6px;
+    }
+  }
+  .text-container{
+    width: 50%;
+    text-align:left;
+  }
+  
+}
 
 /*------------------------------------------END OF NEW HOME STYLES-----------------------------------------*/
 
@@ -657,14 +836,14 @@ div.bg-greyLight {
   .carousel-inner {
     h5 {
       abbr {
-        font-size: map-get($SizeFontsPX, Font90) !important;
+        font-size: map-get($SizeFontsPX, Font60) !important;
       }
       small {
-        font-size: map-get($SizeFontsPX, Font42) !important;
+        font-size: map-get($SizeFontsPX, Font30) !important;
         display: block;
       }
       span {
-        font-size: map-get($SizeFontsPX, Font70);
+        font-size: map-get($SizeFontsPX, Font40);
         display: block;
       }
     }
@@ -723,7 +902,7 @@ div.bg-greyLight {
   .carousel-inner {
     h5 {
       abbr {
-        font-size: map-get($SizeFontsPX, Font120) !important;
+        font-size: map-get($SizeFontsPX, Font60) !important;
       }
     }
   }

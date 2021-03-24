@@ -21,67 +21,48 @@
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="<?php echo $base_url ?>/js/jquery.mobile.custom.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </head>
 
 <body id="main-content" class="<?php echo $section?>">
-    <header class="container-fluid">
-        <div class="row">
-            <div class="col-sm-3">
-                <a class="site-logo" href="<?php echo $base_url ?>/">
+    <header class="">
+        <div class="row no-gutters">
+            <nav class="navbar navbar-expand-md p-0">
+                <!-- Brand -->
+                <a class="navbar-brand" href="<?php echo $base_url ?>">
                     <img src="<?php echo $base_url ?>/assets/logo.svg">
                 </a>
-            </div>
-            <div class="col-sm-9">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="">
-                                Amenities
-                            </a>
-                            <ul>
-                                <li>
-                                    <a href="">Apartamento tipo 1</a>
-                                </li>
-                                <li>
-                                    <a href="">Apartamento tipo 2</a>
-                                </li>
-                                <li>
-                                    <a href="">Apartamento tipo 3</a>
-                                </li>
-                                <li>
-                                    <a href="">Apartamento tipo 4</a>
-                                </li>
-                                <li>
-                                    <a href="">Apartamento tipo 5</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon">
+                        <img src="assets/menu-open.png">
+                    </span>
+                </button>
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
                                 Apartamentos
                             </a>
-                            <ul>
-                                <li>
-                                    <a href="">Areas c</a>
-                                </li>
-                                <li>
-                                    <a href="">Apartamento tipo 1</a>
-                                </li>
-                                <li>
-                                    <a href="">Apartamento tipo 1</a>
-                                </li>
-                                <li>
-                                    <a href="">Apartamento tipo 1</a>
-                                </li>
-                                <li>
-                                    <a href="">Apartamento tipo 1</a>
-                                </li>
-                            </ul>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Link 1</a>
+                                <a class="dropdown-item" href="#">Link 2</a>
+                                <a class="dropdown-item" href="#">Link 3</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                Amenities
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Link 1</a>
+                                <a class="dropdown-item" href="#">Link 2</a>
+                                <a class="dropdown-item" href="#">Link 3</a>
+                            </div>
                         </li>
                     </ul>
-                </nav>
-            </div>
+                </div>
+            </nav>   
         </div>
     </header>
-
-    hola hola hola
