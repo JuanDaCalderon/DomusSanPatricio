@@ -220,7 +220,7 @@ footer {
   width: 100%;
   background-color: rgba(39, 35, 45, 0.9);
   padding: 10px;
-  z-index: 300;
+  z-index: 1100;
 }
 
 footer p,
@@ -529,9 +529,22 @@ a.more-info {
   bottom: 0;
 }
 
+.gallery-access-button.btn-home.open {
+  right: 15;
+  bottom: 0;
+}
+
 .gallery-access-button.closed {
   right: 0;
   top: -40px;
+}
+
+a.imgPopUp:hover {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  cursor: hand;
+  -webkit-filter: opacity(0.8);
+  filter: opacity(0.8);
 }
 
 .floor-plans-access-button,
@@ -660,7 +673,11 @@ body.home-web header ul.navbar-nav div.dropdown-menu :hover {
   background: #00000052;
 }
 
-body.home-web header ul.navbar-nav div.dropdown-menu .navbar-toggler-icon:focus {
+body.home-web
+  header
+  ul.navbar-nav
+  div.dropdown-menu
+  .navbar-toggler-icon:focus {
   border: none;
   outline: none;
 }
@@ -695,7 +712,7 @@ body.home-web #apartments .carousel ol.carousel-indicators li.active {
 
 body.home-web #apartments .carousel .carousel-inner {
   -webkit-box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
-          box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
 }
 
 body.home-web #apartments .gallery:after {
@@ -704,8 +721,8 @@ body.home-web #apartments .gallery:after {
   height: 496px;
   background: url(../assets/bg-gallery-home.png) no-repeat center;
   -webkit-box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
-          box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
-  content: '';
+  box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
+  content: "";
   z-index: -1;
   position: absolute;
   top: 0;
@@ -718,7 +735,7 @@ body.home-web #amenities {
 
 body.home-web #amenities img {
   -webkit-box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
-          box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
 }
 
 body.home-web #amenities .inner-bg {
@@ -726,10 +743,14 @@ body.home-web #amenities .inner-bg {
   padding: 180px 0;
 }
 
+body.home-web form#mc-embedded-subscribe-form {
+  margin: 0;
+}
+
 body.home-web form#mc-embedded-subscribe-form .form-container {
   position: absolute;
   top: 240px;
-  z-index: 9999;
+  z-index: 1000;
   display: block;
   background: rgba(255, 255, 255, 0.9);
   padding: 50px;
@@ -853,6 +874,9 @@ body.home-web .text-container {
   }
   a.floor-plans-access-button.open i {
     text-indent: 20px;
+  }
+  .pb-lg-6 {
+    padding-bottom: 5rem !important;
   }
 }
 

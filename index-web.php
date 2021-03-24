@@ -32,41 +32,49 @@
             <div class="carousel-item">
                 <img class="d-block w-100" src="assets/carousel/home/05.jpg" data-color="lightblue" alt="First Image">
                 <div class="carousel-caption d-md-block">
-                    <h5>
-                        <small>Amplitud, diseño y estilo</small>
-                        <abbr>Una cálida bienvenida</abbr>
-                        <span>Juntos en armonía</span>
-                    </h5>
+                    <div class="text-container">
+                        <h5>
+                            <small>Amplitud, diseño y estilo</small>
+                            <abbr>Una cálida bienvenida</abbr>
+                            <span>Juntos en armonía</span>
+                        </h5>
+                    </div>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="assets/carousel/home/04.jpg" data-color="lightblue" alt="First Image">
                 <div class="carousel-caption d-md-block">
-                    <h5>
+                    <div class="text-container">
+                        <h5>
                         <small>Compartir y trabajar</small>
                         <abbr>Espacios de <br>co-working</abbr>
                         <span>Una experiencia única</span>
                     </h5>
+                    </div>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="assets/carousel/home/04.jpg" data-color="lightblue" alt="First Image">
                 <div class="carousel-caption d-md-block">
-                    <h5>
+                    <div class="text-container">
+                        <h5>
                         <small>Un espacio confortable</small>
                         <abbr>Teatrino</abbr>
                         <span>Para toda la familia</span>
                     </h5>
+                    </div>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="assets/carousel/home/05.jpg" data-color="lightblue" alt="First Image">
                 <div class="carousel-caption d-md-block">
-                    <h5>
+                    <div class="text-container">
+                        <h5>
                         <small>Conecta</small>
                         <abbr>Mente y cuerpo</abbr>
                         <span>Con todas las comodidades</span>
                     </h5>
+                    </div>
                 </div>
             </div>
         </div>
@@ -126,48 +134,193 @@
         </div>
     </div>
 </section>
+
 <section id="amenities" class="p-0">
-    <div class="inner-bg">
+    <div class="inner-bg pb-3 pt-5 pb-lg-6 pt-lg-5 mt-lg-5">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 bg-purple  p-0 m-0">
+                <div class="col-md-12 col-lg-6 bg-purple mb-4 p-lg-0 m-lg-0">
                     <h4 class="title-type-02">
-                    conoce todos<br>los modelos<br>de apartamento<br>que tenemos<br>para tí
+                        conoce todos<br>los modelos<br>de apartamento<br>que tenemos<br>para tí
                     </h4>
                     <div class="row pt-4 mt-5">
-                        <div class="col-sm-6">
-                            <a href="">
-                                <img class="d-block w-100" src="assets/stills/tipo1/comply1.jpg" data-color="lightblue" alt="First Image">
+                        <div class="col-sm-6 gallery-access">
+                            <a class="imgPopUp" data-toggle="modal" data-target="#popUpGallery">
+                                <img class="img-fluid" src="assets/stills/tipo1/comply1.jpg" data-color="lightblue" alt="First Image">
                             </a>
+                            <button type="button" class="gallery-access-button btn-home open" data-toggle="modal" data-target="#popUpGallery">
+                                <i class="bi bi-arrows-angle-expand"></i>
+                            </button>
                         </div>
-                        <div class="col-sm-6">
-                            <a href="">
-                                <img class="d-block w-100" src="assets/stills/tipo2/comply1.jpg" data-color="lightblue" alt="First Image">
+                        <div class="col-sm-6 gallery-access">
+                            <a class="imgPopUp" data-toggle="modal" data-target="#popUpGallery">
+                                <img class="img-fluid" src="assets/stills/tipo2/comply1.jpg" data-color="lightblue" alt="First Image">
                             </a>
+                            <button type="button" class="gallery-access-button btn-home open" data-toggle="modal" data-target="#popUpGallery">
+                                <i class="bi bi-arrows-angle-expand"></i>
+                            </button>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 bg-golden">
+                <div class="col-md-12 col-lg-6 bg-golden">
                     <div class="row">
                         <div class="col-sm-6">
-                            <a href="">
-                                <img class="d-block w-100" src="assets/stills/tipo3/comply1.jpg" data-color="lightblue" alt="First Image">
+                            <a class="imgPopUp" data-toggle="modal" data-target="#popUpGallery">
+                                <img class="img-fluid" src="assets/stills/tipo3/comply1.jpg" data-color="lightblue" alt="First Image">
                             </a>
+                            <button type="button" class="gallery-access-button btn-home open" data-toggle="modal" data-target="#popUpGallery">
+                                <i class="bi bi-arrows-angle-expand"></i>
+                            </button>
                         </div>
                         <div class="col-sm-6">
-                            <a href="">
-                                <img class="d-block w-100" src="assets/stills/tipo4/comply1.jpg" data-color="lightblue" alt="First Image">
+                            <a class="imgPopUp" data-toggle="modal" data-target="#popUpGallery">
+                                <img class="img-fluid" src="assets/stills/tipo4/comply1.jpg" data-color="lightblue" alt="First Image">
                             </a>
+                            <button type="button" class="gallery-access-button btn-home open" data-toggle="modal" data-target="#popUpGallery">
+                                <i class="bi bi-arrows-angle-expand"></i>
+                            </button>
                         </div>
                     </div>
                     <div class="col-sm-12 pt-4 pl-0 pr-0">
-                        <a href="">
-                            <img class="d-block w-100" src="assets/stills/tipo2/comply2.jpg" data-color="lightblue" alt="First Image">
+                        <a class="imgPopUp" data-toggle="modal" data-target="#popUpGallery">
+                            <img class="img-fluid" src="assets/stills/tipo2/comply2.jpg" data-color="lightblue" alt="First Image">
                         </a>
+                        <button type="button" class="gallery-access-button btn-home open" data-toggle="modal" data-target="#popUpGallery">
+                            <i class="bi bi-arrows-angle-expand"></i>
+                        </button>
                     </div>
                     
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <!-- Modal Gallery -->
+    <div class="modal fade" id="popUpGallery" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="gallery-access-button closed" data-dismiss="modal" aria-label="Close">
+                <i class="bi bi-arrows-angle-contract"></i>
+            </button>
+            </div>
+            <div class="modal-body">
+            <div id="carouselExampleIndicatorsPopUp" class="carousel slide" data-ride="carousel">
+                <!-- Wrapper for slides -->
+                <div id="gallery" class="carousel-inner">
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="<?php echo $base_url ?>/assets/stills/tipo1/Comply1.jpg" data-color="lightblue" alt="First Image">
+                        <div class="carousel-caption d-md-block">
+                            <h5>
+                                Iluminación y ventilación natural
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="<?php echo $base_url ?>/assets/stills/tipo1/Comply2.jpg" data-color="lightblue" alt="First Image">
+                        <div class="carousel-caption d-md-block">
+                            <h5>
+                                Juntos en armonía
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="<?php echo $base_url ?>/assets/stills/tipo2/Comply1.jpg" data-color="lightblue" alt="First Image">
+                        <div class="carousel-caption d-md-block">
+                            <h5>
+                                Comodidad e innovación
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="<?php echo $base_url ?>/assets/stills/tipo2/Comply2.jpg" data-color="lightblue" alt="First Image">
+                        <div class="carousel-caption d-md-block">
+                            <h5>
+                                Espacio ideado para ti
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="<?php echo $base_url ?>/assets/stills/tipo2/Comply3.jpg" data-color="lightblue" alt="First Image">
+                        <div class="carousel-caption d-md-block">
+                            <h5>
+                                La mejor distribución
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="<?php echo $base_url ?>/assets/stills/tipo3/Comply1.jpg" data-color="lightblue" alt="First Image">
+                        <div class="carousel-caption d-md-block">
+                            <h5>
+                                Llenos de diseño
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="<?php echo $base_url ?>/assets/stills/tipo3/Comply2.jpg" data-color="lightblue" alt="First Image">
+                        <div class="carousel-caption d-md-block">
+                            <h5>
+                                Llenos de lujo
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="<?php echo $base_url ?>/assets/stills/tipo3/Comply3.jpg" data-color="lightblue" alt="First Image">
+                        <div class="carousel-caption d-md-block">
+                            <h5>
+                                Un nuevo hogar
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="<?php echo $base_url ?>/assets/stills/tipo3/Comply4.jpg" data-color="lightblue" alt="First Image">
+                        <div class="carousel-caption d-md-block">
+                            <h5>
+                                Espacios de home office
+                            </h5>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="<?php echo $base_url ?>/assets/stills/tipo4/Comply1.jpg" data-color="lightblue" alt="First Image">
+                        <div class="carousel-caption d-md-block">
+                            <h5>
+                                Excelentes acabados
+                            </h5>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="<?php echo $base_url ?>/assets/stills/tipo5/Comply1.jpg" data-color="lightblue" alt="First Image">
+                        <div class="carousel-caption d-md-block">
+                            <h5>
+                                Todo en un solo lugar
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="<?php echo $base_url ?>/assets/stills/tipo5/Comply2.jpg" data-color="lightblue" alt="First Image">
+                        <div class="carousel-caption d-md-block">
+                            <h5>
+                                Lugar soñado para vivir
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Controls -->
+                <a class="carousel-control-prev" href="#carouselExampleIndicatorsPopUp" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"><</span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicatorsPopUp" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true">></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            </div>
+        </div>
         </div>
     </div>
 </section>
@@ -220,7 +373,6 @@
     </form>
 </div>        
 
-    
     <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[3]='MMERGE3';ftypes[3]='phone'; /*
         * Translated default messages for the $ validation plugin.
         * Locale: ES
@@ -249,32 +401,42 @@
 
 
 <script>
-var $item = $('#home-carousel .carousel-item'); 
-var $wHeight = 700;
-$item.height($wHeight); 
 
-$('#home-carousel .carousel-item img').each(function() {
-  var $src = $(this).attr('src');
-  var $color = $(this).attr('data-color');
-  $(this).parent().css({
-    'background-image' : 'url(' + $src + ')',
-    'background-color' : $color
-  });
-  $(this).remove();
-});
+    var $item = $('#home-carousel .carousel-item'); 
+    var $wHeight = 700;
+    $item.height($wHeight); 
 
-$('#home-carousel .carousel').carousel({
-  interval: 6000,
-  pause: "false"
-});
+    $('#home-carousel .carousel-item img').each(function() {
+    var $src = $(this).attr('src');
+    var $color = $(this).attr('data-color');
+    $(this).parent().css({
+        'background-image' : 'url(' + $src + ')',
+        'background-color' : $color
+    });
+    $(this).remove();
+    });
+
+    $('#home-carousel .carousel').carousel({
+    interval: 6000,
+    pause: "false"
+    });
 
 
-$('#apartments .carousel').carousel({
-  interval: 2000,
-  pause: "false"
-});
+    $('#apartments .carousel').carousel({
+    interval: 2000,
+    pause: "false"
+    });
 
 </script>
+
+<script>
+
+  var $item = $('#gallery .carousel-item');
+  var $wHeight = $(window).height();
+  $item.eq(0).addClass('active');
+
+</script>
+
 <?php 
     require_once 'includes/footer.php';
 ?>
