@@ -18,7 +18,7 @@
 <section class="container-fluid bottom dark">
     <div class="container">
 
-        <h3> TIPOS DE <span>APARTAMENTOS </span> </h2>
+        <h3> TIPOS DE <span>AMENITIES </span> </h2>
 <!-- CAROUSEL -->
 
 <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">

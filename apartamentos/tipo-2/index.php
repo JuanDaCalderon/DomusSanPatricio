@@ -37,7 +37,7 @@
       </ul>
     </div>
     <div class="col-sm-5 gallery-access p-0">
-      <img class="img-fluid" src="<?php echo $base_url ?>/assets/galleries/tipo-a/01.jpg" alt="Chania">
+      <img class="img-fluid" src="<?php echo $base_url ?>/assets/stills/tipo2/Comply1.jpg" alt="Chania">
       <button type="button" class="gallery-access-button open" data-toggle="modal" data-target="#popUpGallery">
         <i class="bi bi-arrows-angle-expand"></i>
       </button>
@@ -77,10 +77,11 @@
     </div>
   </div>
 </section>
+
 <section id="amenities" class="container bottom">
   <div class="row">
     <div class="col-sm-12">
-      <h2><span>DOMUS</span> AMENITIES</h2>
+      <h2><span>DOMUS</span> APARTAMENTOS</h2>
       <!-- CAROUSEL -->
 
       <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
@@ -98,9 +99,9 @@
             <div class="row">
               <div class="col-md-4">
                 <div class="card mb-2">
-                  <img class="card-img-top" src="<?php echo $base_url ?>/assets/amenities/rooftop/thumb-01.jpg" alt="Card image cap">
+                  <img class="card-img-top h-100" src="<?php echo $base_url ?>/assets/stills/tipo1/Comply1.jpg" alt="Card image cap">
                   <div class="card-body">
-                    <a href="<?php echo $base_url ?>/apartamentos/tipo-a/" class="btn btn-primary"><p>Modelo tipo A</p></a>
+                    <a href="<?php echo $base_url ?>/apartamentos/tipo-1/" class="btn btn-primary"><p>Modelo tipo 1</p></a>
                   </div>
                 </div>
               </div>
@@ -108,18 +109,18 @@
 
               <div class="col-md-4 clearfix d-none d-md-block">
               <div class="card mb-2">
-                  <img class="card-img-top" src="<?php echo $base_url ?>/assets/amenities/rooftop/thumb-01.jpg" alt="Card image cap">
+                  <img class="card-img-top h-100" src="<?php echo $base_url ?>/assets/stills/tipo2/Comply1.jpg" alt="Card image cap">
                   <div class="card-body">
-                    <a href="<?php echo $base_url ?>/apartamentos/tipo-a/" class="btn btn-primary"><p>Modelo tipo A</p></a>
+                    <a href="<?php echo $base_url ?>/apartamentos/tipo-2/" class="btn btn-primary"><p>Modelo tipo 2</p></a>
                   </div>
                 </div>
               </div>
 
               <div class="col-md-4 clearfix d-none d-md-block">
               <div class="card mb-2">
-                  <img class="card-img-top" src="<?php echo $base_url ?>/assets/amenities/rooftop/thumb-01.jpg" alt="Card image cap">
+                  <img class="card-img-top h-100" src="<?php echo $base_url ?>/assets/stills/tipo3/Comply1.jpg" alt="Card image cap">
                   <div class="card-body">
-                    <a href="<?php echo $base_url ?>/apartamentos/tipo-a/" class="btn btn-primary"><p>Modelo tipo A</p></a>
+                    <a href="<?php echo $base_url ?>/apartamentos/tipo-3/" class="btn btn-primary"><p>Modelo tipo 3</p></a>
                   </div>
                 </div>
               </div>
@@ -132,25 +133,17 @@
             <div class="row">
               <div class="col-md-4">
                 <div class="card mb-2">
-                  <img class="card-img-top" src="<?php echo $base_url ?>/assets/amenities/rooftop/thumb-01.jpg" alt="Card image cap">
+                  <img class="card-img-top h-100" src="<?php echo $base_url ?>/assets/stills/tipo4/Comply1.jpg" alt="Card image cap">
                   <div class="card-body">
-                    <a href="<?php echo $base_url ?>/apartamentos/tipo-a/" class="btn btn-primary"><p>Modelo tipo A</p></a>
+                    <a href="<?php echo $base_url ?>/apartamentos/tipo-4/" class="btn btn-primary"><p>Modelo tipo 4</p></a>
                   </div>
                 </div>
               </div>
               <div class="col-md-4 clearfix d-none d-md-block">
                 <div class="card mb-2">
-                  <img class="card-img-top" src="<?php echo $base_url ?>/assets/amenities/rooftop/thumb-01.jpg" alt="Card image cap">
+                  <img class="card-img-top h-100" src="<?php echo $base_url ?>/assets/stills/tipo5/Comply1.jpg" alt="Card image cap">
                   <div class="card-body">
-                    <a href="<?php echo $base_url ?>/apartamentos/tipo-a/" class="btn btn-primary"><p>Modelo tipo A</p></a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4 clearfix d-none d-md-block">
-                <div class="card mb-2">
-                  <img class="card-img-top" src="<?php echo $base_url ?>/assets/amenities/rooftop/thumb-01.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <a href="<?php echo $base_url ?>/apartamentos/tipo-a/" class="btn btn-primary"><p>Modelo tipo A</p></a>
+                    <a href="<?php echo $base_url ?>/apartamentos/tipo-5/" class="btn btn-primary"><p>Modelo tipo 5</p></a>
                   </div>
                 </div>
               </div>
@@ -158,45 +151,15 @@
 
           </div>
           <!--/.Second slide-->
-
-          <!--Third slide-->
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-md-4">
-                <div class="card mb-2">
-                  <img class="card-img-top" src="<?php echo $base_url ?>/assets/amenities/rooftop/thumb-01.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <a href="<?php echo $base_url ?>/apartamentos/tipo-a/" class="btn btn-primary"><p>Modelo tipo A</p></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4 clearfix d-none d-md-block">
-                <div class="card mb-2">
-                  <img class="card-img-top" src="<?php echo $base_url ?>/assets/amenities/rooftop/thumb-01.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <a href="<?php echo $base_url ?>/apartamentos/tipo-a/" class="btn btn-primary"><p>Modelo tipo A</p></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4 clearfix d-none d-md-block">
-                <div class="card mb-2">
-                  <img class="card-img-top" src="<?php echo $base_url ?>/assets/amenities/rooftop/thumb-01.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <a href="<?php echo $base_url ?>/apartamentos/tipo-a/" class="btn btn-primary"><p>Modelo tipo A</p></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--/.Third slide-->
         </div>
         <!--/.Slides-->
       </div>
     </div>
   </div>
 </section>
+
+
+
 <section>
 
   <!-- Modal Gallery -->
@@ -213,7 +176,7 @@
             <!-- Wrapper for slides -->
             <div id="gallery" class="carousel-inner">
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="<?php echo $base_url ?>/assets/carousel/home/07.jpg" data-color="lightblue" alt="First Image">
+                    <img class="d-block w-100" src="<?php echo $base_url ?>/assets/stills/tipo2/Comply1.jpg" data-color="lightblue" alt="First Image">
                     <div class="carousel-caption d-md-block">
                         <h5>
                             Iluminación y ventilación natural
@@ -221,10 +184,18 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="<?php echo $base_url ?>/assets/carousel/home/05.jpg" data-color="lightblue" alt="First Image">
+                    <img class="d-block w-100" src="<?php echo $base_url ?>/assets/stills/tipo2/Comply2.jpg" data-color="lightblue" alt="First Image">
                     <div class="carousel-caption d-md-block">
                         <h5>
                             Juntos en armonía
+                        </h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="<?php echo $base_url ?>/assets/stills/tipo2/Comply3.jpg" data-color="lightblue" alt="First Image">
+                    <div class="carousel-caption d-md-block">
+                        <h5>
+                            Espacios comodos
                         </h5>
                     </div>
                 </div>
@@ -257,7 +228,7 @@
           </button>
         </div>
         <div class="modal-body">
-          <img class="img-fluid" src="<?php echo $base_url ?>/assets/galleries/tipo-a/floorplan.jpg">
+          <img class="img-fluid" src="<?php echo $base_url ?>/assets/plantas/DeptoTipo2.jpg">
           <h5>
             Iluminación y ventilación natural
           </h5>
