@@ -81,7 +81,7 @@
         </div>
         <div class="col">
           <p>
-            <small>Precio</small>$600'000.000<sup>cop</sup>
+            <small>Precio</small>$X00'000.000<sup>cop</sup>
           </p>
         </div>
         <div class="col">

@@ -9,7 +9,7 @@
 
         <h2><span>DOMUS </span> SAN PATRICIO</h2>
         <h1>ESPACIOS PARA TRABAJAR,<span> <br>CELEBRAR Y COMPARTIR</span></h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aut.</p>
+        <p>un espacio confortable con toda la nueva tecnología y los más altos estándares de amplitud, diseño y estilo para compartir con amigos, familiares y equipos de trabajo, todo en un solo lugar.</p>
 
     </div>
 
@@ -39,9 +39,9 @@
     <div class="row">
       <div class="col-md-4">
         <div class="card mb-2">
-          <img class="card-img-top" src="<?php echo $base_url ?>/assets/amenities/rooftop/thumb-01.jpg" alt="Card image cap">
+          <img class="card-img-top h-100" src="<?php echo $base_url ?>/assets/amenities/rooftop/thumb-01.jpg" alt="Card image cap">
           <div class="card-body">
-            <a href="<?php echo $base_url ?>/amenities/areas-comunes/" class="btn btn-primary"><p>ROOFTOP</p></a>
+            <a href="<?php echo $base_url ?>/amenities/roof-top/" class="btn btn-primary"><p>ROOFTOP</p></a>
           </div>
         </div>
       </div>
@@ -49,7 +49,7 @@
 
       <div class="col-md-4 clearfix d-none d-md-block">
       <div class="card mb-2">
-          <img class="card-img-top" src="<?php echo $base_url ?>/assets/amenities/rooftop/thumb-01.jpg" alt="Card image cap">
+          <img class="card-img-top h-100" src="<?php echo $base_url ?>/assets/zonas_comunes/Co-working.jpg" alt="Card image cap">
           <div class="card-body">
             <a href="<?php echo $base_url ?>/amenities/areas-comunes/" class="btn btn-primary"><p>SALA DE TRABAJO COMPARTIDO</p></a>
           </div>
@@ -58,7 +58,7 @@
 
       <div class="col-md-4 clearfix d-none d-md-block">
       <div class="card mb-2">
-          <img class="card-img-top" src="<?php echo $base_url ?>/assets/amenities/rooftop/thumb-01.jpg" alt="Card image cap">
+          <img class="card-img-top h-100" src="<?php echo $base_url ?>/assets/zonas_comunes/Conference.jpg" alt="Card image cap">
           <div class="card-body">
             <a href="<?php echo $base_url ?>/amenities/areas-comunes/" class="btn btn-primary"><p>SALON COMUNAL</p></a>
           </div>
@@ -75,7 +75,7 @@
     <div class="row">
       <div class="col-md-4">
       <div class="card mb-2">
-          <img class="card-img-top" src="<?php echo $base_url ?>/assets/amenities/rooftop/thumb-01.jpg" alt="Card image cap">
+          <img class="card-img-top h-100" src="<?php echo $base_url ?>/assets/zonas_comunes/Lobby.jpg" alt="Card image cap">
           <div class="card-body">
             <a href="<?php echo $base_url ?>/amenities/areas-comunes/" class="btn btn-primary"><p>LOBBY</p></a>
           </div>

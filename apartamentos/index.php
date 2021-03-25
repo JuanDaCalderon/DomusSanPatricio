@@ -9,7 +9,7 @@
 
         <h2><span>DOMUS </span> SAN PATRICIO</h2>
         <h1>UN MODELO PARA CADA <span>ESTILO DE VIDA</span></h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aut.</p>
+        <p>disfrute de la mejor distribución, amplios espacios, excelentes acabados en este lugar soñado para vivir una vida con la comodidad que le brindamos para poder trabajar y compartir en casa, teniendo un espacio para cada momento, todo en un solo lugar.</p>
 
     </div>
 </section>

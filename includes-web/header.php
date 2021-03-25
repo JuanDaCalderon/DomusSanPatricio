@@ -47,12 +47,12 @@
                                 Apartamentos
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="<?php echo $base_url ?>/apartamentos/index.php">Todos los apartamentos</a>
-                                <a class="dropdown-item" href="<?php echo $base_url ?>/apartamentos/tipo-1/index.php">Apartamento tipo 1</a>
-                                <a class="dropdown-item" href="<?php echo $base_url ?>/apartamentos/tipo-2/index.php">Apartamento tipo 2</a>
-                                <a class="dropdown-item" href="<?php echo $base_url ?>/apartamentos/tipo-3/index.php">Apartamento tipo 3</a>
-                                <a class="dropdown-item" href="<?php echo $base_url ?>/apartamentos/tipo-4/index.php">Apartamento tipo 4</a>
-                                <a class="dropdown-item" href="<?php echo $base_url ?>/apartamentos/tipo-5/index.php">Apartamento tipo 5</a>
+                                <a class="dropdown-item" href="<?php echo $base_url ?>/apartamentos/">Todos los apartamentos</a>
+                                <a class="dropdown-item" href="<?php echo $base_url ?>/apartamentos/tipo-1/">Apartamento tipo 1</a>
+                                <a class="dropdown-item" href="<?php echo $base_url ?>/apartamentos/tipo-2/">Apartamento tipo 2</a>
+                                <a class="dropdown-item" href="<?php echo $base_url ?>/apartamentos/tipo-3/">Apartamento tipo 3</a>
+                                <a class="dropdown-item" href="<?php echo $base_url ?>/apartamentos/tipo-4/">Apartamento tipo 4</a>
+                                <a class="dropdown-item" href="<?php echo $base_url ?>/apartamentos/tipo-5/">Apartamento tipo 5</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
@@ -60,9 +60,9 @@
                                 Amenities
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="<?php echo $base_url ?>/amenities/index.php">Todos los amenities</a>
-                                <a class="dropdown-item" href="<?php echo $base_url ?>/amenities/areas-comunes/index.php">Áreas comúnes</a>
-                                <a class="dropdown-item" href="<?php echo $base_url ?>/amenities/roof-top/index.php">Roof top</a>
+                                <a class="dropdown-item" href="<?php echo $base_url ?>/amenities/">Todos los amenities</a>
+                                <a class="dropdown-item" href="<?php echo $base_url ?>/amenities/areas-comunes/">Áreas comúnes</a>
+                                <a class="dropdown-item" href="<?php echo $base_url ?>/amenities/roof-top/">Roof top</a>
                             </div>
                         </li>
                     </ul>
