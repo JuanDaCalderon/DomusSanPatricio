@@ -23,6 +23,7 @@
     <script src="<?php echo $base_url ?>/js/jquery.mobile.custom.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link  rel="icon"   href="<?php echo $base_url?>/assets/logo.svg" type="image/png" />
 </head>
 
 <body id="main-content" class="<?php echo $section?> new-nav-bar">
@@ -46,6 +47,7 @@
                                 Apartamentos
                             </a>
                             <div class="dropdown-menu">
+                                <a class="dropdown-item" href="<?php echo $base_url ?>/apartamentos/index.php">Todos los apartamentos</a>
                                 <a class="dropdown-item" href="<?php echo $base_url ?>/apartamentos/tipo-1/index.php">Apartamento tipo 1</a>
                                 <a class="dropdown-item" href="<?php echo $base_url ?>/apartamentos/tipo-2/index.php">Apartamento tipo 2</a>
                                 <a class="dropdown-item" href="<?php echo $base_url ?>/apartamentos/tipo-3/index.php">Apartamento tipo 3</a>
@@ -58,6 +60,7 @@
                                 Amenities
                             </a>
                             <div class="dropdown-menu">
+                                <a class="dropdown-item" href="<?php echo $base_url ?>/amenities/index.php">Todos los amenities</a>
                                 <a class="dropdown-item" href="<?php echo $base_url ?>/amenities/areas-comunes/index.php">Áreas comúnes</a>
                                 <a class="dropdown-item" href="<?php echo $base_url ?>/amenities/roof-top/index.php">Roof top</a>
                             </div>

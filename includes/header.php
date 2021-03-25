@@ -21,6 +21,7 @@
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="<?php echo $base_url ?>/js/jquery.mobile.custom.js"></script>
+    <link  rel="icon"   href="<?php echo $base_url?>/assets/logo.svg" type="image/png" />
 </head>
 
 <body id="main-content" class="<?php echo $section?>">
