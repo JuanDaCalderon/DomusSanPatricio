@@ -101,7 +101,7 @@
                                 Déjanos tus datos<br>y muy pronto un asesor<br>se comunicará contigo
                             </h5>
                             <p class="text-justify text-type-02">
-                                Estas apoco de tener tu propio espacio en<br><span>DOMUS San Patricio</span>
+                                Estas a poco de tener tu propio espacio en<br><span>DOMUS San Patricio</span>
                             </p>
                         </div>
                     </div>
