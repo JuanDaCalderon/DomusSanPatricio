@@ -1,0 +1,24 @@
+#: locale=es
+
+## Tour
+
+### Description
+
+### Título
+tour.name = Tipo3-tour
+
+## Media
+
+### Título
+album_0CFC5383_18DA_5E82_41B7_51FE0825F75E.label = Galería de imágenes
+album_0CFC5383_18DA_5E82_41B7_51FE0825F75E_0.label = Comply 4
+album_0CFC5383_18DA_5E82_41B7_51FE0825F75E_1.label = Comply 3
+album_0CFC5383_18DA_5E82_41B7_51FE0825F75E_2.label = Comply 2
+album_0CFC5383_18DA_5E82_41B7_51FE0825F75E_3.label = Comply 1
+panorama_14C60BD3_185E_2E82_41A2_BC472C578FD7.label = 4
+panorama_14C61DF1_185E_2A9E_4171_9779FF0F420F.label = 6
+panorama_14C790A4_185E_7A86_41B8_6C938F9C20C5.label = 1
+panorama_14C7A9A8_185E_6A8E_41B6_ACAB9BB2F606.label = 2
+panorama_14C7D4C5_185E_3A86_41A7_EFC5C3159DC5.label = 5
+panorama_14C7F2BC_185E_5E86_4177_C93566B086B0.label = 3
+panorama_151386B2_185E_2682_41B7_94CE3C562F2E.label = 7

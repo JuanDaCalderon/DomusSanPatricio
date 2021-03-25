@@ -464,10 +464,9 @@ p.text-type-01 span {
 }
 
 p.text-type-02 {
-  font-size: 14px;
   font-weight: 400;
   font-family: "Cormorant Garamond", serif;
-  line-height: 16px;
+  text-align: right !important;
 }
 
 p.text-type-02 span {
@@ -547,7 +546,7 @@ a.imgPopUp:hover {
   transition: all 0.5s ease-in-out;
   cursor: hand;
   -webkit-filter: opacity(0.8);
-  filter: opacity(0.8);
+          filter: opacity(0.8);
 }
 
 .floor-plans-access-button,
@@ -680,11 +679,7 @@ body.home-web header ul.navbar-nav div.dropdown-menu :hover {
   background: #00000052;
 }
 
-body.home-web
-  header
-  ul.navbar-nav
-  div.dropdown-menu
-  .navbar-toggler-icon:focus {
+body.home-web header ul.navbar-nav div.dropdown-menu .navbar-toggler-icon:focus {
   border: none;
   outline: none;
 }
@@ -719,7 +714,7 @@ body.home-web #apartments .carousel ol.carousel-indicators li.active {
 
 body.home-web #apartments .carousel .carousel-inner {
   -webkit-box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
-  box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
 }
 
 body.home-web #apartments .gallery:after {
@@ -728,7 +723,7 @@ body.home-web #apartments .gallery:after {
   height: 100%;
   background: url(../assets/bg-gallery-home.png) no-repeat center;
   -webkit-box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
-  box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
   content: "";
   z-index: -1;
   position: absolute;
@@ -742,7 +737,7 @@ body.home-web #amenities {
 
 body.home-web #amenities img {
   -webkit-box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
-  box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
 }
 
 body.home-web #amenities .inner-bg {
@@ -761,7 +756,7 @@ body.home-web form#mc-embedded-subscribe-form .form-container {
   /* display: block; */
   background: rgba(183, 168, 149, 0.1);
   -webkit-box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
-  box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
   padding: 50px;
   /* right: 100px; */
 }
@@ -898,9 +893,17 @@ body.home-web .text-container {
   }
   h4.title-type-02 {
     font-size: 42px;
-    font-weight: 700;
+    font-weight: 900;
     color: #fff;
     text-align: left;
+  }
+  h5.title-type-02 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #3b4756;
+    text-align: right;
+    letter-spacing: -1px;
+    line-height: 28px;
   }
   h4.title-type-01 {
     font-size: 42px;
@@ -922,6 +925,14 @@ body.home-web .text-container {
     background: rgba(255, 255, 255, 0.9);
     padding: 50px;
     right: 75px;
+  }
+  body.home-web form#mc-embedded-subscribe-form .form-container input[type='text'], body.home-web form#mc-embedded-subscribe-form .form-container input[type='email'], body.home-web form#mc-embedded-subscribe-form .form-container input[type='number'] {
+    width: 100%;
+  }
+  body.home-web form#mc-embedded-subscribe-form .form-container input[type='submit'] {
+    background-color: rgba(39, 35, 45, 0.9);
+    color: #fff;
+    padding-left: 30px;
   }
   body.home-web .text-container {
     width: 50%;

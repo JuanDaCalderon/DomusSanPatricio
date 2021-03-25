@@ -92,33 +92,33 @@
 
 <section id="mc_embed_signup" class="signup-form">
     <div class="container">
-        <form action="https://proyectodomus.us1.list-manage.com/subscribe/post?u=84f309e64dfcb60806074423c&amp;id=a3a35433d4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <form action="https://hoyosluque.us7.list-manage.com/subscribe/post?u=1068e954887b799fc9a7e15c9&amp;id=e3cb7ba6fb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <div class="form-container row mt-5 mt-lg-0">
                 <div class="col-12">
                     <div class="form-row">
                         <div class="col">
-                            <h5 class="text-center title-type-2">
-                                Déjanos tus datos y muy pronto un asesor se comunicará contigo
+                            <h5 class="title-type-02">
+                                Déjanos tus datos<br>y muy pronto un asesor<br>se comunicará contigo
                             </h5>
                             <p class="text-justify text-type-02">
-                                Estas apoco de tener tu propio espacio en <span>DOMUS San Patricio</span>
+                                Estas apoco de tener tu propio espacio en<br><span>DOMUS San Patricio</span>
                             </p>
                         </div>
                     </div>
                     <div class="form-row pt-1 pb-0 pb-xl-1">
                         <div class="col-12 col-xl-6">
-                            <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME" placeholder="Nombre">    
+                        <input type="text" value="" name="FNAME" class="required" id="mce-FNAME" placeholder="Nombre">    
                         </div>
                         <div class="col-12 col-xl-6">
-                            <input type="text" value="" name="LNAME" class="form-control" class="" id="mce-LNAME" placeholder="Apellido">    
+                        	<input type="text" value="" name="LNAME" class="required" id="mce-LNAME" placeholder="Apellido">
                         </div>
                     </div>
                     <div class="form-row pt-0 pb-1 pt-xl-1">
                         <div class="col-12 col-xl-6">
-                            <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Email">
+                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"  placeholder="Email">
                         </div>
                         <div class="col-12 col-xl-6">
-                            <input type="number" name="MMERGE3" class="form-control" value="" id="mce-MMERGE3" placeholder="Teléfono">
+                        	<input type="text" name="PHONE" class="required" value="" id="mce-PHONE"  placeholder="Teléfono">
                         </div>
                     </div>
                     <div id="mce-responses" class="clear">
@@ -130,46 +130,44 @@
                         <input type="text" name="b_84f309e64dfcb60806074423c_a3a35433d4" tabindex="-1" value="">
                     </div>
                     <div class="form-row">
-                        <div class="col-sm-2">
+                        <div class="col-sm-12">
                         <input type="checkbox" value="1" name="group[379942][1]" id="mce-group[379942]-379942-0">
-                        </div>
-                        <div class="col-12 col-sm-10">
+                        
                         <label for="mce-group[379942]-379942-0">Acepto los términos y condiciones de proyectodomus.com</label>
                         </div>
                     </div>
                     <div class="clear text-center">
-                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button float-right">
                     </div>
                 </div>
             </div>
         </form>
     </div>        
 
-    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[3]='MMERGE3';ftypes[3]='phone'; /*
-        * Translated default messages for the $ validation plugin.
-        * Locale: ES
-        */
-        $.extend($.validator.messages, {
-        required: "Este campo es obligatorio.",
-        remote: "Por favor, rellena este campo.",
-        email: "Por favor, escribe una dirección de correo válida",
-        url: "Por favor, escribe una URL válida.",
-        date: "Por favor, escribe una fecha válida.",
-        dateISO: "Por favor, escribe una fecha (ISO) válida.",
-        number: "Por favor, escribe un número entero válido.",
-        digits: "Por favor, escribe sólo dígitos.",
-        creditcard: "Por favor, escribe un número de tarjeta válido.",
-        equalTo: "Por favor, escribe el mismo valor de nuevo.",
-        accept: "Por favor, escribe un valor con una extensión aceptada.",
-        maxlength: $.validator.format("Por favor, no escribas más de {0} caracteres."),
-        minlength: $.validator.format("Por favor, no escribas menos de {0} caracteres."),
-        rangelength: $.validator.format("Por favor, escribe un valor entre {0} y {1} caracteres."),
-        range: $.validator.format("Por favor, escribe un valor entre {0} y {1}."),
-        max: $.validator.format("Por favor, escribe un valor menor o igual a {0}."),
-        min: $.validator.format("Por favor, escribe un valor mayor o igual a {0}.")
-        });}(jQuery));var $mcj = jQuery.noConflict(true);
-    </script>
-        <!--End mc_embed_signup-->
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[4]='PHONE';ftypes[4]='phone'; /*
+ * Translated default messages for the $ validation plugin.
+ * Locale: ES
+ */
+$.extend($.validator.messages, {
+  required: "Este campo es obligatorio.",
+  remote: "Por favor, rellena este campo.",
+  email: "Por favor, escribe una dirección de correo válida",
+  url: "Por favor, escribe una URL válida.",
+  date: "Por favor, escribe una fecha válida.",
+  dateISO: "Por favor, escribe una fecha (ISO) válida.",
+  number: "Por favor, escribe un número entero válido.",
+  digits: "Por favor, escribe sólo dígitos.",
+  creditcard: "Por favor, escribe un número de tarjeta válido.",
+  equalTo: "Por favor, escribe el mismo valor de nuevo.",
+  accept: "Por favor, escribe un valor con una extensión aceptada.",
+  maxlength: $.validator.format("Por favor, no escribas más de {0} caracteres."),
+  minlength: $.validator.format("Por favor, no escribas menos de {0} caracteres."),
+  rangelength: $.validator.format("Por favor, escribe un valor entre {0} y {1} caracteres."),
+  range: $.validator.format("Por favor, escribe un valor entre {0} y {1}."),
+  max: $.validator.format("Por favor, escribe un valor menor o igual a {0}."),
+  min: $.validator.format("Por favor, escribe un valor mayor o igual a {0}.")
+});}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
 </section>
 
 <section id="apartments">
@@ -183,7 +181,7 @@
                 <span>CREANDO EXPERIENCIAS</span>
             </p>
         </div>
-        <div class="col-12 col-lg-5 mt-4 mt-lg-0 gallery">
+        <div class="col-12 col-lg-7 mt-4 mt-lg-0 gallery">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">

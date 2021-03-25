@@ -510,13 +510,14 @@ p.text-type-01 {
   text-align: justify;
 }
 p.text-type-02 {
-  font-size: map-get($SizeFontsPX, Font14);
+  font-size: map-get($SizeFontsPX, Font18);
   font-weight: map-get($FontWeights, w400);
   font-family: $FuenteSerif;
-  line-height: map-get($SizeFontsPX, Font16);
+  line-height: map-get($SizeFontsPX, Font18);
   span {
     font-weight: map-get($FontWeights, w700);
   }
+  text-align: right!important;
 }
 
 /*---------------------------------------------END OF TYPE STYLES------------------------------------------------------*/
@@ -926,9 +927,17 @@ body.home-web {
   }
   h4.title-type-02 {
     font-size: map-get($SizeFontsPX, Font42);
-    font-weight: map-get($FontWeights, w700);
+    font-weight: map-get($FontWeights, w900);
     color: map-get($ColorsHexa, PrimaryWhite);
     text-align: left;
+  }
+  h5.title-type-02 {
+    font-size: map-get($SizeFontsPX, Font28);
+    font-weight: map-get($FontWeights, w700);
+    color: map-get($ColorsHexa, SecundaryGray);
+    text-align: right;
+    letter-spacing: -1px;
+    line-height: map-get($SizeFontsPX, Font28);;
   }
   h4.title-type-01 {
     font-size: map-get($SizeFontsPX, Font42);
@@ -954,6 +963,15 @@ body.home-web {
         background: rgba(255, 255, 255, 0.9);
         padding: 50px;
         right: 75px;
+        input[type='text'], input[type='email'], input[type='number']{
+          width: 100%;
+        }
+
+        input[type='submit']{
+          background-color: map-get($ColorsHexa, PrimaryGray);
+          color: map-get($ColorsHexa, PrimaryWhite);
+          padding-left: 30px;
+        }
       }
     }
   }
