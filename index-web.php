@@ -107,18 +107,18 @@
                     </div>
                     <div class="form-row pt-1 pb-0 pb-xl-1">
                         <div class="col-12 col-xl-6">
-                        <input type="text" value="" name="FNAME" class="required" id="mce-FNAME" placeholder="Nombre">    
+                        <input type="text" value="" name="FNAME" class="required w-100" id="mce-FNAME" placeholder="Nombre">    
                         </div>
                         <div class="col-12 col-xl-6">
-                        	<input type="text" value="" name="LNAME" class="required" id="mce-LNAME" placeholder="Apellido">
+                        	<input type="text" value="" name="LNAME" class="required w-100" id="mce-LNAME" placeholder="Apellido">
                         </div>
                     </div>
                     <div class="form-row pt-0 pb-1 pt-xl-1">
                         <div class="col-12 col-xl-6">
-                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"  placeholder="Email">
+                            <input type="email" value="" name="EMAIL" class="required email w-100" id="mce-EMAIL"  placeholder="Email">
                         </div>
                         <div class="col-12 col-xl-6">
-                        	<input type="text" name="PHONE" class="required" value="" id="mce-PHONE"  placeholder="Teléfono">
+                        	<input type="text" name="PHONE" class="required w-100" value="" id="mce-PHONE"  placeholder="Teléfono">
                         </div>
                     </div>
                     <div id="mce-responses" class="clear">

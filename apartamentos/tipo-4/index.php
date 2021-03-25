@@ -1,5 +1,5 @@
 <script> $section = 'apartment-detail'; </script>
-<?php include '../../includes/header.php'; ?>
+<?php include '../../includes-web/header.php'; ?>
 <script>
     var $base_url = '<?php echo $base_url;?>';
 </script>

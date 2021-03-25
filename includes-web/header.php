@@ -1,8 +1,8 @@
 <?php
     //$base_url="http://www.dynamikcollective.com/clients/hoyosluque/webapp/";
     //$base_url="http://www.proyectodomus.com/sanpatricio";
-    $base_url="http://localhost:8888/clients/hoyosluque/repo-webapp/DomusSanPatricio"; 
-    //$base_url="http://localhost/DomusSanPatricio/"; 
+    //$base_url="http://localhost:8888/clients/hoyosluque/repo-webapp/DomusSanPatricio"; 
+    $base_url="http://localhost/DomusSanPatricio/"; 
 ?>
 <head>
     <title>DOMUS | San Patricio</title>
@@ -25,40 +25,41 @@
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </head>
 
-<body id="main-content" class="<?php echo $section?>">
+<body id="main-content" class="<?php echo $section?> new-nav-bar">
     <header class="">
         <div class="row no-gutters">
             <nav class="navbar navbar-expand-md w-100 p-0 pr-3">
                 <!-- Brand -->
-                <a class="navbar-brand" href="<?php echo $base_url ?>">
-                    <img src="<?php echo $base_url ?>/assets/logo.svg">
+                <a class="navbar-brand mt-1 mb-1" href="<?php echo $base_url ?>">
+                    <img class="w-md-50 w-lg-75" src="<?php echo $base_url ?>/assets/logo.svg">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon">
-                        <img src="assets/menu-open.png">
+                        <img src="<?php echo $base_url ?>/assets/menu-open.png">
                     </span>
                 </button>
                 <!-- Links -->
-                <div class="collapse navbar-collapse pl-3 pb-2 pt-0" id="collapsibleNavbar">
+                <div class="collapse navbar-collapse pl-3 pb-2 pt-0 pt-md-2" id="collapsibleNavbar">
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            <a class="nav-link dropdown-toggle" href="<?php echo $base_url ?>/apartamentos/index.php" id="navbardrop" data-toggle="dropdown">
                                 Apartamentos
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Link 1</a>
-                                <a class="dropdown-item" href="#">Link 2</a>
-                                <a class="dropdown-item" href="#">Link 3</a>
+                                <a class="dropdown-item" href="<?php echo $base_url ?>/apartamentos/tipo-1/index.php">Apartamento tipo 1</a>
+                                <a class="dropdown-item" href="<?php echo $base_url ?>/apartamentos/tipo-2/index.php">Apartamento tipo 2</a>
+                                <a class="dropdown-item" href="<?php echo $base_url ?>/apartamentos/tipo-3/index.php">Apartamento tipo 3</a>
+                                <a class="dropdown-item" href="<?php echo $base_url ?>/apartamentos/tipo-4/index.php">Apartamento tipo 4</a>
+                                <a class="dropdown-item" href="<?php echo $base_url ?>/apartamentos/tipo-5/index.php">Apartamento tipo 5</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            <a class="nav-link dropdown-toggle" href="<?php echo $base_url ?>/amenities/index.php" id="navbardrop" data-toggle="dropdown">
                                 Amenities
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Link 1</a>
-                                <a class="dropdown-item" href="#">Link 2</a>
-                                <a class="dropdown-item" href="#">Link 3</a>
+                                <a class="dropdown-item" href="<?php echo $base_url ?>/amenities/areas-comunes/index.php">Áreas comúnes</a>
+                                <a class="dropdown-item" href="<?php echo $base_url ?>/amenities/roof-top/index.php">Roof top</a>
                             </div>
                         </li>
                     </ul>

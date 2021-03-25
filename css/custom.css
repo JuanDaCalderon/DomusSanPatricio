@@ -633,7 +633,7 @@ button:focus {
   outline: none;
 }
 
-body.home-web header {
+body.new-nav-bar header {
   background: rgba(39, 35, 45, 0.9);
   position: absolute;
   top: 0;
@@ -641,25 +641,25 @@ body.home-web header {
   z-index: 9999;
 }
 
-body.home-web header a.navbar-brand {
+body.new-nav-bar header a.navbar-brand {
   margin: 12px;
   max-width: 192px;
   display: block;
 }
 
-body.home-web header a.navbar-brand img {
-  width: 100%;
+body.new-nav-bar header a.navbar-brand img {
+  width: 50%;
 }
 
-body.home-web header ul.navbar-nav {
+body.new-nav-bar header ul.navbar-nav {
   text-transform: uppercase;
 }
 
-body.home-web header ul.navbar-nav a {
+body.new-nav-bar header ul.navbar-nav a {
   color: #fff;
 }
 
-body.home-web header ul.navbar-nav div.dropdown-menu {
+body.new-nav-bar header ul.navbar-nav div.dropdown-menu {
   background: rgba(39, 35, 45, 0.9);
   text-transform: capitalize;
   border-radius: 0;
@@ -668,37 +668,37 @@ body.home-web header ul.navbar-nav div.dropdown-menu {
   padding: 10px 15px;
 }
 
-body.home-web header ul.navbar-nav div.dropdown-menu a.dropdown-item {
+body.new-nav-bar header ul.navbar-nav div.dropdown-menu a.dropdown-item {
   border-bottom: solid 1px rgba(255, 255, 255, 0.15);
   font-family: "Cormorant Garamond", serif;
   padding: 5px 10px;
 }
 
-body.home-web header ul.navbar-nav div.dropdown-menu :hover {
+body.new-nav-bar header ul.navbar-nav div.dropdown-menu :hover {
   color: #fff;
   background: #00000052;
 }
 
-body.home-web header ul.navbar-nav div.dropdown-menu .navbar-toggler-icon:focus {
+body.new-nav-bar header ul.navbar-nav div.dropdown-menu .navbar-toggler-icon:focus {
   border: none;
   outline: none;
 }
 
-body.home-web #apartments {
+body.new-nav-bar #apartments {
   padding: 0px 0px 80px 0;
 }
 
-body.home-web #apartments .carousel {
+body.new-nav-bar #apartments .carousel {
   padding: 80px 30px 80px 0;
 }
 
-body.home-web #apartments .carousel ol.carousel-indicators {
+body.new-nav-bar #apartments .carousel ol.carousel-indicators {
   bottom: 7px;
   margin-left: 0;
   right: auto;
 }
 
-body.home-web #apartments .carousel ol.carousel-indicators li {
+body.new-nav-bar #apartments .carousel ol.carousel-indicators li {
   display: block;
   width: 8px;
   height: 8px;
@@ -708,16 +708,16 @@ body.home-web #apartments .carousel ol.carousel-indicators li {
   opacity: 1;
 }
 
-body.home-web #apartments .carousel ol.carousel-indicators li.active {
+body.new-nav-bar #apartments .carousel ol.carousel-indicators li.active {
   background-color: #34303b;
 }
 
-body.home-web #apartments .carousel .carousel-inner {
+body.new-nav-bar #apartments .carousel .carousel-inner {
   -webkit-box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
           box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
 }
 
-body.home-web #apartments .gallery:after {
+body.new-nav-bar #apartments .gallery:after {
   display: block;
   width: 256px;
   height: 100%;
@@ -731,25 +731,24 @@ body.home-web #apartments .gallery:after {
   right: 0;
 }
 
-body.home-web #amenities {
-  background: url(../assets/bg-amenities-block.jpg) no-repeat center;
+body.new-nav-bar #amenities {
+  /* background: url(../assets/bg-amenities-block.jpg) no-repeat center; */
 }
 
-body.home-web #amenities img {
-  -webkit-box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
-          box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
+body.new-nav-bar #amenities img {
+  /* box-shadow: 0 0 23px rgba(0, 0, 0, 0.4); */
 }
 
-body.home-web #amenities .inner-bg {
+body.new-nav-bar #amenities .inner-bg {
   background: url(../assets/bg-amenities-color.png) repeat-y center;
   padding: 180px 0;
 }
 
-body.home-web form#mc-embedded-subscribe-form {
+body.new-nav-bar form#mc-embedded-subscribe-form {
   margin: 0;
 }
 
-body.home-web form#mc-embedded-subscribe-form .form-container {
+body.new-nav-bar form#mc-embedded-subscribe-form .form-container {
   /*       position: absolute;
       top: 240px; */
   /*  z-index: 1000; */
@@ -761,7 +760,7 @@ body.home-web form#mc-embedded-subscribe-form .form-container {
   /* right: 100px; */
 }
 
-body.home-web form#mc-embedded-subscribe-form input {
+body.new-nav-bar form#mc-embedded-subscribe-form input {
   background-color: rgba(50, 70, 82, 0.1);
   border: none;
   border-radius: 0;
@@ -769,22 +768,36 @@ body.home-web form#mc-embedded-subscribe-form input {
   color: #34303b;
 }
 
-body.home-web form#mc-embedded-subscribe-form label {
+body.new-nav-bar form#mc-embedded-subscribe-form label {
   font-family: "Cormorant Garamond", serif;
   font-size: 14px !important;
   color: #34303b;
 }
 
-body.home-web form#mc-embedded-subscribe-form input[type="checkbox"] {
+body.new-nav-bar form#mc-embedded-subscribe-form input[type="checkbox"] {
   position: relative;
   top: 4px;
   margin-right: 4px;
   margin-left: 6px;
 }
 
-body.home-web .text-container {
+body.new-nav-bar .text-container {
   width: 100%;
   text-align: right;
+}
+
+body.new-nav-bar.home-web #amenities {
+  background: url(../assets/bg-amenities-block.jpg) no-repeat center;
+}
+
+body.new-nav-bar.home-web #amenities img {
+  -webkit-box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
+}
+
+body.new-nav-bar.home-web #amenities .inner-bg {
+  background: url(../assets/bg-amenities-color.png) repeat-y center;
+  padding: 180px 0;
 }
 
 /*------------------------------------------END OF NEW HOME STYLES-----------------------------------------*/
@@ -796,7 +809,7 @@ body.home-web .text-container {
   .carousel-inner h5 abbr {
     font-size: 30px !important;
   }
-  body.home-web #apartments .gallery:after {
+  body.new-nav-bar #apartments .gallery:after {
     height: 496px;
   }
 }
@@ -893,30 +906,22 @@ body.home-web .text-container {
   }
   h4.title-type-02 {
     font-size: 42px;
-    font-weight: 900;
+    font-weight: 700;
     color: #fff;
     text-align: left;
-  }
-  h5.title-type-02 {
-    font-size: 28px;
-    font-weight: 700;
-    color: #3b4756;
-    text-align: right;
-    letter-spacing: -1px;
-    line-height: 28px;
   }
   h4.title-type-01 {
     font-size: 42px;
     font-weight: 700;
     text-align: left;
   }
-  body.home-web #apartments {
+  body.new-nav-bar #apartments {
     padding: 80px 0px 80px 0;
   }
   .carousel-indicators {
     margin-left: 0%;
   }
-  body.home-web form#mc-embedded-subscribe-form .form-container {
+  body.new-nav-bar form#mc-embedded-subscribe-form .form-container {
     max-width: 41.666667%;
     position: absolute;
     top: 200px;
@@ -926,17 +931,12 @@ body.home-web .text-container {
     padding: 50px;
     right: 75px;
   }
-  body.home-web form#mc-embedded-subscribe-form .form-container input[type='text'], body.home-web form#mc-embedded-subscribe-form .form-container input[type='email'], body.home-web form#mc-embedded-subscribe-form .form-container input[type='number'] {
-    width: 100%;
-  }
-  body.home-web form#mc-embedded-subscribe-form .form-container input[type='submit'] {
-    background-color: rgba(39, 35, 45, 0.9);
-    color: #fff;
-    padding-left: 30px;
-  }
-  body.home-web .text-container {
+  body.new-nav-bar .text-container {
     width: 50%;
     text-align: left;
+  }
+  body.new-nav-bar header a.navbar-brand img {
+    width: 65%;
   }
 }
 
@@ -948,7 +948,7 @@ body.home-web .text-container {
   .carousel-indicators {
     margin-left: 15%;
   }
-  body.home-web form#mc-embedded-subscribe-form .form-container {
+  body.new-nav-bar form#mc-embedded-subscribe-form .form-container {
     max-width: 33.333333%;
     top: 260px;
     right: 200px;

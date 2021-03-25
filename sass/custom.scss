@@ -517,7 +517,7 @@ p.text-type-02 {
   span {
     font-weight: map-get($FontWeights, w700);
   }
-  text-align: right!important;
+  text-align: right !important;
 }
 
 /*---------------------------------------------END OF TYPE STYLES------------------------------------------------------*/
@@ -663,7 +663,8 @@ div.bg-greyLight {
 button:focus {
   outline: none;
 }
-body.home-web {
+
+body.new-nav-bar {
   header {
     background: map-get($ColorsHexa, PrimaryGray);
     position: absolute;
@@ -675,7 +676,7 @@ body.home-web {
       max-width: 192px;
       display: block;
       img {
-        width: 100%;
+        width: 50%;
       }
     }
     ul.navbar-nav {
@@ -745,9 +746,9 @@ body.home-web {
     }
   }
   #amenities {
-    background: url(../assets/bg-amenities-block.jpg) no-repeat center;
+    /* background: url(../assets/bg-amenities-block.jpg) no-repeat center; */
     img {
-      box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
+      /* box-shadow: 0 0 23px rgba(0, 0, 0, 0.4); */
     }
     .inner-bg {
       background: url(../assets/bg-amenities-color.png) repeat-y center;
@@ -790,6 +791,18 @@ body.home-web {
     text-align: right;
   }
 }
+body.new-nav-bar.home-web {
+  #amenities {
+    background: url(../assets/bg-amenities-block.jpg) no-repeat center;
+    img {
+      box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
+    }
+    .inner-bg {
+      background: url(../assets/bg-amenities-color.png) repeat-y center;
+      padding: 180px 0;
+    }
+  }
+}
 
 /*------------------------------------------END OF NEW HOME STYLES-----------------------------------------*/
 
@@ -806,7 +819,7 @@ body.home-web {
       }
     }
   }
-  body.home-web {
+  body.new-nav-bar {
     #apartments {
       .gallery:after {
         height: 496px;
@@ -927,24 +940,16 @@ body.home-web {
   }
   h4.title-type-02 {
     font-size: map-get($SizeFontsPX, Font42);
-    font-weight: map-get($FontWeights, w900);
+    font-weight: map-get($FontWeights, w700);
     color: map-get($ColorsHexa, PrimaryWhite);
     text-align: left;
-  }
-  h5.title-type-02 {
-    font-size: map-get($SizeFontsPX, Font28);
-    font-weight: map-get($FontWeights, w700);
-    color: map-get($ColorsHexa, SecundaryGray);
-    text-align: right;
-    letter-spacing: -1px;
-    line-height: map-get($SizeFontsPX, Font28);;
   }
   h4.title-type-01 {
     font-size: map-get($SizeFontsPX, Font42);
     font-weight: map-get($FontWeights, w700);
     text-align: left;
   }
-  body.home-web {
+  body.new-nav-bar {
     #apartments {
       padding: 80px 0px 80px 0;
     }
@@ -952,7 +957,7 @@ body.home-web {
   .carousel-indicators {
     margin-left: 0%;
   }
-  body.home-web {
+  body.new-nav-bar {
     form#mc-embedded-subscribe-form {
       .form-container {
         max-width: 41.666667%;
@@ -963,22 +968,20 @@ body.home-web {
         background: rgba(255, 255, 255, 0.9);
         padding: 50px;
         right: 75px;
-        input[type='text'], input[type='email'], input[type='number']{
-          width: 100%;
-        }
-
-        input[type='submit']{
-          background-color: map-get($ColorsHexa, PrimaryGray);
-          color: map-get($ColorsHexa, PrimaryWhite);
-          padding-left: 30px;
-        }
       }
     }
   }
-  body.home-web {
+  body.new-nav-bar {
     .text-container {
       width: 50%;
       text-align: left;
+    }
+    header {
+      a.navbar-brand {
+        img {
+          width: 65%;
+        }
+      }
     }
   }
 }
@@ -995,7 +998,7 @@ body.home-web {
   .carousel-indicators {
     margin-left: 15%;
   }
-  body.home-web {
+  body.new-nav-bar {
     form#mc-embedded-subscribe-form {
       .form-container {
         max-width: 33.333333%;
