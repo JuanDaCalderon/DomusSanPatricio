@@ -51,19 +51,19 @@
   <div class="">
     <div class="col-sm-12 inner-block">
     <div class="row">
-        <div class="col-sm-12 col-xl-3 text-sm-justify">
+    <div class="col-sm-12 col-xl-4 text-sm-justify">
           <h4 class="text-sm-center text-xl-left">Acerca <br>de este <br>apartamento</h4>
         </div>
-        <div class="col-12 col-sm-6 col-lg-3 col-xl-2">
+        <div class="col-12 col-sm-12 col-lg-5 col-xl-3">
           <p>
-            <small>Área construida</small>37.02mts<sup>2</sup>
+            <small>Área construida</small>44.68mts<sup>2</sup>
           </p>
         </div>
-        <div class="col-12 col-sm-6 col-lg-3 col-xl-2">
+<!--         <div class="col-12 col-sm-6 col-lg-3 col-xl-2">
           <p>
             <small>Área privada</small>120mts<sup>2</sup>
           </p>
-        </div>
+        </div> -->
         <div class="col">
           <p>
             <small>Precio</small>$369'952.000<sup>cop</sup>
