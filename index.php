@@ -226,7 +226,7 @@ $.extend($.validator.messages, {
                     <div class="row pt-4 mt-5">
                         <div class="col-sm-6 mb-4 mb-sm-0 gallery-access">
                             <a class="imgPopUp" data-toggle="modal" data-target="#popUpGallery">
-                                <img class="img-fluid" src="assets/stills/tipo1/comply1.jpg" data-color="lightblue" alt="First Image">
+                                <img class="img-fluid" src="assets/stills/tipo1/Comply1.jpg" data-color="lightblue" alt="First Image">
                             </a>
                             <button type="button" class="gallery-access-button btn-home open" data-toggle="modal" data-target="#popUpGallery">
                                 <i class="bi bi-arrows-angle-expand"></i>
@@ -234,7 +234,7 @@ $.extend($.validator.messages, {
                         </div>
                         <div class="col-sm-6 gallery-access">
                             <a class="imgPopUp" data-toggle="modal" data-target="#popUpGallery">
-                                <img class="img-fluid" src="assets/stills/tipo2/comply1.jpg" data-color="lightblue" alt="First Image">
+                                <img class="img-fluid" src="assets/stills/tipo2/Comply1.jpg" data-color="lightblue" alt="First Image">
                             </a>
                             <button type="button" class="gallery-access-button btn-home open" data-toggle="modal" data-target="#popUpGallery">
                                 <i class="bi bi-arrows-angle-expand"></i>
@@ -246,7 +246,7 @@ $.extend($.validator.messages, {
                     <div class="row">
                         <div class="col-sm-6 mb-4 mb-sm-0">
                             <a class="imgPopUp" data-toggle="modal" data-target="#popUpGallery">
-                                <img class="img-fluid" src="assets/stills/tipo3/comply1.jpg" data-color="lightblue" alt="First Image">
+                                <img class="img-fluid" src="assets/stills/tipo3/Comply1.jpg" data-color="lightblue" alt="First Image">
                             </a>
                             <button type="button" class="gallery-access-button btn-home open" data-toggle="modal" data-target="#popUpGallery">
                                 <i class="bi bi-arrows-angle-expand"></i>
@@ -254,7 +254,7 @@ $.extend($.validator.messages, {
                         </div>
                         <div class="col-sm-6">
                             <a class="imgPopUp" data-toggle="modal" data-target="#popUpGallery">
-                                <img class="img-fluid" src="assets/stills/tipo4/comply1.jpg" data-color="lightblue" alt="First Image">
+                                <img class="img-fluid" src="assets/stills/tipo4/Comply1.jpg" data-color="lightblue" alt="First Image">
                             </a>
                             <button type="button" class="gallery-access-button btn-home open" data-toggle="modal" data-target="#popUpGallery">
                                 <i class="bi bi-arrows-angle-expand"></i>
@@ -263,7 +263,7 @@ $.extend($.validator.messages, {
                     </div>
                     <div class="col-sm-12 pt-4 pl-0 pr-0">
                         <a class="imgPopUp" data-toggle="modal" data-target="#popUpGallery">
-                            <img class="img-fluid" src="assets/stills/tipo2/comply2.jpg" data-color="lightblue" alt="First Image">
+                            <img class="img-fluid" src="assets/stills/tipo2/Comply2.jpg" data-color="lightblue" alt="First Image">
                         </a>
                         <button type="button" class="gallery-access-button btn-home open" data-toggle="modal" data-target="#popUpGallery">
                             <i class="bi bi-arrows-angle-expand"></i>
