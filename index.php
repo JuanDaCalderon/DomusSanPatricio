@@ -100,7 +100,7 @@
                 <div class="col-12">
                     <div class="form-row">
                         <div class="col">
-                            <h5 class="title-type-02">
+                            <h5 class="title-type-02 text-right h4 font-weight-bold">
                                 Déjanos tus datos<br>y muy pronto un asesor<br>se comunicará contigo
                             </h5>
                             <p class="text-justify text-type-02">

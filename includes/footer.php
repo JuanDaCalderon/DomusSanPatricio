@@ -5,7 +5,8 @@
             </a>
         </p>
         <p class="float-right">
-            <span>DOMUS</span> SAN PATRICIO | CALLE 104 # 17 - 32 | Imagenes de referencia. El diseño puede cambiar.
+            <a class="floor-plans-access-button open" href="<?php echo $base_url ?>politicas">TÉRMINOS Y POLITICAS </a>
+            <span>| DOMUS</span> SAN PATRICIO | CALLE 104 # 17 - 32 | Imagenes de referencia. El diseño puede cambiar.
         </p>
 
         

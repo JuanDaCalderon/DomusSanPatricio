@@ -294,6 +294,12 @@ header a.open-nav {
 
 /*----------------------------------------FOOTER STYLES-------------------------------------------------*/
 footer {
+  p.ter {
+    a:hover {
+      color: #a99d8a !important;
+      text-decoration: none !important;
+    }
+  }
   display: inline-block;
   position: relative;
   bottom: 0;
@@ -747,9 +753,9 @@ body.new-nav-bar {
   }
   #amenities {
     /* background: url(../assets/bg-amenities-block.jpg) no-repeat center; */
-    img {
-      /* box-shadow: 0 0 23px rgba(0, 0, 0, 0.4); */
-    }
+    /*     img { */
+    /* box-shadow: 0 0 23px rgba(0, 0, 0, 0.4); */
+    /*     } */
     .inner-bg {
       background: url(../assets/bg-amenities-color.png) repeat-y center;
       padding: 180px 0;

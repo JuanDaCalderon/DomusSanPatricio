@@ -223,6 +223,11 @@ footer {
   z-index: 1100;
 }
 
+footer p.ter a:hover {
+  color: #a99d8a !important;
+  text-decoration: none !important;
+}
+
 footer p,
 footer a {
   color: #fff;
@@ -733,10 +738,9 @@ body.new-nav-bar #apartments .gallery:after {
 
 body.new-nav-bar #amenities {
   /* background: url(../assets/bg-amenities-block.jpg) no-repeat center; */
-}
-
-body.new-nav-bar #amenities img {
+  /*     img { */
   /* box-shadow: 0 0 23px rgba(0, 0, 0, 0.4); */
+  /*     } */
 }
 
 body.new-nav-bar #amenities .inner-bg {
