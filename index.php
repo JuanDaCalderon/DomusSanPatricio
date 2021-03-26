@@ -1,4 +1,6 @@
-<script> $section = 'home-web'; </script>
+<script> 
+    $section = 'home-web';
+</script>
 
 <?php 
     require_once 'includes-web/header.php';

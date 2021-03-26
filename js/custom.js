@@ -21,8 +21,8 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-        $("#main-content").addClass($section)
-        });
+        $("#main-content").addClass($section)});
+        document.title = $sectionTitle;
 
 // GALLERY
 // SCROLL SPY FOR MORE-INFO

@@ -1,4 +1,7 @@
-<script> $section = 'apartment-detail'; </script>
+<script>
+  $section = 'amenities-detail'; 
+  $sectionTitle= 'DOMUS | San patricio - Áreas comúnes - Disfrútalas';
+</script>
 <?php include '../../includes-web/header.php'; ?>
 <script>
     var $base_url = '<?php echo $base_url;?>';

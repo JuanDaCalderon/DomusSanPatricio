@@ -1,7 +1,7 @@
 <?php
     //$base_url="http://www.dynamikcollective.com/clients/hoyosluque/webapp/";
-    $base_url="http://www.proyectodomus.com/sanpatricio";
-    //$base_url="http://localhost:8888/clients/hoyosluque/repo-webapp/DomusSanPatricio"; 
+    //$base_url="http://www.proyectodomus.com/sanpatricio";
+    $base_url="http://localhost:8888/clients/hoyosluque/repo-webapp/DomusSanPatricio"; 
     //$base_url="http://localhost/DomusSanPatricio/"; 
 ?>
 <head>
@@ -12,7 +12,7 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-K5LBF9S');</script>
     <!-- End Google Tag Manager -->
-    <title>DOMUS | San Patricio - <?php echo $section?></title>
+    <title>DOMUS | San Patricio </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -33,7 +33,7 @@
     <link  rel="icon"   href="<?php echo $base_url?>/assets/logo.svg" type="image/png" />
 </head>
 
-<body id="main-content" class="<?php echo $section?> new-nav-bar">
+<body id="main-content" class="new-nav-bar">
     <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K5LBF9S"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
