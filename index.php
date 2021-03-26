@@ -1,5 +1,6 @@
 <script> 
-    $section = 'home-web';
+    $section = 'home-web';  
+    $sectionTitle= 'DOMUS | San patricio - Bienvenido a tu nuevo hogar'; 
 </script>
 
 <?php 

@@ -1,4 +1,7 @@
-<script> $section = 'apartments-list'; </script>
+<script>
+  $section = 'apartments-list';
+  $sectionTitle= 'DOMUS | San patricio - Tenemos todas las comodidades para ti - Tu nuevo hogar';
+</script>
 <?php include '../includes-web/header.php'; ?>
 <script>
     var $base_url = '<?php echo $base_url;?>';
