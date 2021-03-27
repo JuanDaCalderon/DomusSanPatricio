@@ -30,7 +30,7 @@
     <script src="<?php echo $base_url ?>/js/jquery.mobile.custom.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    <link  rel="icon"   href="<?php echo $base_url?>assets/favicon.jpg" type="image/png" />
+    <link  rel="icon"   href="<?php echo $base_url?>/assets/favicon.jpg" type="image/png" />
 </head>
 
 <body id="main-content" class="new-nav-bar">
