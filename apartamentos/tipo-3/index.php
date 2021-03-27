@@ -59,7 +59,7 @@
         </div>
         <div class="col-12 col-sm-12 col-lg-5 col-xl-3">
           <p>
-            <small>Área construida</small>44.68mts<sup>2</sup>
+            <small>Área construida</small>90.12mts<sup>2</sup>
           </p>
         </div>
 <!--         <div class="col-12 col-sm-6 col-lg-3 col-xl-2">

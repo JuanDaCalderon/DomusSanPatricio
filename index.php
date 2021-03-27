@@ -33,7 +33,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="assets/carousel/home/05.jpg" data-color="lightblue" alt="First Image">
+                <img class="d-block w-100" src="assets/carousel/home/Lobby.jpg" data-color="lightblue" alt="First Image">
                 <div class="carousel-caption d-md-block">
                     <div class="text-container">
                         <h5>
@@ -45,7 +45,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="assets/carousel/home/04.jpg" data-color="lightblue" alt="First Image">
+                <img class="d-block w-100" src="assets/carousel/home/Conference.jpg" data-color="lightblue" alt="First Image">
                 <div class="carousel-caption d-md-block">
                     <div class="text-container">
                         <h5>
@@ -57,7 +57,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="assets/carousel/home/04.jpg" data-color="lightblue" alt="First Image">
+                <img class="d-block w-100" src="assets/carousel/home/Teatrino.jpg" data-color="lightblue" alt="First Image">
                 <div class="carousel-caption d-md-block">
                     <div class="text-container">
                         <h5>
@@ -69,7 +69,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="assets/carousel/home/05.jpg" data-color="lightblue" alt="First Image">
+                <img class="d-block w-100" src="assets/carousel/home/Gym.jpg" data-color="lightblue" alt="First Image">
                 <div class="carousel-caption d-md-block">
                     <div class="text-container">
                         <h5>
@@ -200,16 +200,16 @@ $.extend($.validator.messages, {
                         <img class="d-block w-100" src="assets/carousel/home/07.jpg" data-color="lightblue" alt="First Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="assets/carousel/home/05.jpg" data-color="lightblue" alt="First Image">
+                        <img class="d-block w-100" src="assets/carousel/home/Conference.jpg" data-color="lightblue" alt="First Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="assets/carousel/home/04.jpg" data-color="lightblue" alt="First Image">
+                        <img class="d-block w-100" src="assets/carousel/home/Lobby.jpg" data-color="lightblue" alt="First Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="assets/carousel/home/04.jpg" data-color="lightblue" alt="First Image">
+                        <img class="d-block w-100" src="assets/carousel/home/07.jpg" data-color="lightblue" alt="First Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="assets/carousel/home/05.jpg" data-color="lightblue" alt="First Image">
+                        <img class="d-block w-100" src="assets/carousel/home/Co-working.jpg" data-color="lightblue" alt="First Image">
                     </div>
                 </div>
             </div>
@@ -229,7 +229,7 @@ $.extend($.validator.messages, {
                     <div class="row pt-4 mt-5">
                         <div class="col-sm-6 mb-4 mb-sm-0 gallery-access">
                             <a class="imgPopUp" data-toggle="modal" data-target="#popUpGallery">
-                                <img class="img-fluid" src="assets/stills/tipo1/Comply1.jpg" data-color="lightblue" alt="First Image">
+                                <img class="0 img-fluid" src="assets/stills/tipo1/Comply1.jpg" data-color="lightblue" alt="First Image">
                             </a>
                             <button type="button" class="gallery-access-button btn-home open" data-toggle="modal" data-target="#popUpGallery">
                                 <i class="bi bi-arrows-angle-expand"></i>
@@ -237,7 +237,7 @@ $.extend($.validator.messages, {
                         </div>
                         <div class="col-sm-6 gallery-access">
                             <a class="imgPopUp" data-toggle="modal" data-target="#popUpGallery">
-                                <img class="img-fluid" src="assets/stills/tipo2/Comply1.jpg" data-color="lightblue" alt="First Image">
+                                <img class="2 img-fluid" src="assets/stills/tipo2/Comply1.jpg" data-color="lightblue" alt="First Image">
                             </a>
                             <button type="button" class="gallery-access-button btn-home open" data-toggle="modal" data-target="#popUpGallery">
                                 <i class="bi bi-arrows-angle-expand"></i>
@@ -249,7 +249,7 @@ $.extend($.validator.messages, {
                     <div class="row">
                         <div class="col-sm-6 mb-4 mb-sm-0">
                             <a class="imgPopUp" data-toggle="modal" data-target="#popUpGallery">
-                                <img class="img-fluid" src="assets/stills/tipo3/Comply1.jpg" data-color="lightblue" alt="First Image">
+                                <img class="5 img-fluid" src="assets/stills/tipo3/Comply1.jpg" data-color="lightblue" alt="First Image">
                             </a>
                             <button type="button" class="gallery-access-button btn-home open" data-toggle="modal" data-target="#popUpGallery">
                                 <i class="bi bi-arrows-angle-expand"></i>
@@ -257,7 +257,7 @@ $.extend($.validator.messages, {
                         </div>
                         <div class="col-sm-6">
                             <a class="imgPopUp" data-toggle="modal" data-target="#popUpGallery">
-                                <img class="img-fluid" src="assets/stills/tipo4/Comply1.jpg" data-color="lightblue" alt="First Image">
+                                <img class="9 img-fluid" src="assets/stills/tipo4/Comply1.jpg" data-color="lightblue" alt="First Image">
                             </a>
                             <button type="button" class="gallery-access-button btn-home open" data-toggle="modal" data-target="#popUpGallery">
                                 <i class="bi bi-arrows-angle-expand"></i>
@@ -266,7 +266,7 @@ $.extend($.validator.messages, {
                     </div>
                     <div class="col-sm-12 pt-4 pl-0 pr-0">
                         <a class="imgPopUp" data-toggle="modal" data-target="#popUpGallery">
-                            <img class="img-fluid" src="assets/stills/tipo2/Comply2.jpg" data-color="lightblue" alt="First Image">
+                            <img class="3 img-fluid" src="assets/stills/tipo2/Comply2.jpg" data-color="lightblue" alt="First Image">
                         </a>
                         <button type="button" class="gallery-access-button btn-home open" data-toggle="modal" data-target="#popUpGallery">
                             <i class="bi bi-arrows-angle-expand"></i>
@@ -279,7 +279,7 @@ $.extend($.validator.messages, {
     </div>
 </section>
 
-<section>
+<section id="gallerypopup">
     <!-- Modal Gallery -->
     <div class="modal fade" id="popUpGallery" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
@@ -438,13 +438,38 @@ $.extend($.validator.messages, {
     pause: "false"
     });
 
+/*     $('#gallerypopup .carousel').carousel({
+    interval: 3000,
+    pause: "false"
+    }); */
+
 </script>
 
 <script>
+    var $item = $('#gallery .carousel-item');
+    var $wHeight = $(window).height();
 
-  var $item = $('#gallery .carousel-item');
-  var $wHeight = $(window).height();
-  $item.eq(0).addClass('active');
+    $(".0").click(function(){
+        $item.removeClass('active');
+        $item.eq(0).addClass('active');
+        
+	});
+    $(".2").click(function(){
+        $item.removeClass('active');
+        $item.eq(2).addClass('active');
+	});
+    $(".5").click(function(){
+        $item.removeClass('active');
+        $item.eq(5).addClass('active');
+	});
+    $(".9").click(function(){
+        $item.removeClass('active');
+        $item.eq(9).addClass('active');
+	});
+    $(".3").click(function(){
+        $item.removeClass('active');
+        $item.eq(3).addClass('active');
+	});
 
 </script>
 
