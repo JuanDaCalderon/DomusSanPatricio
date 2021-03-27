@@ -422,7 +422,9 @@ $.extend($.validator.messages, {
     var $color = $(this).attr('data-color');
     $(this).parent().css({
         'background-image' : 'url(' + $src + ')',
-        'background-color' : $color
+        'background-color' : $color,
+        'background-size' : 'cover',
+        'background-position-x' : 'center'
     });
     $(this).remove();
     });
@@ -438,10 +440,10 @@ $.extend($.validator.messages, {
     pause: "false"
     });
 
-/*     $('#gallerypopup .carousel').carousel({
-    interval: 3000,
+    $('#gallerypopup .carousel').carousel({
+    interval: 4000,
     pause: "false"
-    }); */
+    });
 
 </script>
 
