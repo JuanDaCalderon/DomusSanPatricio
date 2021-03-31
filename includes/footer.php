@@ -1,9 +1,9 @@
 <footer>
-        <p class="float-left">
+        <!--<p class="float-left">
             <a href="#" class="floor-plans-access-button open" data-toggle="modal" data-target="#popUpVisitReg">
                 REGISTRA TU VISITA
             </a>
-        </p>
+        </p>-->
         <p class="float-right">
             <a class="floor-plans-access-button open" href="<?php echo $base_url ?>politicas">TÉRMINOS Y POLITICAS </a>
             <span>| DOMUS</span> SAN PATRICIO | CALLE 104 # 17 - 32 | Imagenes de referencia. El diseño puede cambiar.
