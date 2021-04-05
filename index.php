@@ -134,9 +134,7 @@
                     </div>
                     <div class="form-row">
                         <div class="col-sm-12">
-                        <input type="checkbox" value="1" name="group[379942][1]" id="mce-group[379942]-379942-0">
-                        
-                        <label for="mce-group[379942]-379942-0">Acepto los términos y condiciones de proyectodomus.com</label>
+                        <input type="radio" value="Acepto términos y condiciones" name="MMERGE6" id="mce-MMERGE6-0"><label for="mce-MMERGE6-0">Acepto términos y condiciones</label>
                         </div>
                     </div>
                     <div class="clear text-center">
