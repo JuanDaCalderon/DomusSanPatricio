@@ -53,7 +53,7 @@
           <p>Baño compartido para las alcobas auxiliares.</p>
         </li>
         <li>
-          <p>Escalera de acceso a la cubierta común de uso exclusivo de 82.66 mts</p>
+          <p>Escalera de acceso a la cubierta común de uso exclusivo de 82.66 mts<sup>2</sup></p>
         </li>
       </ul>
     </div>
@@ -72,7 +72,7 @@
     <div class="col-sm-12 col-xl-4 text-sm-justify">
           <h4 class="text-sm-center text-xl-left">Acerca <br>de este <br>apartamento</h4>
         </div>
-        <div class="col-12 col-sm-12 col-lg-5 col-xl-3">
+        <div class="col-12 col-sm-12 col-lg-8 col-xl-6">
           <p>
             <small>Área construida</small>121.84mts<sup>2</sup>
           </p>
@@ -82,11 +82,11 @@
             <small>Área privada</small>120mts<sup>2</sup>
           </p>
         </div> -->
-        <div class="col">
+<!--         <div class="col">
           <p>
             <small>Precio</small>-<sup>cop</sup>
           </p>
-        </div>
+        </div> -->
         <div class="col">
           <p>      
             <a href="#" class="floor-plans-access-button open" data-toggle="modal" data-target="#popUpFloorPlans">
