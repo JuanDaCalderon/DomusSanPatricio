@@ -446,14 +446,12 @@ h4 {
 h4.title-type-01 {
   font-size: 40px;
   font-weight: 700;
-  text-align: center;
 }
 
 h4.title-type-02 {
   font-size: 30px;
   font-weight: 700;
   color: #fff;
-  text-align: center;
 }
 
 p.text-type-01 {
@@ -734,13 +732,6 @@ body.new-nav-bar #apartments .gallery:after {
   position: absolute;
   top: 0;
   right: 0;
-}
-
-body.new-nav-bar #amenities {
-  /* background: url(../assets/bg-amenities-block.jpg) no-repeat center; */
-  /*     img { */
-  /* box-shadow: 0 0 23px rgba(0, 0, 0, 0.4); */
-  /*     } */
 }
 
 body.new-nav-bar #amenities .inner-bg {

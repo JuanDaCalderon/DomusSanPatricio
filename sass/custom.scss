@@ -497,13 +497,11 @@ h4 {
 h4.title-type-01 {
   font-size: map-get($SizeFontsPX, Font40);
   font-weight: map-get($FontWeights, w700);
-  text-align: center;
 }
 h4.title-type-02 {
   font-size: map-get($SizeFontsPX, Font30);
   font-weight: map-get($FontWeights, w700);
   color: map-get($ColorsHexa, PrimaryWhite);
-  text-align: center;
 }
 p.text-type-01 {
   font-size: map-get($SizeFontsPX, Font24);
@@ -752,10 +750,6 @@ body.new-nav-bar {
     }
   }
   #amenities {
-    /* background: url(../assets/bg-amenities-block.jpg) no-repeat center; */
-    /*     img { */
-    /* box-shadow: 0 0 23px rgba(0, 0, 0, 0.4); */
-    /*     } */
     .inner-bg {
       background: url(../assets/bg-amenities-color.png) repeat-y center;
       padding: 180px 0;
