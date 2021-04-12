@@ -47,10 +47,10 @@
           <p>Alcoba principal con vestidor y baño privado.</p>
         </li>
         <li>
-          <p>Segunda alcoba con baño privado.</p>
+          <p>Segunda alcoba con baño y closet privado</p>
         </li>
         <li>
-          <p>Escalera de acceso a la cubierta común de uso exclusivo de 65.70 mts</p>
+          <p>Escalera de acceso a la cubierta común de uso exclusivo de 65.70 mts <sup>2</sup> </p>
         </li>
       </ul>
     </div>

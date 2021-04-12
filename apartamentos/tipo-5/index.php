@@ -44,10 +44,10 @@
           <p>Alcoba principal con vestidor y baño privado.</p>
         </li>
         <li>
-          <p>Segunda alcoba.</p>
+          <p>Segunda alcoba con closet privado</p>
         </li>
         <li>
-          <p>Tercera alcoba.</p>
+          <p>Tercera alcoba con closet privado</p>
         </li>
         <li>
           <p>Baño compartido para las alcobas auxiliares.</p>
@@ -74,7 +74,7 @@
         </div>
         <div class="col-12 col-sm-12 col-lg-8 col-xl-6">
           <p>
-            <small>Área construida</small>121.84mts<sup>2</sup>
+            <small>Área construida</small>117.21 mts<sup>2</sup>
           </p>
         </div>
 <!--         <div class="col-12 col-sm-6 col-lg-3 col-xl-2">
