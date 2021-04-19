@@ -1,8 +1,8 @@
 <?php
     //$base_url="http://www.dynamikcollective.com/clients/hoyosluque/webapp/";
-    $base_url="https://www.proyectodomus.com/";
+    $base_url="https://www.proyectodomus.com";
     //$base_url="http://localhost:8888/clients/hoyosluque/repo-webapp/DomusSanPatricio"; 
-    //$base_url="http://localhost/DomusSanPatricio/"; 
+    //$base_url="http://localhost/DomusSanPatricio"; 
 ?>
 <head>
     <!-- Google Tag Manager -->
@@ -42,7 +42,7 @@
 
     <header class="">
         <div class="row no-gutters">
-            <nav class="navbar navbar-expand-md w-100 p-0 pr-3">
+            <nav class="navbar navbar-expand-md w-100 p-0">
                 <!-- Brand -->
                 <a class="navbar-brand mt-1 mb-1" href="<?php echo $base_url ?>">
                     <img class="w-md-50 w-lg-75" src="<?php echo $base_url ?>/assets/logo.svg">

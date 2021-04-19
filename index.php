@@ -138,7 +138,7 @@
                         </div>
                     </div>
                     <div class="clear text-center">
-                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button float-right">
+                        <input type="submit" value="Enviar" name="subscribe" id="mc-embedded-subscribe" class="button float-right">
                     </div>
                 </div>
             </div>
@@ -233,7 +233,7 @@
                                 <i class="bi bi-arrows-angle-expand"></i>
                             </button>
                         </div>
-                        <div class="col-sm-6 gallery-access">
+                        <div class="col-sm-6 gallery-access d-none d-sm-block">
                             <a class="imgPopUp" data-toggle="modal" data-target="#popUpGallery">
                                 <img class="2 img-fluid" src="assets/stills/tipo2/Comply1.jpg" data-color="lightblue" alt="First Image">
                             </a>
@@ -243,7 +243,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-12 col-lg-6 bg-golden">
+                <div class="col-md-12 col-lg-6 bg-golden d-none d-sm-none d-md-none d-lg-block">
                     <div class="row">
                         <div class="col-sm-6 mb-4 mb-sm-0">
                             <a class="imgPopUp" data-toggle="modal" data-target="#popUpGallery">
@@ -434,12 +434,12 @@
 
 
     $('#apartments .carousel').carousel({
-    interval: 2000,
+    interval: 4000,
     pause: "false"
     });
 
     $('#gallerypopup .carousel').carousel({
-    interval: 4000,
+    interval: 8000,
     pause: "false"
     });
 
