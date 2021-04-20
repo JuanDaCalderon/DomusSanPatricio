@@ -3,6 +3,10 @@
     $base_url="https://www.proyectodomus.com";
     //$base_url="http://localhost:8888/clients/hoyosluque/repo-webapp/DomusSanPatricio"; 
     //$base_url="http://localhost/DomusSanPatricio"; 
+    $url= $_SERVER["REQUEST_URI"];
+    $path = explode('/', $url);
+    $path = array_filter($path);
+    $path = end($path);
 ?>
 <head>
     <!-- Google Tag Manager -->
@@ -40,7 +44,7 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <header class="">
+    <header class="<?php (($path === "DomusSanPatricio") or ($path === "apartamentos") or ($path === "amenities")) ? print('fillheader') : ''; ?>">
         <div class="row no-gutters">
             <nav class="navbar navbar-expand-md w-100 p-0">
                 <!-- Brand -->

@@ -659,6 +659,21 @@ section#home-carousel {
   ol.carousel-indicators {
     bottom: 25px;
   }
+  div.imagebackground:first-child {
+    background-position-y: 30%;
+  }
+  div.imagebackground:nth-child(2) {
+    background-position-y: 60%;
+  }
+  div.imagebackground:nth-child(3) {
+    background-position-y: 65%;
+  }
+  div.imagebackground:nth-child(4) {
+    background-position-y: 25%;
+  }
+  div.imagebackground:nth-child(5) {
+    background-position-y: 50%;
+  }
 }
 section.bg-grey {
   color: map-get($ColorsHexa, BgGrayLight);
@@ -851,6 +866,9 @@ body.new-nav-bar.home-web {
 }
 @media (max-width: $BreakPointMedium) {
   body.new-nav-bar {
+    header.fillheader {
+      background: map-get($ColorsHexa, PrimaryGray) !important;
+    }
     header {
       background: map-get($ColorsHexa, Transparent);
       div.navbar-collapse {

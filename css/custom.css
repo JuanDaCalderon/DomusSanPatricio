@@ -626,6 +626,26 @@ section#home-carousel ol.carousel-indicators {
   bottom: 25px;
 }
 
+section#home-carousel div.imagebackground:first-child {
+  background-position-y: 30%;
+}
+
+section#home-carousel div.imagebackground:nth-child(2) {
+  background-position-y: 60%;
+}
+
+section#home-carousel div.imagebackground:nth-child(3) {
+  background-position-y: 65%;
+}
+
+section#home-carousel div.imagebackground:nth-child(4) {
+  background-position-y: 25%;
+}
+
+section#home-carousel div.imagebackground:nth-child(5) {
+  background-position-y: 50%;
+}
+
 section.bg-grey {
   color: #c0c6cd;
 }
@@ -829,6 +849,9 @@ body.new-nav-bar.home-web #amenities .inner-bg {
 }
 
 @media (max-width: 768px) {
+  body.new-nav-bar header.fillheader {
+    background: rgba(39, 35, 45, 0.9) !important;
+  }
   body.new-nav-bar header {
     background: transparent;
   }

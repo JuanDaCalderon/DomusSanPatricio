@@ -20,7 +20,7 @@
         </ol>
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="imagebackground carousel-item active">
                 <img class="d-block w-100" src="assets/carousel/home/07.jpg" data-color="lightblue" alt="First Image">
                 <div class="carousel-caption d-md-block">
                     <div class="text-container">
@@ -32,7 +32,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="imagebackground carousel-item">
                 <img class="d-block w-100" src="assets/carousel/home/Lobby.jpg" data-color="lightblue" alt="First Image">
                 <div class="carousel-caption d-md-block">
                     <div class="text-container">
@@ -44,7 +44,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="imagebackground carousel-item">
                 <img class="d-block w-100" src="assets/carousel/home/Conference.jpg" data-color="lightblue" alt="First Image">
                 <div class="carousel-caption d-md-block">
                     <div class="text-container">
@@ -56,7 +56,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="imagebackground carousel-item">
                 <img class="d-block w-100" src="assets/carousel/home/Teatrino.jpg" data-color="lightblue" alt="First Image">
                 <div class="carousel-caption d-md-block">
                     <div class="text-container">
@@ -68,7 +68,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="imagebackground carousel-item">
                 <img class="d-block w-100" src="assets/carousel/home/Gym.jpg" data-color="lightblue" alt="First Image">
                 <div class="carousel-caption d-md-block">
                     <div class="text-container">
