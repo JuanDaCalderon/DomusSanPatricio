@@ -13,7 +13,7 @@
     <iframe class="embed-responsive-item" src="../../views-360/areas-comunes/index.htm" allowfullscreen></iframe>
   </div>  
 </section>
-<section id="more-info" class="container">
+<section id="more-info" class="container pt-5">
   <div class="row align-items-center">
     <div class="col-sm-5">
       <h2><span>DOMUS</span> SAN PATRICIO</h2>
@@ -26,12 +26,14 @@
       </button> -->
     </div>
     <di class="col-12 py-3">
+      <h3 class="textfirstimage font-weight-bold pb-3">Grandioso lobby con perfectos espacios para los habitantes.</h3>
       <img class="img-fluid" src="<?php echo $base_url ?>/assets/zonas_comunes/Lobby.jpg" alt="Lobby">
-      <h3 class="textfirstimage position-absolute w-50 font-weight-bold">Grandioso lobby con perfectos espacios para los habitantes.</h3>
+      
     </di>
     <di class="col-12 py-3">
+    <h3 class="textsecondimage font-weight-bold pb-3"> Salon de coworking con espacios individuales y WiFi, terraza al aire libre junto a la sala.</h3>
       <img class="img-fluid" src="<?php echo $base_url ?>/assets/zonas_comunes/Co-working.jpg" alt="Sala de juntas">
-      <h3 class="textsecondimage position-absolute w-75 font-weight-bold"> Salon de coworking con espacios individuales y WiFi, terraza al aire libre junto a la sala.</h3>
+      
     </di>
   </div>
 </section>

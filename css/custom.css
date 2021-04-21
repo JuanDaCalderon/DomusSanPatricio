@@ -24,7 +24,6 @@
 i {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "DomusIcon" !important;
-  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -899,6 +898,22 @@ body.new-nav-bar.home-web #amenities .inner-bg {
   padding: 180px 0;
 }
 
+h3.textfirstimage {
+  color: rgba(39, 35, 45, 0.9);
+  font-size: 16px;
+  position: relative !important;
+  width: 100% !important;
+  margin: 0;
+}
+
+h3.textsecondimage {
+  color: rgba(39, 35, 45, 0.9);
+  font-size: 16px;
+  position: relative !important;
+  width: 100% !important;
+  margin: 0;
+}
+
 /*------------------------------------------END OF NEW HOME STYLES-----------------------------------------*/
 /*-------------------------------------------RESPONSIVE STYLES------------------------------------------------*/
 /* Extra small devices (portrait phones, less than 576px)*/
@@ -921,6 +936,25 @@ body.new-nav-bar.home-web #amenities .inner-bg {
 
 /* ---------------------------------------Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  h3.textfirstimage {
+    color: #fff;
+    position: absolute !important;
+    width: 50% !important;
+    font-size: 30px;
+    top: 40;
+    left: 50;
+    text-shadow: 0px 2px 5px #000;
+  }
+  h3.textsecondimage {
+    color: #fff;
+    position: absolute !important;
+    width: 75% !important;
+    font-size: 24px;
+    bottom: 40;
+    right: 50;
+    text-shadow: 0px 2px 5px #000;
+    text-align: right;
+  }
   .carousel-inner h5 abbr {
     font-size: 70px !important;
   }
@@ -949,16 +983,9 @@ body.new-nav-bar.home-web #amenities .inner-bg {
 @media (min-width: 992px) {
   h3.textfirstimage {
     font-size: 40px;
-    top: 40;
-    left: 50;
-    text-shadow: 0px 2px 5px #000;
   }
   h3.textsecondimage {
     font-size: 30px;
-    bottom: 40;
-    right: 50;
-    text-shadow: 0px 2px 5px #000;
-    text-align: right;
   }
   /*MAIN HEADER*/
   #main-logo {
