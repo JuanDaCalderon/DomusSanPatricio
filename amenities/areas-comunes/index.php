@@ -25,16 +25,50 @@
         <i class="bi bi-arrows-angle-expand"></i>
       </button> -->
     </div>
-    <di class="col-12 py-3">
+    <div class="col-12 py-3">
       <h3 class="textfirstimage font-weight-bold pb-3">Grandioso lobby con perfectos espacios para los habitantes.</h3>
       <img class="img-fluid" src="<?php echo $base_url ?>/assets/zonas_comunes/Lobby.jpg" alt="Lobby">
       
-    </di>
-    <di class="col-12 py-3">
-    <h3 class="textsecondimage font-weight-bold pb-3"> Salon de coworking con espacios individuales y WiFi, terraza al aire libre junto a la sala.</h3>
-      <img class="img-fluid" src="<?php echo $base_url ?>/assets/zonas_comunes/Co-working.jpg" alt="Sala de juntas">
+    </div>
+
+    <div class="col-6 col-md-7 py-3">
+      <img class="img-fluid" src="<?php echo $base_url ?>/assets/zonas_comunes/Lobby2.jpg" alt="Lobby">
       
-    </di>
+    </div>
+
+    <div class="col-6 col-md-5 py-3">
+
+      <img class="img-fluid" src="<?php echo $base_url ?>/assets/zonas_comunes/Conference2.jpg" alt="Sala de juntas">
+
+    </div>
+
+    <div class="col-12 py-3">
+      <h3 class="textsecondimage font-weight-bold pb-3"> Salon de coworking con espacios individuales y WiFi, terraza al aire libre junto a la sala.</h3>
+      <img class="img-fluid" src="<?php echo $base_url ?>/assets/zonas_comunes/Co-working.jpg" alt="Sala de juntas">
+    </div>
+
+    <div class="col-6 col-md-5 py-3">
+      <img class="img-fluid" src="<?php echo $base_url ?>/assets/zonas_comunes/Co-working2.jpg" alt="coworking">
+      
+    </div>
+
+    <div class="col-6 col-md-7 py-3">
+
+      <img class="img-fluid" src="<?php echo $base_url ?>/assets/zonas_comunes/SnackBar.jpg" alt="Snackbar">
+
+    </div>
+
+    <div class="col-12 py-3">
+      <h3 class="textfirstimage font-weight-bold pb-3">Un teatro diseñado como un espacio cómodo y cálido para los usuarios</h3>
+      <img class="img-fluid" src="<?php echo $base_url ?>/assets/zonas_comunes/Teatrino.jpg" alt="Teatro">
+      
+    </div>
+
+    <div class="col-12 py-3">
+      <h3 class="textsecondimage font-weight-bold pb-3"> Espacio de uso múltiple diseñado para hacer clases de yoga, pilates y ejercicio físico</h3>
+      <img class="img-fluid" src="<?php echo $base_url ?>/assets/zonas_comunes/Gym.jpg" alt="Gym">
+    </div>
+    
   </div>
 </section>
 
