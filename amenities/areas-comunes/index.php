@@ -13,6 +13,7 @@
     <iframe class="embed-responsive-item" src="../../views-360/areas-comunes/index.htm" allowfullscreen></iframe>
   </div>  
 </section>
+
 <section id="more-info" class="container pt-5">
   <div class="row align-items-center">
     <div class="col-sm-5">
@@ -81,15 +82,7 @@
           <div class="col-12 col-lg-3 d-flex justify-content-center align-items-center">
             <h4 class="text-md-center text-xl-left">Acerca<br>de este<br>amenitie</h4>
           </div>
-          <!-- <div class="col-12 col-md-9">
-            <p class="text-justify">
-              <small>Comodidades incluidas</small>
-              <span class="h6 font-weight-light">wifi completo para coworking, salon de juntas amoblado, salon de coworking con espacios individuales, terraza al aire libre junto a la sala, dispensadores de bebidas y groceries, coffe station. <br><br>
-              maquinas multifuncionales, caminadora, bancas, mancuernas, espacio para trx, balon medicinal, step, espacio para yoga, bicicleta. <br><br>
-              multijuegos para infantes, pista didactica e interactiva para niños menores de 5 años.
-              </span>
-            </p>
-          </div> -->
+
           <div class="col-12 col-lg">
             <p>      
               <a href="#" class="floor-plans-access-button open text-center" data-toggle="modal" data-target="#popUpLobby">

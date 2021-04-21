@@ -13,37 +13,38 @@
     <iframe class="embed-responsive-item" src="../../views-360/tipo-1/index.htm" allowfullscreen></iframe>
   </div>  
 </section>
+
 <section id="more-info" class="container">
-  <div class="row">
-    <div class="col-sm-7">
+  <div class="row align-items-center">
+    <div class="col-sm-5">
       <h2><span>DOMUS</span> SAN PATRICIO</h2>
       <h1>Apartamento <span>tipo 1</span></h1>
-      <p class="text-justify pr-md-5">
-        disfrutar de una unidad tipo uno es tenerlo todo, diseño, comodidad e innovación,  disfruta de su mueble multifuncional en un espacio ideado para ti,  el sueño de tener una propiedad de lujo estará a tu alcance.
-      </p>
-      <ul>
-        <li>
-          <p>1 alcoba con Vestier y baño privado</p>
-        </li>
-        <li>
-          <p>Área de homework</p>
-        </li>
-        <li>
-          <p>División mueble en madera con sistema giratorio de tv para doble uso (alcoba y zona social)</p>
-        </li>
-        <li>
-          <p>Sala con balcón</p>
-        </li>
-        <li>
-          <p>Cocina abierta con mesón para dos puestos, espacio para nevera y lavadora</p>
-        </li>
-      </ul>
     </div>
-    <div class="col-sm-5 gallery-access p-0">
+    <div class="col-sm-7">
       <img class="img-fluid" src="<?php echo $base_url ?>/assets/stills/tipo1/Comply1.jpg" alt="Chania">
-      <button type="button" class="gallery-access-button open" data-toggle="modal" data-target="#popUpGallery">
-        <i class="bi bi-arrows-angle-expand"></i>
-      </button>
+    </div>
+    <div class="col-12 py-3">
+      <h3 class="textfirstimage font-weight-bold pb-3">el sueño de tener una propiedad de lujo estará a tu alcance.</h3>
+      <img class="img-fluid" src="<?php echo $base_url ?>/assets/stills/tipo1/Comply1.jpg" alt="Lobby">
+      
+    </div>
+    <div class="col-12 col-md-6 py-3">
+      <img class="img-fluid" src="<?php echo $base_url ?>/assets/stills/tipo1/Tv1.jpg" alt="Lobby">
+      
+    </div>
+    
+    <div class="col-12 col-md-6 py-3">
+
+      <img class="img-fluid" src="<?php echo $base_url ?>/assets/stills/tipo1/Tv2.jpg" alt="Sala de juntas">
+      
+    </div>
+    <div class="col-12">
+        <h4 class="font-weight-bold py-1 h5 text-center">disfruta de su mueble multifuncional en un espacio ideado para ti</h4>
+      </div>
+    
+    <div class="col-12 py-3">
+      <img class="img-fluid" src="<?php echo $base_url ?>/assets/stills/tipo1/Comply2.jpg" alt="Sala de juntas">
+      <h3 class="textsecondimage font-weight-bold pb-3">disfrutar de una unidad tipo uno es tenerlo todo, diseño, comodidad e innovación</h3>
     </div>
   </div>
 </section>
@@ -51,29 +52,36 @@
 <section id="about-this" class="container">
   <div class="">
     <div class="col-sm-12 inner-block">
+
       <div class="row">
-      <div class="col-sm-12 col-xl-4 text-sm-justify">
+        <div class="col-12 col-xl-4 d-flex justify-content-center align-items-center">
           <h4 class="text-sm-center text-xl-left">Acerca <br>de este <br>apartamento</h4>
         </div>
-        <div class="col-12 col-sm-12 col-lg-5 col-xl-3">
-          <p>
+        <div class="col-12 col-xl">
+          <p class="text-center">
             <small>Área construida</small>44.68mts<sup>2</sup>
           </p>
         </div>
-<!--         <div class="col-12 col-sm-6 col-lg-3 col-xl-2">
-          <p>
-            <small>Área privada</small>120mts<sup>2</sup>
-          </p>
-        </div> -->
-        <div class="col">
-          <p>
+        <div class="col-12 col-xl">
+          <p class="text-center">
             <small>Precio</small>$479'166.000<sup>cop</sup>
           </p>
         </div>
-        <div class="col">
+      </div>
+
+
+      <div class="row">
+        <div class="col-12 col-xl">
           <p>      
-            <a href="#" class="floor-plans-access-button open" data-toggle="modal" data-target="#popUpFloorPlans">
-              <small>Planos</small><i class="bi bi-columns"></i>
+            <a href="#" class="floor-plans-access-button open text-center" data-toggle="modal" data-target="#popUpFloorPlans">
+              <small>Planos</small><i class="bi bi-columns d-block pr-0 pr-lg-5"></i>
+            </a>
+            </p>
+        </div>
+        <div class="col-12 col-xl">
+          <p>      
+            <a href="#" class="floor-plans-access-button open text-center" data-toggle="modal" data-target="#popUpInfo">
+              <small>Detalles del apartamento</small><i class="icon-Web-Icons_Detalles-Apartamento d-block pr-0 pr-lg-3"></i>
             </a>
             </p>
         </div>
@@ -223,6 +231,51 @@
           <img class="img-fluid" src="<?php echo $base_url ?>/assets/plantas/DeptoTipo1.jpg">
           <h5>
             Iluminación y ventilación natural
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <!-- Modal Playground -->
+  <div class="modal fade" id="popUpInfo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered justify-content-center" role="document">
+      <div class="modal-content w-75">
+        <div class="modal-header">
+          <button type="button" class="gallery-access-button closed" data-dismiss="modal" aria-label="Close">
+            <i class="bi bi-arrows-angle-contract"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- <img class="img-fluid" src="<?php echo $base_url ?>/assets/galleries/tipo-a/floorplan.jpg"> -->
+          <div class="row px-5 py-4">
+            <div class="col">
+              <h2><i class="icon-Web-Icons_Detalles-Apartamento mr-2"></i><span>Apartamento Tipo 1</span></h2>
+              
+              <ul class="text-left">
+                <li>
+                  <p>1 alcoba con Vestier y baño privado</p>
+                </li>
+                <li>
+                  <p>Área de homework</p>
+                </li>
+                <li>
+                  <p>División mueble en madera con sistema giratorio de tv para doble uso (alcoba y zona social)</p>
+                </li>
+                <li>
+                  <p>Sala con balcón</p>
+                </li>
+                <li>
+                  <p>Cocina abierta con mesón para dos puestos, espacio para nevera y lavadora</p>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+          <h5>
+            Características
           </h5>
         </div>
       </div>
