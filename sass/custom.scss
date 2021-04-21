@@ -1007,6 +1007,19 @@ body.new-nav-bar.home-web {
 }
 /* -------------------------------------------Large devices (desktops, 992px and up)------------------*/
 @media (min-width: $BreakPointLarge) {
+  h3.textfirstimage {
+    font-size: map-get($SizeFontsPX, Font40);
+    top: 40;
+    left: 50;
+    text-shadow: 0px 2px 5px #000;
+  }
+  h3.textsecondimage {
+    font-size: map-get($SizeFontsPX, Font30);
+    bottom: 40;
+    right: 50;
+    text-shadow: 0px 2px 5px #000;
+    text-align: right;
+  }
   /*MAIN HEADER*/
   #main-logo {
     display: inline-block;

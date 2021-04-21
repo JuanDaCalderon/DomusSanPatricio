@@ -14,39 +14,30 @@
   </div>  
 </section>
 <section id="more-info" class="container">
-  <div class="row">
-    <div class="col-sm-7">
+  <div class="row align-items-center">
+    <div class="col-sm-5">
       <h2><span>DOMUS</span> SAN PATRICIO</h2>
       <h1>Amenities <span>Áreas comúnes</span></h1>
-      <h2><span>Lobby</span></h2>
-      <p class="text-justify pr-md-5">
-        Amplitud, diseño y estilo, elementos que se juntan en armonía para lograr este espacio cálido de bienvenida.
-      </p>
-      <h2><span>Coworking</span></h2>
-      <p class="text-justify pr-md-5">
-        Como complemento, cuenta con una amplia zona de coworking que potencializa el concepto de trabajo en casa, Contará con un amplio salón con áreas amobladas para compartir y trabajar, un salón de juntas y terraza al aire libre, dejando a su disposición dispensadores, un coffe station y cómodos espacios para hacer de tus negocios y reuniones una experiencia única.
-      </p>
-      <h2><span>Teatrino</span></h2>
-      <p class="text-justify pr-md-5">
-        un espacio confortable con toda la nueva tecnología, para compartir con amigos y familiares. 
-      </p>
-      <h2><span>Gimnasio</span></h2>
-      <p class="text-justify pr-md-5">
-        donde se conectan mente y cuerpo formando un equilibrio.
-      </p>
-      <h2><span>Playground</span></h2>
-      <p class="text-justify pr-md-5">
-        y si tienes hijos o sobrinos también puedes disfrutar de nuestra zona de multijuegos con pista infantil didáctica e interactiva
-      </p>
     </div>
-    <div class="col-sm-5 gallery-access p-0">
-      <img class="img-fluid" src="<?php echo $base_url ?>/assets/zonas_comunes/Co-working.jpg" alt="Chania">
-      <button type="button" class="gallery-access-button open" data-toggle="modal" data-target="#popUpGallery">
+    <div class="col-sm-7">
+      <img class="img-fluid" src="<?php echo $base_url ?>/assets/zonas_comunes/Conference.jpg" alt="Coworking">
+<!--       <button type="button" class="gallery-access-button open" data-toggle="modal" data-target="#popUpGallery">
         <i class="bi bi-arrows-angle-expand"></i>
-      </button>
+      </button> -->
     </div>
+    <di class="col-12 py-3">
+      <img class="img-fluid" src="<?php echo $base_url ?>/assets/zonas_comunes/Lobby.jpg" alt="Lobby">
+      <h3 class="textfirstimage position-absolute w-50 font-weight-bold">Grandioso lobby con perfectos espacios para los habitantes.</h3>
+    </di>
+    <di class="col-12 py-3">
+      <img class="img-fluid" src="<?php echo $base_url ?>/assets/zonas_comunes/Co-working.jpg" alt="Sala de juntas">
+      <h3 class="textsecondimage position-absolute w-75 font-weight-bold"> Salon de coworking con espacios individuales y WiFi, terraza al aire libre junto a la sala.</h3>
+    </di>
   </div>
 </section>
+
+
+
 <section id="about-this" class="container">
   <div class="">
     <div class="col-sm-12 inner-block">
@@ -262,7 +253,7 @@
           <!-- <img class="img-fluid" src="<?php echo $base_url ?>/assets/galleries/tipo-a/floorplan.jpg"> -->
           <div class="row px-5 py-4">
             <div class="col">
-              <h2><span>Lobby</span></h2>
+              <h2><i class="icon-Web-Icons_Lobby mr-2"></i><span>Lobby</span></h2>
               <p class="text-justify">
                 Amplitud, diseño y estilo, elementos que se juntan en armonía para lograr este espacio cálido de bienvenida.
               </p>
@@ -291,9 +282,9 @@
           <!-- <img class="img-fluid" src="<?php echo $base_url ?>/assets/galleries/tipo-a/floorplan.jpg"> -->
           <div class="row px-5 py-4">
             <div class="col">
-              <h2><span>Coworking</span></h2>
+              <h2><i class="icon-Web-Icons_Coworking mr-2"></i><span>Coworking</span></h2>
               <p class="text-justify">
-                Contamos con una amplia zona de coworking que potencializa el concepto de trabajo en casa, Contará con un amplio salón con áreas amobladas para compartir y trabajar, un salón de juntas y terraza al aire libre, dejando a su disposición dispensadores, un coffee station y cómodos espacios para hacer de tus negocios y reuniones una experiencia única.
+                Contamos con una amplia zona de coworking que potencializa el concepto de trabajo en casa, Contará con un amplio salón con áreas amobladas para compartir y trabajar, un salón de juntas y terraza al aire libre, dejando a su disposición dispensadores de bebidas y groceries, un coffee station y cómodos espacios para hacer de tus negocios y reuniones una experiencia única.
               </p>
             </div>
           </div>
