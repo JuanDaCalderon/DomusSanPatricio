@@ -6,6 +6,24 @@ $BreakPointMedium: 768px;
 $BreakPointLarge: 992px;
 $BreakPointExtraLarge: 1200px;
 
+$icomoon-font-family: "DomusIcon" !default;
+$icomoon-font-path: "../assets/fonts" !default;
+
+$icon-Web-Icons_Bowling: "\e900";
+$icon-Web-Icons_Cafe: "\e901";
+$icon-Web-Icons_Coworking: "\e902";
+$icon-Web-Icons_Detalles-Apartamento-2: "\e903";
+$icon-Web-Icons_Detalles-Apartamento: "\e904";
+$icon-Web-Icons_Golfito: "\e905";
+$icon-Web-Icons_Gym: "\e906";
+$icon-Web-Icons_Home-Office: "\e907";
+$icon-Web-Icons_Lobby: "\e908";
+$icon-Web-Icons_Ping-Pong: "\e909";
+$icon-Web-Icons_Planos: "\e90a";
+$icon-Web-Icons_Roftop: "\e90b";
+$icon-Web-Icons_Salon-comunal: "\e90c";
+$icon-Web-Icons_Teatrino: "\e90d";
+
 $SizeFontsPX: (
   Font16: 16px,
   Font45: 45px,
@@ -112,7 +130,110 @@ $FontWeights: (
   top: 10px;
   right: 10px;
 }
+/* -------- WEB ICONS ---------- */
 
+@font-face {
+  font-family: "#{$icomoon-font-family}";
+  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?kixdaf");
+  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?kixdaf#iefix")
+      format("embedded-opentype"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?kixdaf")
+      format("truetype"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.woff?kixdaf")
+      format("woff"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.svg?kixdaf##{$icomoon-font-family}")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "#{$icomoon-font-family}" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Web-Icons_Bowling {
+  &:before {
+    content: $icon-Web-Icons_Bowling;
+  }
+}
+.icon-Web-Icons_Cafe {
+  &:before {
+    content: $icon-Web-Icons_Cafe;
+  }
+}
+.icon-Web-Icons_Coworking {
+  &:before {
+    content: $icon-Web-Icons_Coworking;
+  }
+}
+.icon-Web-Icons_Detalles-Apartamento-2 {
+  &:before {
+    content: $icon-Web-Icons_Detalles-Apartamento-2;
+  }
+}
+.icon-Web-Icons_Detalles-Apartamento {
+  &:before {
+    content: $icon-Web-Icons_Detalles-Apartamento;
+  }
+}
+.icon-Web-Icons_Golfito {
+  &:before {
+    content: $icon-Web-Icons_Golfito;
+  }
+}
+.icon-Web-Icons_Gym {
+  &:before {
+    content: $icon-Web-Icons_Gym;
+  }
+}
+.icon-Web-Icons_Home-Office {
+  &:before {
+    content: $icon-Web-Icons_Home-Office;
+  }
+}
+.icon-Web-Icons_Lobby {
+  &:before {
+    content: $icon-Web-Icons_Lobby;
+  }
+}
+.icon-Web-Icons_Ping-Pong {
+  &:before {
+    content: $icon-Web-Icons_Ping-Pong;
+  }
+}
+.icon-Web-Icons_Planos {
+  &:before {
+    content: $icon-Web-Icons_Planos;
+  }
+}
+.icon-Web-Icons_Roftop {
+  &:before {
+    content: $icon-Web-Icons_Roftop;
+  }
+}
+.icon-Web-Icons_Salon-comunal {
+  &:before {
+    content: $icon-Web-Icons_Salon-comunal;
+  }
+}
+.icon-Web-Icons_Teatrino {
+  &:before {
+    content: $icon-Web-Icons_Teatrino;
+  }
+}
+
+/* -------- /END WEB ICONS ---------- */
 /*---------------------- ESTILOS SASS ------------ */
 
 body {

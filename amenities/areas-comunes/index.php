@@ -51,10 +51,10 @@
   <div class="">
     <div class="col-sm-12 inner-block">
       <div class="row">
-          <div class="col-12 col-md-3 d-flex justify-content-center align-items-center">
-            <h4 class="text-sm-center text-xl-left">Acerca <br>de este <br>amenitie</h4>
+          <div class="col-12 col-lg-3 d-flex justify-content-center align-items-center">
+            <h4 class="text-md-center text-xl-left">Acerca<br>de este<br>amenitie</h4>
           </div>
-          <div class="col-12 col-md-9">
+          <!-- <div class="col-12 col-md-9">
             <p class="text-justify">
               <small>Comodidades incluidas</small>
               <span class="h6 font-weight-light">wifi completo para coworking, salon de juntas amoblado, salon de coworking con espacios individuales, terraza al aire libre junto a la sala, dispensadores de bebidas y groceries, coffe station. <br><br>
@@ -62,14 +62,42 @@
               multijuegos para infantes, pista didactica e interactiva para niños menores de 5 años.
               </span>
             </p>
-          </div>
-<!--           <div class="col">
+          </div> -->
+          <div class="col-12 col-lg">
             <p>      
-              <a href="#" class="floor-plans-access-button open" data-toggle="modal" data-target="#popUpFloorPlans">
-                <small>Planos</small><i class="bi bi-columns"></i>
+              <a href="#" class="floor-plans-access-button open text-center" data-toggle="modal" data-target="#popUpLobby">
+                <small>Lobby</small><i class="icon-Web-Icons_Lobby d-block pr-0 pr-lg-3"></i>
               </a>
               </p>
-          </div> -->
+          </div>
+          <div class="col-12 col-lg">
+            <p>      
+              <a href="#" class="floor-plans-access-button open text-center" data-toggle="modal" data-target="#popUpCoworking">
+                <small>Co-working</small><i class="icon-Web-Icons_Coworking d-block pr-0 pr-lg-3"></i>
+              </a>
+              </p>
+          </div>
+          <div class="col-12 col-lg">
+            <p>      
+              <a href="#" class="floor-plans-access-button open text-center" data-toggle="modal" data-target="#popUpTeatrino">
+                <small>Teatrino</small><i class="icon-Web-Icons_Teatrino d-block pr-0 pr-lg-3"></i>
+              </a>
+              </p>
+          </div>
+          <div class="col-12 col-lg">
+            <p>      
+              <a href="#" class="floor-plans-access-button open text-center" data-toggle="modal" data-target="#popUpGym">
+                <small>Gimnasio</small><i class="icon-Web-Icons_Gym d-block pr-0 pr-lg-3"></i>
+              </a>
+              </p>
+          </div>
+          <div class="col-12 col-lg">
+            <p>      
+              <a href="#" class="floor-plans-access-button open text-center" data-toggle="modal" data-target="#popUpPlayground">
+                <small>Playground</small><i class="icon-Web-Icons_Bowling d-block pr-0 pr-lg-3"></i>
+              </a>
+              </p>
+          </div>
       </div>
     </div>
   </div>
@@ -98,7 +126,7 @@
                 <div class="card mb-2">
                   <img class="card-img-top h-100" src="<?php echo $base_url ?>/assets/zonas_comunes/Co-working.jpg" alt="Card image cap">
                   <div class="card-body">
-                    <a href="<?php echo $base_url ?>/amenities/areas-comunes/" class="btn btn-primary"><p>co-working</p></a>
+                    <a href="<?php echo $base_url ?>/amenities/areas-comunes/" class="btn btn-primary"><p>coworking</p></a>
                   </div>
                 </div>
               </div>
@@ -221,20 +249,143 @@
 </section>
 
 <section>
-
-  <!-- Modal Floor plans -->
-  <div class="modal fade" id="popUpFloorPlans" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
-      <div class="modal-content">
+  <!-- Modal Lobby -->
+  <div class="modal fade" id="popUpLobby" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered justify-content-center" role="document">
+      <div class="modal-content w-75">
         <div class="modal-header">
           <button type="button" class="gallery-access-button closed" data-dismiss="modal" aria-label="Close">
             <i class="bi bi-arrows-angle-contract"></i>
           </button>
         </div>
         <div class="modal-body">
-          <img class="img-fluid" src="<?php echo $base_url ?>/assets/galleries/tipo-a/floorplan.jpg">
+          <!-- <img class="img-fluid" src="<?php echo $base_url ?>/assets/galleries/tipo-a/floorplan.jpg"> -->
+          <div class="row px-5 py-4">
+            <div class="col">
+              <h2><span>Lobby</span></h2>
+              <p class="text-justify">
+                Amplitud, diseño y estilo, elementos que se juntan en armonía para lograr este espacio cálido de bienvenida.
+              </p>
+            </div>
+          </div>
           <h5>
-            Iluminación y ventilación natural
+            LOBBY
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <!-- Modal Coworking -->
+  <div class="modal fade" id="popUpCoworking" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered justify-content-center" role="document">
+      <div class="modal-content w-75">
+        <div class="modal-header">
+          <button type="button" class="gallery-access-button closed" data-dismiss="modal" aria-label="Close">
+            <i class="bi bi-arrows-angle-contract"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- <img class="img-fluid" src="<?php echo $base_url ?>/assets/galleries/tipo-a/floorplan.jpg"> -->
+          <div class="row px-5 py-4">
+            <div class="col">
+              <h2><span>Coworking</span></h2>
+              <p class="text-justify">
+                Contamos con una amplia zona de coworking que potencializa el concepto de trabajo en casa, Contará con un amplio salón con áreas amobladas para compartir y trabajar, un salón de juntas y terraza al aire libre, dejando a su disposición dispensadores, un coffee station y cómodos espacios para hacer de tus negocios y reuniones una experiencia única.
+              </p>
+            </div>
+          </div>
+          <h5>
+            COWORKING
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <!-- Modal Teatrino -->
+  <div class="modal fade" id="popUpTeatrino" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered justify-content-center" role="document">
+      <div class="modal-content w-75">
+        <div class="modal-header">
+          <button type="button" class="gallery-access-button closed" data-dismiss="modal" aria-label="Close">
+            <i class="bi bi-arrows-angle-contract"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- <img class="img-fluid" src="<?php echo $base_url ?>/assets/galleries/tipo-a/floorplan.jpg"> -->
+          <div class="row px-5 py-4">
+            <div class="col">
+              <h2><i class="icon-Web-Icons_Teatrino mr-2"></i><span>Teatrino</span></h2>
+              <p class="text-justify">
+                Un espacio confortable con toda la nueva tecnología, para compartir con amigos y familiares. 
+              </p>
+            </div>
+          </div>
+          <h5>
+            TEATRINO
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <!-- Modal Gym -->
+  <div class="modal fade" id="popUpGym" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered justify-content-center" role="document">
+      <div class="modal-content w-75">
+        <div class="modal-header">
+          <button type="button" class="gallery-access-button closed" data-dismiss="modal" aria-label="Close">
+            <i class="bi bi-arrows-angle-contract"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- <img class="img-fluid" src="<?php echo $base_url ?>/assets/galleries/tipo-a/floorplan.jpg"> -->
+          <div class="row px-5 py-4">
+            <div class="col">
+              <h2><i class="icon-Web-Icons_Gym mr-2"></i><span>Gimnasio</span></h2>
+              <p class="text-justify">
+                Espectacular espacio con maquinas multifuncionales, caminadoras, bancas, mancuernas, espacio para TRX, balon medicinal, step, espacio para yoga, bicicleta.
+              </p>
+            </div>
+          </div>
+          <h5>
+            GIMNASIO
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <!-- Modal Playground -->
+  <div class="modal fade" id="popUpPlayground" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered justify-content-center" role="document">
+      <div class="modal-content w-75">
+        <div class="modal-header">
+          <button type="button" class="gallery-access-button closed" data-dismiss="modal" aria-label="Close">
+            <i class="bi bi-arrows-angle-contract"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- <img class="img-fluid" src="<?php echo $base_url ?>/assets/galleries/tipo-a/floorplan.jpg"> -->
+          <div class="row px-5 py-4">
+            <div class="col">
+              <h2><i class="icon-Web-Icons_Bowling mr-2"></i><span>Playground</span></h2>
+              <p class="text-justify">
+                Si tienes hijos o sobrinos también puedes disfrutar de nuestra zona de multijuegos con pista infantil didáctica e interactiva.
+              </p>
+            </div>
+          </div>
+          <h5>
+            PLAYGROUND
           </h5>
         </div>
       </div>
