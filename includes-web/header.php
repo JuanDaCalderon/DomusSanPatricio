@@ -78,7 +78,11 @@
                             </a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="<?php echo $base_url ?>/amenities/">Todos los amenities</a>
-                                <a class="dropdown-item" href="<?php echo $base_url ?>/amenities/areas-comunes/">Áreas comúnes</a>
+                                <a class="dropdown-item" href="<?php echo $base_url ?>/amenities/lobby/">Lobby</a>
+                                <a class="dropdown-item" href="<?php echo $base_url ?>/amenities/co-working/">Co-working</a>
+                                <a class="dropdown-item" href="<?php echo $base_url ?>/amenities/gimnasio/">Gimnasio</a>
+                                <a class="dropdown-item" href="<?php echo $base_url ?>/amenities/ping-pong/">Ping Pong</a>
+                                <a class="dropdown-item" href="<?php echo $base_url ?>/amenities/teatrino/">Teatrino</a>
                                 <a class="dropdown-item" href="<?php echo $base_url ?>/amenities/roof-top/">Roof top</a>
                             </div>
                         </li>
