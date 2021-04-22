@@ -886,6 +886,7 @@ body.new-nav-bar .text-container {
 
 body.new-nav-bar.home-web #amenities {
   background: url(../assets/bg-amenities-block.jpg) no-repeat center;
+  background-size: cover !important;
 }
 
 body.new-nav-bar.home-web #amenities img {
@@ -919,6 +920,11 @@ h3.textsecondimage {
   position: relative !important;
   width: 100% !important;
   margin: 0;
+}
+
+a.btn_cita {
+  font-family: "Cormorant Garamond", serif;
+  background-color: rgba(39, 35, 45, 0.9) !important;
 }
 
 /*------------------------------------------END OF NEW HOME STYLES-----------------------------------------*/
