@@ -39,12 +39,12 @@
       
     </div>
     <div class="col-12">
-        <h4 class="font-weight-bold py-1 h5 text-center">disfruta de su mueble multifuncional en un espacio ideado para ti</h4>
+        <h4 class="textthirdimage font-weight-bold py-1 h5">disfruta de su mueble multifuncional en un espacio ideado para ti</h4>
       </div>
     
     <div class="col-12 py-3">
       <img class="img-fluid" src="<?php echo $base_url ?>/assets/stills/tipo1/Comply2.jpg" alt="Sala de juntas">
-      <h3 class="textsecondimage font-weight-bold pb-3">disfrutar de una unidad tipo uno es tenerlo todo, diseño, comodidad e innovación</h3>
+      <h3 class="textsecondimage font-weight-bold pt-3">disfrutar de una unidad tipo uno es tenerlo todo, diseño, comodidad e innovación</h3>
     </div>
   </div>
 </section>
@@ -55,7 +55,7 @@
 
       <div class="row">
         <div class="col-12 col-xl-4 d-flex justify-content-center align-items-center">
-          <h4 class="text-sm-center text-xl-left">Acerca <br>de este <br>apartamento</h4>
+          <h4 class="text-center text-sm-center text-xl-left">Acerca <br>de este <br>apartamento</h4>
         </div>
         <div class="col-12 col-xl">
           <p class="text-center">

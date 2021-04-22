@@ -947,6 +947,12 @@ h3.textfirstimage {
   width: 100% !important;
   margin: 0;
 }
+h4.textthirdimage {
+  font-size: map-get($SizeFontsPX, Font16);
+  width: 100% !important;
+  margin: 0;
+  text-align: left;
+}
 h3.textsecondimage {
   color: map-get($ColorsHexa, PrimaryGray);
   font-size: map-get($SizeFontsPX, Font16);
@@ -985,6 +991,12 @@ h3.textsecondimage {
 
 /* ---------------------------------------Medium devices (tablets, 768px and up) */
 @media (min-width: $BreakPointMedium) {
+  h4.textthirdimage {
+    font-size: map-get($SizeFontsPX, Font22);
+    width: 100% !important;
+    margin: 0;
+    text-align: center;
+  }
   h3.textfirstimage {
     color: map-get($ColorsHexa, PrimaryWhite);
     position: absolute !important;
