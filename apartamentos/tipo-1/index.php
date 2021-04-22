@@ -21,7 +21,7 @@
       <h1>Apartamento <span>tipo 1</span></h1>
     </div>
     <div class="col-sm-7">
-      <img class="img-fluid" src="<?php echo $base_url ?>/assets/stills/tipo1/Comply1.jpg" alt="Chania">
+      <img class="img-fluid" src="<?php echo $base_url ?>/assets/stills/tipo1/Comply2.jpg" alt="Chania">
     </div>
     <div class="col-12 py-3">
       <h3 class="textfirstimage font-weight-bold pb-3">el sueño de tener una propiedad de lujo estará a tu alcance.</h3>
