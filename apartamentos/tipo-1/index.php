@@ -54,7 +54,7 @@
     <div class="col-sm-12 inner-block">
 
       <div class="row">
-        <div class="col-12 col-xl-4 d-flex justify-content-center align-items-center">
+        <div class="col-12 col-xl-3 d-flex justify-content-center align-items-center">
           <h4 class="text-center text-sm-center text-xl-left">Acerca <br>de este <br>apartamento</h4>
         </div>
         <div class="col-12 col-xl">
@@ -62,15 +62,30 @@
             <small>Área construida</small>44.68mts<sup>2</sup>
           </p>
         </div>
-        <div class="col-12 col-xl">
+        <div class="col-12 col-xl-3">
           <p class="text-center">
             <small>Precio</small>$479'166.000<sup>cop</sup>
           </p>
         </div>
+        <div class="col-12 col-xl-auto">
+        <p>      
+          <a href="#" class="floor-plans-access-button open text-center" data-toggle="modal" data-target="#popUpFloorPlans">
+            <small>Planos</small><i class="bi bi-columns d-block pr-0 pr-lg-5"></i>
+          </a>
+          </p>
+      </div>
+      <div class="col-12 col-xl-auto">
+        <p>      
+          <a href="#" class="floor-plans-access-button open text-center" data-toggle="modal" data-target="#popUpInfo">
+            <small>Detalles</small><i class="icon-Web-Icons_Detalles-Apartamento d-block pr-0 pr-lg-3"></i>
+          </a>
+          </p>
       </div>
 
+      </div>
+     
 
-      <div class="row">
+<!--       <div class="row">
         <div class="col-12 col-xl">
           <p>      
             <a href="#" class="floor-plans-access-button open text-center" data-toggle="modal" data-target="#popUpFloorPlans">
@@ -81,11 +96,11 @@
         <div class="col-12 col-xl">
           <p>      
             <a href="#" class="floor-plans-access-button open text-center" data-toggle="modal" data-target="#popUpInfo">
-              <small>Detalles del apartamento</small><i class="icon-Web-Icons_Detalles-Apartamento d-block pr-0 pr-lg-3"></i>
+              <small>Detalles</small><i class="icon-Web-Icons_Detalles-Apartamento d-block pr-0 pr-lg-3"></i>
             </a>
             </p>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>

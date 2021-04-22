@@ -1,8 +1,8 @@
 <?php
     //$base_url="http://www.dynamikcollective.com/clients/hoyosluque/webapp/";
-    $base_url="https://www.proyectodomus.com";
+    //$base_url="https://www.proyectodomus.com";
     //$base_url="http://localhost:8888/clients/hoyosluque/repo-webapp/DomusSanPatricio"; 
-    //$base_url="http://localhost/DomusSanPatricio"; 
+    $base_url="http://localhost/DomusSanPatricio"; 
     $url= $_SERVER["REQUEST_URI"];
     $path = explode('/', $url);
     $path = array_filter($path);
