@@ -10,7 +10,7 @@
   <a id="more-info-btn" class="btn-type-01 more-info pull-right" href="#more-info">Más información</a>
   <a id="tour-btn" class="btn-type-01 to-tour pull-right" href="#tour">Tour 360º</a>
   <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="../../views-360/roof-top/index.htm" allowfullscreen></iframe>
+    <iframe class="embed-responsive-item" src="../../views-360/zona-de-juegos/index.htm" allowfullscreen></iframe>
   </div>  
 </section>
 
@@ -18,20 +18,20 @@
   <div class="row align-items-center">
     <div class="col-sm-4">
       <h2><span>DOMUS</span> SAN PATRICIO</h2>
-      <h1>Amenities <span>Roof top</span></h1>
+      <h1><span>ZONA DE JUEGOS</span></h1>
     </div>
     <div class="col-sm-8">
-      <img class="img-fluid" src="<?php echo $base_url ?>/assets/terrazas/Terrace01.jpg" alt="Terraza 1">
+      <img class="img-fluid" src="<?php echo $base_url ?>/assets/terrazas/Terrace03.jpg" alt="Terraza 1">
     </div>
-    <di class="col-12 py-3">
+<!--     <di class="col-12 py-3">
       <h3 class="textfirstimage font-weight-bold pb-3">BBQ, equipo de sonido, luces integrada, chimeneas y sillones cómodos</h3>
       <img class="img-fluid" src="<?php echo $base_url ?>/assets/terrazas/Terrace02.jpg" alt="Terraza 2">
-    </di>
+    </di> -->
 
-<!--     <di class="col-12 py-3">
+    <di class="col-12 py-3">
     <h3 class="textsecondimage font-weight-bold pb-3"> Golfito, bowling y un espacio para colocar mats de yoga.</h3>
       <img class="img-fluid" src="<?php echo $base_url ?>/assets/terrazas/Terrace03.jpg" alt="Terraza 3">
-    </di> -->
+    </di>
   </div>
 </section>
 
@@ -44,20 +44,20 @@
         <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
             <h4 class="text-md-center text-xl-left">Acerca<br>de este<br>amenitie</h4>
         </div>
-        <div class="col-12 col-lg">
+<!--         <div class="col-12 col-lg">
           <p>      
             <a href="#" class="floor-plans-access-button open text-center" data-toggle="modal" data-target="#popUpNorte">
               <small>Roof top norte</small><i class="icon-Web-Icons_Roftop d-block pr-0 pr-lg-3"></i>
             </a>
             </p>
-        </div>
-        <!-- <div class="col-12 col-lg">
+        </div> -->
+        <div class="col-12 col-lg">
           <p>      
             <a href="#" class="floor-plans-access-button open text-center" data-toggle="modal" data-target="#popUpSur">
               <small>Roof top sur</small><i class="icon-Web-Icons_Golfito d-block pr-0 pr-lg-3"></i>
             </a>
             </p>
-        </div> -->
+        </div>
       </div>
     </div>
   </div>
