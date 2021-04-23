@@ -8,6 +8,7 @@
     $path = array_filter($path);
     $path = end($path);
 ?>
+
 <head>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -44,7 +45,7 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <header class="<?php (($path === "DomusSanPatricio") or ($path === "apartamentos") or ($path === "amenities")) ? print('fillheader') : ''; ?>">
+    <header class="<?php (($path === "") or ($path === "apartamentos") or ($path === "amenities")) ? print('fillheader') : ''; ?>">
         <div class="row no-gutters">
             <nav class="navbar navbar-expand-md w-100 p-0">
                 <!-- Brand -->
