@@ -42,7 +42,7 @@
     <div class="row">
       <div class="col-md-4">
         <div class="card mb-2">
-          <img class="card-img-top h-100" src="<?php echo $base_url ?>/assets/amenities/rooftop/thumb-01.jpg" alt="Card image cap">
+          <img class="card-img-top h-100" src="<?php echo $base_url ?>/assets/terrazas/Terrace01.jpg" alt="Card image cap">
           <div class="card-body">
             <a href="<?php echo $base_url ?>/amenities/roof-top/" class="btn btn-primary"><p>ROOFTOP</p></a>
           </div>
