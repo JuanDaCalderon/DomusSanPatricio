@@ -16,7 +16,6 @@
             <li data-target="#carouselExampleIndicatorsHero" data-slide-to="2"></li>
             <li data-target="#carouselExampleIndicatorsHero" data-slide-to="3"></li>
             <li data-target="#carouselExampleIndicatorsHero" data-slide-to="4"></li>
-            <li data-target="#carouselExampleIndicatorsHero" data-slide-to="5"></li>
         </ol>
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
@@ -110,7 +109,7 @@
                     </div>
                     <div class="form-row pt-1 pb-0 pb-xl-1">
                         <div class="col-12 col-xl-6">
-                        <input type="text" value="" name="FNAME" class="required w-100" id="mce-FNAME" placeholder="Nombre">    
+                            <input type="text" value="" name="FNAME" class="required w-100" id="mce-FNAME" placeholder="Nombre">    
                         </div>
                         <div class="col-12 col-xl-6">
                         	<input type="text" value="" name="LNAME" class="required w-100" id="mce-LNAME" placeholder="Apellido">
@@ -134,7 +133,8 @@
                     </div>
                     <div class="form-row">
                         <div class="col-sm-12">
-                        <input type="radio" value="Acepto términos y condiciones" name="MMERGE6" id="mce-MMERGE6-0"><label for="mce-MMERGE6-0">Acepto términos y condiciones</label>
+                            <input type="radio" value="Acepto términos y condiciones" name="MMERGE6" id="mce-MMERGE6-0">
+                            <label for="mce-MMERGE6-0">Acepto términos y condiciones</label>
                         </div>
                     </div>
                     <div class="clear text-center">
@@ -150,23 +150,23 @@
     * Locale: ES
     */
     $.extend($.validator.messages, {
-    required: "Este campo es obligatorio.",
-    remote: "Por favor, rellena este campo.",
-    email: "Por favor, escribe una dirección de correo válida",
-    url: "Por favor, escribe una URL válida.",
-    date: "Por favor, escribe una fecha válida.",
-    dateISO: "Por favor, escribe una fecha (ISO) válida.",
-    number: "Por favor, escribe un número entero válido.",
-    digits: "Por favor, escribe sólo dígitos.",
-    creditcard: "Por favor, escribe un número de tarjeta válido.",
-    equalTo: "Por favor, escribe el mismo valor de nuevo.",
-    accept: "Por favor, escribe un valor con una extensión aceptada.",
-    maxlength: $.validator.format("Por favor, no escribas más de {0} caracteres."),
-    minlength: $.validator.format("Por favor, no escribas menos de {0} caracteres."),
-    rangelength: $.validator.format("Por favor, escribe un valor entre {0} y {1} caracteres."),
-    range: $.validator.format("Por favor, escribe un valor entre {0} y {1}."),
-    max: $.validator.format("Por favor, escribe un valor menor o igual a {0}."),
-    min: $.validator.format("Por favor, escribe un valor mayor o igual a {0}.")
+        required: "Este campo es obligatorio.",
+        remote: "Por favor, rellena este campo.",
+        email: "Por favor, escribe una dirección de correo válida",
+        url: "Por favor, escribe una URL válida.",
+        date: "Por favor, escribe una fecha válida.",
+        dateISO: "Por favor, escribe una fecha (ISO) válida.",
+        number: "Por favor, escribe un número entero válido.",
+        digits: "Por favor, escribe sólo dígitos.",
+        creditcard: "Por favor, escribe un número de tarjeta válido.",
+        equalTo: "Por favor, escribe el mismo valor de nuevo.",
+        accept: "Por favor, escribe un valor con una extensión aceptada.",
+        maxlength: $.validator.format("Por favor, no escribas más de {0} caracteres."),
+        minlength: $.validator.format("Por favor, no escribas menos de {0} caracteres."),
+        rangelength: $.validator.format("Por favor, escribe un valor entre {0} y {1} caracteres."),
+        range: $.validator.format("Por favor, escribe un valor entre {0} y {1}."),
+        max: $.validator.format("Por favor, escribe un valor menor o igual a {0}."),
+        min: $.validator.format("Por favor, escribe un valor mayor o igual a {0}.")
     });}(jQuery));var $mcj = jQuery.noConflict(true);</script>
     <!--End mc_embed_signup-->
 </section>
@@ -174,7 +174,7 @@
 <section id="apartments">
     <div class="container">
         <div class="row">
-        <div class="col-12 col-lg-5 mt-5 pt-3">
+        <div class="col-12 col-lg-5 mt-2 mt-md-5 pt-3">
             <h4 class="title-type-01">ESPACIOS para compartir y disfrutar</h4>
             <p class="text-type-01">
             El proyecto de vivienda DOMUS San Patricio es un espacio para vivir y mostrar. Contarás con una variedad de complementos para que disfrutes con tu familia, amigos y equipo de trabajo.
@@ -182,7 +182,7 @@
                 <span>CREANDO EXPERIENCIAS</span>
             </p>
         </div>
-        <div class="col-12 col-lg-7 mt-4 mt-lg-0 gallery">
+        <div class="col-12 col-lg-7 mt-0 gallery px-0 px-sm-3">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
@@ -204,7 +204,7 @@
                         <img class="d-block w-100" src="assets/carousel/home/Lobby.jpg" data-color="lightblue" alt="First Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="assets/carousel/home/07.jpg" data-color="lightblue" alt="First Image">
+                        <img class="d-block w-100" src="assets/carousel/home/Terrace.jpg" data-color="lightblue" alt="First Image">
                     </div>
                     <div class="carousel-item">
                         <img class="d-block w-100" src="assets/carousel/home/Co-working.jpg" data-color="lightblue" alt="First Image">
@@ -224,7 +224,7 @@
                     <h4 class="title-type-02">
                         conoce todos<br>los modelos<br>de apartamento<br>que tenemos<br>para tí
                     </h4>
-                    <div class="row pt-4 mt-5">
+                    <div class="row pt-4 mt-0 mt-sm-5">
                         <div class="col-sm-6 mb-4 mb-sm-0 gallery-access">
                             <a class="imgPopUp" data-toggle="modal" data-target="#popUpGallery">
                                 <img class="0 img-fluid" src="assets/stills/tipo1/Comply1.jpg" data-color="lightblue" alt="First Image">

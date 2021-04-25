@@ -895,14 +895,9 @@ body.new-nav-bar {
   form#mc-embedded-subscribe-form {
     margin: 0;
     .form-container {
-      /*       position: absolute;
-      top: 240px; */
-      /*  z-index: 1000; */
-      /* display: block; */
       background: rgba(183, 168, 149, 0.1);
       box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
       padding: 50px;
-      /* right: 100px; */
     }
     input {
       background-color: rgba(50, 70, 82, 0.1);
@@ -989,8 +984,31 @@ a.btn_cita {
   }
 }
 @media (max-width: $BreakPointSmall) {
+  body.new-nav-bar {
+    form#mc-embedded-subscribe-form {
+      .form-container {
+        margin-top: 0% !important;
+      }
+    }
+    #apartments {
+      .carousel {
+        padding: 0 !important;
+        ol.carousel-indicators {
+          bottom: -45px;
+          right: 0;
+          margin-left: 15%;
+        }
+      }
+      .gallery:after {
+        display: none;
+      }
+    }
+  }
   h5.title-type-02 {
-    font-size: map-get($SizeFontsREM, FontR1125);
+    font-size: map-get($SizeFontsPX, Font22);
+  }
+  p.text-type-02 {
+    font-size: map-get($SizeFontsPX, Font18);
   }
 }
 

@@ -847,15 +847,10 @@ body.new-nav-bar form#mc-embedded-subscribe-form {
 }
 
 body.new-nav-bar form#mc-embedded-subscribe-form .form-container {
-  /*       position: absolute;
-      top: 240px; */
-  /*  z-index: 1000; */
-  /* display: block; */
   background: rgba(183, 168, 149, 0.1);
   -webkit-box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
           box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
   padding: 50px;
-  /* right: 100px; */
 }
 
 body.new-nav-bar form#mc-embedded-subscribe-form input {
@@ -942,8 +937,22 @@ a.btn_cita {
 }
 
 @media (max-width: 576px) {
+  body.new-nav-bar form#mc-embedded-subscribe-form .form-container {
+    margin-top: 0% !important;
+  }
+  body.new-nav-bar #apartments .carousel {
+    padding: 0 !important;
+  }
+  body.new-nav-bar #apartments .carousel ol.carousel-indicators {
+    bottom: -45px;
+    right: 0;
+    margin-left: 15%;
+  }
+  body.new-nav-bar #apartments .gallery:after {
+    display: none;
+  }
   h5.title-type-02 {
-    font-size: 1.125rem;
+    font-size: 22px;
   }
 }
 
