@@ -6,6 +6,7 @@
 <script>
     var $base_url = '<?php echo $base_url;?>';
 </script>
+
 <section id="tour" class="container-fluid p-0 tour">
   <a id="more-info-btn" class="btn-type-01 more-info pull-right" href="#more-info">Más información</a>
   <a id="tour-btn" class="btn-type-01 to-tour pull-right" href="#tour">Tour 360º</a>
@@ -14,45 +15,39 @@
   </div>  
 </section>
 
-<section id="more-info" class="container">
+<section id="more-info" class="container pt-4 pt-md-5 pb-3">
   <div class="row align-items-center">
-    <div class="col-sm-5">
+    <div class="col-sm-12 col-md-5 py-2 px-2">
       <h2><span>DOMUS</span> SAN PATRICIO</h2>
       <h1>Apartamento <span>tipo 1</span></h1>
+      <p class="h5">12 aparta estudios de 44.68 mts<sup>2</sup> ubicados equitativamente en las dos torres del segundo al cuarto piso.</p>
     </div>
-    <div class="col-sm-7">
+    <div class="col-sm-12 col-md-7 py-2 px-2">
       <img class="img-fluid" src="<?php echo $base_url ?>/assets/stills/tipo1/Comply2.jpg" alt="Chania">
     </div>
-    <div class="col-12 py-3">
+    <div class="col-12 py-2 px-2">
       <h3 class="textfirstimage font-weight-bold pb-3">el sueño de tener una propiedad de lujo estará a tu alcance.</h3>
       <img class="img-fluid" src="<?php echo $base_url ?>/assets/stills/tipo1/Comply1.jpg" alt="Lobby">
-      
     </div>
-    <div class="col-12 col-md-6 py-3">
+    <div class="col-12 col-md-6 py-2 px-2">
       <img class="img-fluid" src="<?php echo $base_url ?>/assets/stills/tipo1/Tv1.jpg" alt="Lobby">
-      
     </div>
-    
-    <div class="col-12 col-md-6 py-3">
-
+    <div class="col-12 col-md-6 py-2 px-2">
       <img class="img-fluid" src="<?php echo $base_url ?>/assets/stills/tipo1/Tv2.jpg" alt="Sala de juntas">
-      
     </div>
-    <div class="col-12">
+    <div class="col-12 px-2">
         <h4 class="textthirdimage font-weight-bold py-1 h5">disfruta de su mueble multifuncional en un espacio ideado para ti</h4>
       </div>
-    
-    <div class="col-12 py-3">
+    <div class="col-12 py-2 px-2">
       <img class="img-fluid" src="<?php echo $base_url ?>/assets/stills/tipo1/Comply2.jpg" alt="Sala de juntas">
       <h3 class="textsecondimage font-weight-bold pt-3">disfrutar de una unidad tipo uno es tenerlo todo, diseño, comodidad e innovación</h3>
     </div>
   </div>
 </section>
 
-<section id="about-this" class="container">
+<section id="about-this" class="container px-2 pb-0 pb-md-3">
   <div class="">
     <div class="col-sm-12 inner-block">
-
       <div class="row">
         <div class="col-12 col-xl-3 d-flex justify-content-center align-items-center">
           <h4 class="text-center text-sm-center text-xl-left">Acerca <br>de este <br>apartamento</h4>
@@ -68,44 +63,26 @@
           </p>
         </div>
         <div class="col-12 col-xl-auto">
-        <p>      
-          <a href="#" class="floor-plans-access-button open text-center" data-toggle="modal" data-target="#popUpFloorPlans">
-            <small>Planos</small><i class="bi bi-columns d-block pr-0 pr-lg-5"></i>
-          </a>
-          </p>
-      </div>
-      <div class="col-12 col-xl-auto">
-        <p>      
-          <a href="#" class="floor-plans-access-button open text-center" data-toggle="modal" data-target="#popUpInfo">
-            <small>Detalles</small><i class="icon-Web-Icons_Detalles-Apartamento d-block pr-0 pr-lg-3"></i>
-          </a>
-          </p>
-      </div>
-
-      </div>
-     
-
-<!--       <div class="row">
-        <div class="col-12 col-xl">
           <p>      
             <a href="#" class="floor-plans-access-button open text-center" data-toggle="modal" data-target="#popUpFloorPlans">
               <small>Planos</small><i class="bi bi-columns d-block pr-0 pr-lg-5"></i>
             </a>
+          </p>
+        </div>
+        <div class="col-12 col-xl-auto">
+            <p>      
+              <a href="#" class="floor-plans-access-button open text-center" data-toggle="modal" data-target="#popUpInfo">
+                <small>Detalles</small><i class="icon-Web-Icons_Detalles-Apartamento d-block pr-0 pr-lg-3"></i>
+              </a>
             </p>
         </div>
-        <div class="col-12 col-xl">
-          <p>      
-            <a href="#" class="floor-plans-access-button open text-center" data-toggle="modal" data-target="#popUpInfo">
-              <small>Detalles</small><i class="icon-Web-Icons_Detalles-Apartamento d-block pr-0 pr-lg-3"></i>
-            </a>
-            </p>
-        </div>
-      </div> -->
+
+      </div>
     </div>
   </div>
 </section>
 
-<section id="amenities" class="container bottom">
+<section id="amenities" class="container px-2 bottom">
   <div class="row">
     <div class="col-sm-12">
       <h2><span>DOMUS</span> APARTAMENTOS</h2>
@@ -186,53 +163,6 @@
 </section>
 
 <section>
-  <!-- Modal Gallery -->
-  <div class="modal fade" id="popUpGallery" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="gallery-access-button closed" data-dismiss="modal" aria-label="Close">
-            <i class="bi bi-arrows-angle-contract"></i>
-          </button>
-        </div>
-        <div class="modal-body">
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <!-- Wrapper for slides -->
-            <div id="gallery" class="carousel-inner">
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="<?php echo $base_url ?>/assets/stills/tipo1/Comply1.jpg" data-color="lightblue" alt="First Image">
-                    <div class="carousel-caption d-md-block">
-                        <h5>
-                            Iluminación y ventilación natural
-                        </h5>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="<?php echo $base_url ?>/assets/stills/tipo1/Comply2.jpg" data-color="lightblue" alt="First Image">
-                    <div class="carousel-caption d-md-block">
-                        <h5>
-                            Juntos en armonía
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <!-- Controls -->
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"><</span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true">></span>
-                <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section>
   <!-- Modal Floor plans -->
   <div class="modal fade" id="popUpFloorPlans" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
@@ -254,7 +184,7 @@
 </section>
 
 <section>
-  <!-- Modal Playground -->
+  <!-- Modal Info -->
   <div class="modal fade" id="popUpInfo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-xl modal-dialog-centered justify-content-center" role="document">
       <div class="modal-content w-75">

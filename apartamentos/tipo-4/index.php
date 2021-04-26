@@ -6,6 +6,7 @@
 <script>
     var $base_url = '<?php echo $base_url;?>';
 </script>
+
 <section id="tour" class="container-fluid p-0 tour">
   <a id="more-info-btn" class="btn-type-01 more-info pull-right" href="#more-info">Más información</a>
   <a id="tour-btn" class="btn-type-01 to-tour pull-right" href="#tour">Tour 360º</a>
@@ -13,82 +14,59 @@
     <iframe class="embed-responsive-item" src="../../views-360/tipo-4/index.htm" allowfullscreen></iframe>
   </div>  
 </section>
-<section id="more-info" class="container">
-  <div class="row">
-    <div class="col-sm-7">
+
+<section id="more-info" class="container pt-4 pt-md-5 pb-3">
+  <div class="row align-items-center">
+    <div class="col-sm-12 col-md-5 py-2 px-2">
       <h2><span>DOMUS</span> SAN PATRICIO</h2>
       <h1>Apartamento <span>tipo 4</span></h1>
-      <p class="text-justify pr-md-5">
-        disfrute de la mejor distribución, amplios espacios, excelentes acabados en este lugar soñado para vivir una vida con la comodidad que le brindamos para poder trabajar y compartir en casa, teniendo un espacio para cada momento, todo en un solo lugar.
+      <p class="h5">
+        2 apartamentos de dos alcobas de 109.37 mts<sup>2</sup> con terraza privada de 40 mts<sup>2</sup> ubicados uno en cada torre del quinto piso.
       </p>
-      <ul>
-        <li>
-          <p>Salón comedor con balcón (amplio).</p>
-        </li>
-        <li>
-          <p>Chimenea.</p>
-        </li>
-        <li>
-          <p>Mueble auxiliar con bar y perchero.</p>
-        </li>
-        <li>
-          <p>Baño social.</p>
-        </li>
-        <li>
-          <p>Cocina abierta.</p>
-        </li>
-        <li>
-          <p>Zona de lavandería.</p>
-        </li>
-        <li>
-          <p>Estar de alcobas y estudio (home Office).</p>
-        </li>
-        <li>
-          <p>Alcoba principal con vestidor y baño privado.</p>
-        </li>
-        <li>
-          <p>Segunda alcoba con baño y closet privado</p>
-        </li>
-        <li>
-          <p>Escalera de acceso a la cubierta común de uso exclusivo de 65.70 mts <sup>2</sup> </p>
-        </li>
-      </ul>
     </div>
-    <div class="col-sm-5 gallery-access p-0">
+    <div class="col-sm-12 col-md-7 py-2 px-2">
       <img class="img-fluid" src="<?php echo $base_url ?>/assets/stills/tipo4/Comply1.jpg" alt="Chania">
-      <button type="button" class="gallery-access-button open" data-toggle="modal" data-target="#popUpGallery">
-        <i class="bi bi-arrows-angle-expand"></i>
-      </button>
+      <h3 class="textsecondimage font-weight-bold py-2">Amplios espacios y excelentes acabados en este lugar soñado</h3>
+    </div>
+    <div class="col-md-6 py-2 px-2">
+      <img class="img-fluid" src="<?php echo $base_url ?>/assets/stills/tipo4/Comply2.jpg" alt="Sala de juntas">
+    </div>
+    <div class="col-md-6 py-2 px-2">
+      <img class="img-fluid" src="<?php echo $base_url ?>/assets/stills/tipo4/Comply3.jpg" alt="coworking">
     </div>
   </div>
 </section>
-<section id="about-this" class="container">
+
+
+<section id="about-this" class="container px-2 pb-0 pb-md-3">
   <div class="">
     <div class="col-sm-12 inner-block">
     <div class="row">
-    <div class="col-sm-12 col-xl-4 text-sm-justify">
-          <h4 class="text-sm-center text-xl-left">Acerca <br>de este <br>apartamento</h4>
+        <div class="col-12 col-xl-3 d-flex justify-content-center align-items-center">
+          <h4 class="text-center text-sm-center text-xl-left">Acerca <br>de este <br>apartamento</h4>
         </div>
-        <div class="col-12 col-sm-12 col-lg-8 col-xl-6">
-          <p>
-            <small>Área construida</small>108.82mts<sup>2</sup>
+        <div class="col-12 col-xl">
+          <p class="text-center">
+            <small>Área construida</small>109,37mts<sup>2</sup>
           </p>
         </div>
-<!--         <div class="col-12 col-sm-6 col-lg-3 col-xl-2">
-          <p>
-            <small>Área privada</small>120mts<sup>2</sup>
+        <div class="col-12 col-xl-3">
+          <p class="text-center">
+            <small>Precio</small>$1'294.433.000<sup>cop</sup>
           </p>
-        </div> -->
-<!--         <div class="col">
-          <p>
-            <small>Precio</small>-<sup>cop</sup>
-          </p>
-        </div> -->
-        <div class="col">
+        </div>
+        <div class="col-12 col-xl-auto">
           <p>      
-            <a href="#" class="floor-plans-access-button open" data-toggle="modal" data-target="#popUpFloorPlans">
-              <small>Planos</small><i class="bi bi-columns"></i>
+            <a href="#" class="floor-plans-access-button open text-center" data-toggle="modal" data-target="#popUpFloorPlans">
+              <small>Planos</small><i class="bi bi-columns d-block pr-0 pr-lg-5"></i>
             </a>
+          </p>
+        </div>
+        <div class="col-12 col-xl-auto">
+            <p>      
+              <a href="#" class="floor-plans-access-button open text-center" data-toggle="modal" data-target="#popUpInfo">
+                <small>Detalles</small><i class="icon-Web-Icons_Detalles-Apartamento d-block pr-0 pr-lg-3"></i>
+              </a>
             </p>
         </div>
       </div>
@@ -96,7 +74,7 @@
   </div>
 </section>
 
-<section id="amenities" class="container bottom">
+<section id="amenities" class="container px-2 bottom">
   <div class="row">
     <div class="col-sm-12">
       <h2><span>DOMUS</span> APARTAMENTOS</h2>
@@ -176,48 +154,8 @@
   </div>
 </section>
 
-<section>
-
-  <!-- Modal Gallery -->
-  <div class="modal fade" id="popUpGallery" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="gallery-access-button closed" data-dismiss="modal" aria-label="Close">
-            <i class="bi bi-arrows-angle-contract"></i>
-          </button>
-        </div>
-        <div class="modal-body">
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <!-- Wrapper for slides -->
-            <div id="gallery" class="carousel-inner">
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="<?php echo $base_url ?>/assets/stills/tipo4/Comply1.jpg" data-color="lightblue" alt="First Image">
-                    <div class="carousel-caption d-md-block">
-                        <h5>
-                            Iluminación y ventilación natural
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <!-- Controls -->
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"><</span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true">></span>
-                <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <section>
-
   <!-- Modal Floor plans -->
   <div class="modal fade" id="popUpFloorPlans" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
@@ -231,6 +169,65 @@
           <img class="img-fluid" src="<?php echo $base_url ?>/assets/plantas/DeptoTipo4.jpg">
           <h5>
             Iluminación y ventilación natural
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <!-- Modal Info -->
+  <div class="modal fade" id="popUpInfo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered justify-content-center" role="document">
+      <div class="modal-content w-75">
+        <div class="modal-header">
+          <button type="button" class="gallery-access-button closed" data-dismiss="modal" aria-label="Close">
+            <i class="bi bi-arrows-angle-contract"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- <img class="img-fluid" src="<?php echo $base_url ?>/assets/galleries/tipo-a/floorplan.jpg"> -->
+          <div class="row px-5 py-4">
+            <div class="col">
+              <h2><i class="icon-Web-Icons_Detalles-Apartamento mr-2"></i><span>Apartamento Tipo 4</span></h2>
+              <ul class="text-left">
+                <li>
+                  <p>Salón comedor con balcón amplio.</p>
+                </li>
+                <li>
+                  <p>Chimenea.</p>
+                </li>
+                <li>
+                  <p>Mueble auxiliar con bar y perchero.</p>
+                </li>
+                <li>
+                  <p>Baño social.</p>
+                </li>
+                <li>
+                  <p>Cocina abierta.</p>
+                </li>
+                <li>
+                  <p>Zona de lavandería.</p>
+                </li>
+                <li>
+                  <p>Estar de alcobas y estudio home Office.</p>
+                </li>
+                <li>
+                  <p>Alcoba principal con vestidor y baño privado.</p>
+                </li>
+                <li>
+                  <p>Segunda alcoba con baño y closet privado.</p>
+                </li>
+                <li>
+                  <p>Escalera de acceso a la cubierta común de uso exclusivo de 65.70 mts<sup>2</sup></p>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+          <h5>
+            Características
           </h5>
         </div>
       </div>
