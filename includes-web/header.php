@@ -82,8 +82,6 @@
                                 <a class="dropdown-item" href="<?php echo $base_url ?>/amenities/lobby/">Lobby</a>
                                 <a class="dropdown-item" href="<?php echo $base_url ?>/amenities/co-working/">Co-working</a>
                                 <a class="dropdown-item" href="<?php echo $base_url ?>/amenities/gimnasio/">Gimnasio</a>
-                                <a class="dropdown-item" href="<?php echo $base_url ?>/amenities/ping-pong/">Ping Pong</a>
-                                <a class="dropdown-item" href="<?php echo $base_url ?>/amenities/teatrino/">Teatrino</a>
                                 <a class="dropdown-item" href="<?php echo $base_url ?>/amenities/roof-top/">Roof top</a>
                                 <a class="dropdown-item" href="<?php echo $base_url ?>/amenities/zona-de-juegos/">Zona de juegos</a>
                             </div>

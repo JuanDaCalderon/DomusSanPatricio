@@ -960,11 +960,27 @@ a.btn_cita {
   font-family: $FuenteSerif;
   background-color: map-get($ColorsHexa, PrimaryGray) !important;
 }
+section#more-info.container {
+  img {
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+  }
+  img.objfill1 {
+    height: auto;
+    object-fit: cover;
+  }
+  img.objfill2 {
+    height: auto;
+    object-fit: cover;
+  }
+}
 /*------------------------------------------END OF NEW HOME STYLES-----------------------------------------*/
 
 /*-------------------------------------------RESPONSIVE STYLES------------------------------------------------*/
 /* Extra small devices (portrait phones, less than 576px)*/
 /* No media query since this is the default in Bootstrap*/
+/* ---------------------------------------------------- */
+/* ---------------------------------------------------- */
+/* ---------------------------------------------------- */
 
 /* -------------------------------------Small devices (landscape phones, 576px and up)*/
 @media (min-width: $BreakPointSmall) {
@@ -1014,6 +1030,16 @@ a.btn_cita {
 
 /* ---------------------------------------Medium devices (tablets, 768px and up) */
 @media (min-width: $BreakPointMedium) {
+  section#more-info.container {
+    img.objfill1 {
+      height: 303px;
+      object-fit: cover;
+    }
+    img.objfill2 {
+      height: 262px;
+      object-fit: cover;
+    }
+  }
   h4.textthirdimage {
     font-size: map-get($SizeFontsPX, Font22);
     width: 100% !important;
@@ -1073,11 +1099,21 @@ a.btn_cita {
 }
 /* -------------------------------------------Large devices (desktops, 992px and up)------------------*/
 @media (min-width: $BreakPointLarge) {
+  section#more-info.container {
+    img.objfill1 {
+      height: 407px;
+      object-fit: cover;
+    }
+    img.objfill2 {
+      height: 352px;
+      object-fit: cover;
+    }
+  }
   h3.textfirstimage {
-    font-size: map-get($SizeFontsPX, Font40);
+    font-size: map-get($SizeFontsPX, Font35);
   }
   h3.textsecondimage {
-    font-size: map-get($SizeFontsPX, Font30);
+    font-size: map-get($SizeFontsPX, Font28);
   }
   /*MAIN HEADER*/
   #main-logo {
@@ -1213,6 +1249,16 @@ a.btn_cita {
 }
 /* ---------------------------------------------------Extra large devices (large desktops, 1200px and up) */
 @media (min-width: $BreakPointExtraLarge) {
+  section#more-info.container {
+    img.objfill1 {
+      height: 486px;
+      object-fit: cover;
+    }
+    img.objfill2 {
+      height: 418px;
+      object-fit: cover;
+    }
+  }
   .carousel-inner {
     h5 {
       abbr {

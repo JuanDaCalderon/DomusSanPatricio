@@ -922,10 +922,30 @@ a.btn_cita {
   background-color: rgba(39, 35, 45, 0.9) !important;
 }
 
+section#more-info.container img {
+  -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+}
+
+section#more-info.container img.objfill1 {
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+section#more-info.container img.objfill2 {
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 /*------------------------------------------END OF NEW HOME STYLES-----------------------------------------*/
 /*-------------------------------------------RESPONSIVE STYLES------------------------------------------------*/
 /* Extra small devices (portrait phones, less than 576px)*/
 /* No media query since this is the default in Bootstrap*/
+/* ---------------------------------------------------- */
+/* ---------------------------------------------------- */
+/* ---------------------------------------------------- */
 /* -------------------------------------Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
   .carousel-inner h5 abbr {
@@ -958,6 +978,16 @@ a.btn_cita {
 
 /* ---------------------------------------Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  section#more-info.container img.objfill1 {
+    height: 303px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  section#more-info.container img.objfill2 {
+    height: 262px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
   h4.textthirdimage {
     font-size: 22px;
     width: 100% !important;
@@ -1009,11 +1039,21 @@ a.btn_cita {
 
 /* -------------------------------------------Large devices (desktops, 992px and up)------------------*/
 @media (min-width: 992px) {
+  section#more-info.container img.objfill1 {
+    height: 407px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  section#more-info.container img.objfill2 {
+    height: 352px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
   h3.textfirstimage {
-    font-size: 40px;
+    font-size: 35px;
   }
   h3.textsecondimage {
-    font-size: 30px;
+    font-size: 28px;
   }
   /*MAIN HEADER*/
   #main-logo {
@@ -1124,6 +1164,16 @@ a.btn_cita {
 
 /* ---------------------------------------------------Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  section#more-info.container img.objfill1 {
+    height: 486px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  section#more-info.container img.objfill2 {
+    height: 418px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
   .carousel-inner h5 abbr {
     font-size: 60px !important;
   }
