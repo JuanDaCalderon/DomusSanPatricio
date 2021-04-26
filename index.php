@@ -218,7 +218,7 @@
 
 <section id="amenities" class="p-0">
     <div class="inner-bg pb-3 pt-5 pb-lg-6 pt-lg-5 mt-lg-5">
-        <div class="container">
+        <div id="galeria" class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-6 bg-purple mb-4 p-lg-0 m-lg-0">
                     <h4 class="title-type-02">
@@ -274,7 +274,7 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div id="ubicacion" class="container">
             <div class="row p-0 pt-md-5 align-items-center">
                 <div class="col-12 col-md-9 mb-4 p-lg-0 m-lg-0">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d994.1110932560084!2d-74.04825797076593!3d4.692586236396391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ab962194c03%3A0x6399b0ca4ac2df5c!2zQ3JhLiAxNyAjIzEwNi03MywgQm9nb3TDoQ!5e0!3m2!1ses-419!2sco!4v1619103941289!5m2!1ses-419!2sco" width="100%" height="400px" style="border:0;" loading="lazy"></iframe>
@@ -457,7 +457,23 @@
 
 <script>
     var $item = $('#gallery .carousel-item');
+    $("#galerialink").click(function(e){
+        e.preventDefault();
+        var pos = $("#galeria").offset();
+        window.scroll(0,pos.top);
+        $item.removeClass('active');
+        $item.eq(0).addClass('active');
+        $('#popUpGallery').modal('show');        
+    });
+</script>
+
+<script>
+    
+
+    var $item = $('#gallery .carousel-item');
     var $wHeight = $(window).height();
+
+
 
     $(".0").click(function(){
         $item.removeClass('active');
@@ -482,6 +498,7 @@
 	});
 
 </script>
+
 
 <?php 
     require_once 'includes/footer.php';

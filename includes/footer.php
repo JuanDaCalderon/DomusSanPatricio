@@ -69,7 +69,6 @@
     </div>
   </div>
 </section>
-    <script src="<?php echo $base_url ?>/js/custom.js"></script>
-    
+    <script src="<?php echo $base_url ?>/js/custom.js"></script>   
 </body>
 </html>

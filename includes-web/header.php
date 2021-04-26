@@ -45,7 +45,7 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <header class="<?php (($path === "") or ($path === "apartamentos") or ($path === "amenities")) ? print('fillheader') : ''; ?>">
+    <header class="<?php (($path === "apartamentos") or ($path === "amenities")) ? print('fillheader') : ''; ?>">
         <div class="row no-gutters">
             <nav class="navbar navbar-expand-md w-100 p-0">
                 <!-- Brand -->
@@ -59,7 +59,7 @@
                 </button>
                 <!-- Links -->
                 <div class="collapse navbar-collapse pl-3 pb-2 pt-0 pt-md-2" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav w-100">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="<?php echo $base_url ?>/apartamentos/index.php" id="navbardrop" data-toggle="dropdown">
                                 Apartamentos
@@ -85,6 +85,12 @@
                                 <a class="dropdown-item" href="<?php echo $base_url ?>/amenities/roof-top/">Roof top</a>
                                 <a class="dropdown-item" href="<?php echo $base_url ?>/amenities/zona-de-juegos/">Zona de juegos</a>
                             </div>
+                        </li>
+                        <li class="nav-item ml-md-auto">
+                            <a class="nav-link" href="<?php echo $base_url ?>#ubicacion">UBICACIÓN</a>
+                        </li>
+                        <li class="nav-item pr-md-5">
+                            <a id="galerialink" class="nav-link" href="<?php echo $base_url ?>#galeria">GALERIA</a>
                         </li>
                     </ul>
                 </div>
