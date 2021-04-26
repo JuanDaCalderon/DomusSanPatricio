@@ -49,27 +49,27 @@
   <div class="">
     <div class="col-sm-12 inner-block">
       <div class="row">
-        <div class="col-12 col-xl-3 d-flex justify-content-center align-items-center">
+        <div class="col-12 col-xl-4 d-flex justify-content-center align-items-center">
           <h4 class="text-center text-sm-center text-xl-left">Acerca <br>de este <br>apartamento</h4>
         </div>
-        <div class="col-12 col-xl">
+        <div class="col-12 col-xl-8">
+          <p class="text-center">
+            <small>Precio</small> <small class="d-inline">Desde </small>$369'662.000<sup>cop</sup> <br> <small class="d-inline">Hasta </small> $376'896.000<sup>cop</sup>
+          </p>
+        </div>
+        <div class="col-12 col-xl-4">
           <p class="text-center">
             <small>Área construida</small>36.98mts<sup>2</sup>
           </p>
         </div>
-        <div class="col-12 col-xl-3">
-          <p class="text-center">
-            <small>Precio</small>$479'166.000<sup>cop</sup>
-          </p>
-        </div>
-        <div class="col-12 col-xl-auto">
+        <div class="col-12 col-xl-4">
           <p>      
             <a href="#" class="floor-plans-access-button open text-center" data-toggle="modal" data-target="#popUpFloorPlans">
               <small>Planos</small><i class="bi bi-columns d-block pr-0 pr-lg-5"></i>
             </a>
           </p>
         </div>
-        <div class="col-12 col-xl-auto">
+        <div class="col-12 col-xl-4">
             <p>      
               <a href="#" class="floor-plans-access-button open text-center" data-toggle="modal" data-target="#popUpInfo">
                 <small>Detalles</small><i class="icon-Web-Icons_Detalles-Apartamento d-block pr-0 pr-lg-3"></i>

@@ -52,12 +52,12 @@
         <div class="col-12 col-xl-3 d-flex justify-content-center align-items-center">
           <h4 class="text-center text-sm-center text-xl-left">Acerca <br>de este <br>apartamento</h4>
         </div>
-        <div class="col-12 col-xl">
+        <div class="col-12 col-xl-2">
           <p class="text-center">
             <small>Área construida</small>117,21mts<sup>2</sup>
           </p>
         </div>
-        <div class="col-12 col-xl-3">
+        <div class="col-12 col-xl">
           <p class="text-center">
             <small>Precio</small>$1'459.593.000<sup>cop</sup>
           </p>
