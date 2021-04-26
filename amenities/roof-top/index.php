@@ -16,28 +16,24 @@
 
 <section id="more-info" class="container pt-5">
   <div class="row align-items-center">
-    <div class="col-sm-4">
+    <div class="col-sm-4 px-2">
       <h2><span>DOMUS</span> SAN PATRICIO</h2>
       <h1>Amenities <span>Roof top</span></h1>
+      <p class="h5">Terraza para realizar actividades sociales y familiares.</p>
     </div>
-    <div class="col-sm-8">
+    <div class="col-sm-8 px-2">
       <img class="img-fluid" src="<?php echo $base_url ?>/assets/terrazas/Terrace01.jpg" alt="Terraza 1">
     </div>
-    <di class="col-12 py-3">
+    <di class="col-12 py-3 px-2">
       <h3 class="textfirstimage font-weight-bold pb-3">BBQ, equipo de sonido, luces integrada, chimeneas y sillones cómodos</h3>
       <img class="img-fluid" src="<?php echo $base_url ?>/assets/terrazas/Terrace02.jpg" alt="Terraza 2">
     </di>
-
-<!--     <di class="col-12 py-3">
-    <h3 class="textsecondimage font-weight-bold pb-3"> Golfito, bowling y un espacio para colocar mats de yoga.</h3>
-      <img class="img-fluid" src="<?php echo $base_url ?>/assets/terrazas/Terrace03.jpg" alt="Terraza 3">
-    </di> -->
   </div>
 </section>
 
 
 
-<section id="about-this" class="container">
+<section id="about-this" class="container px-2">
   <div class="">
     <div class="col-sm-12 inner-block">
     <div class="row">
@@ -51,20 +47,13 @@
             </a>
             </p>
         </div>
-        <!-- <div class="col-12 col-lg">
-          <p>      
-            <a href="#" class="floor-plans-access-button open text-center" data-toggle="modal" data-target="#popUpSur">
-              <small>Roof top sur</small><i class="icon-Web-Icons_Golfito d-block pr-0 pr-lg-3"></i>
-            </a>
-            </p>
-        </div> -->
       </div>
     </div>
   </div>
 </section>
 
 
-<section id="amenities" class="container bottom">
+<section id="amenities" class="container px-2 bottom">
   <div class="row">
     <div class="col-sm-12">
       <h2><span>DOMUS</span> AMENITIES</h2>
@@ -153,64 +142,6 @@
 </section>
 
 
-
-
-<section>
-
-  <!-- Modal Gallery -->
-  <div class="modal fade" id="popUpGallery" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="gallery-access-button closed" data-dismiss="modal" aria-label="Close">
-            <i class="bi bi-arrows-angle-contract"></i>
-          </button>
-        </div>
-        <div class="modal-body">
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <!-- Wrapper for slides -->
-            <div id="gallery" class="carousel-inner">
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="<?php echo $base_url ?>/assets/terrazas/Terrace01.jpg" data-color="lightblue" alt="First Image">
-                    <div class="carousel-caption d-md-block">
-                        <h5>
-                            Iluminación y ventilación natural
-                        </h5>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="<?php echo $base_url ?>/assets/terrazas/Terrace02.jpg" data-color="lightblue" alt="First Image">
-                    <div class="carousel-caption d-md-block">
-                        <h5>
-                            Juntos en armonía
-                        </h5>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="<?php echo $base_url ?>/assets/terrazas/Terrace03.jpg" data-color="lightblue" alt="First Image">
-                    <div class="carousel-caption d-md-block">
-                        <h5>
-                            Distribución perfecta
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <!-- Controls -->
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"><</span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true">></span>
-                <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section>
   <!-- Modal Roof top norte -->
   <div class="modal fade" id="popUpNorte" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -240,34 +171,6 @@
   </div>
 </section>
 
-<section>
-  <!-- Modal Roof top norte -->
-  <div class="modal fade" id="popUpSur" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-centered justify-content-center" role="document">
-      <div class="modal-content w-75">
-        <div class="modal-header">
-          <button type="button" class="gallery-access-button closed" data-dismiss="modal" aria-label="Close">
-            <i class="bi bi-arrows-angle-contract"></i>
-          </button>
-        </div>
-        <div class="modal-body">
-          <!-- <img class="img-fluid" src="<?php echo $base_url ?>/assets/galleries/tipo-a/floorplan.jpg"> -->
-          <div class="row px-5 py-4">
-            <div class="col">
-              <h2><i class="icon-Web-Icons_Golfito mr-2"></i><span>ROOF TOP SUR</span></h2>
-              <p class="text-justify">
-                Si te gusta respirar aire fresco y distraerte tendrás todo en un mismo sitio en esta terraza con golfito, ping pong y espacio de yoga.
-              </p>
-            </div>
-          </div>
-          <h5>
-            ROOF TOP SUR
-          </h5>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <script>
   var $item = $('#gallery .carousel-item');

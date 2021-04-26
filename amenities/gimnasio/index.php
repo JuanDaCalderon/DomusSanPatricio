@@ -23,11 +23,7 @@
     </div>
     <div class="col-sm-8">
       <img class="img-fluid" src="<?php echo $base_url ?>/assets/zonas_comunes/Gym.jpg" alt="Coworking">
-    </div>
-<!--     <div class="col-12 py-3">
-      <h3 class="textfirstimage font-weight-bold pb-3"> Espacio de uso múltiple diseñado para hacer clases de yoga, pilates y ejercicio físico</h3>
-      <img class="img-fluid" src="<?php echo $base_url ?>/assets/zonas_comunes/Gym.jpg" alt="Gym">
-    </div> -->   
+    </div>  
   </div>
 </section>
 
