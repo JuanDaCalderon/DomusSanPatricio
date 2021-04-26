@@ -20,7 +20,7 @@
   <div class="row align-items-center">
     <div class="col-sm-12 col-md-5 py-2 px-2">
       <h2><span>DOMUS</span> SAN PATRICIO</h2>
-      <h1>Apartamento <span>tipo 5</span></h1>
+      <h1>Apartamento <span>tipo 5A</span></h1>
       <p class="h5">
         2 apartamentos de tres alcobas de 117.21 mts<sup>2</sup> con terraza privada de 102.29 mts<sup>2</sup> ubicados uno en cada torre del quinto piso.
       </p>
@@ -196,7 +196,7 @@
           <!-- <img class="img-fluid" src="<?php echo $base_url ?>/assets/galleries/tipo-a/floorplan.jpg"> -->
           <div class="row px-5 py-4">
             <div class="col">
-              <h2><i class="icon-Web-Icons_Detalles-Apartamento mr-2"></i><span>Apartamento Tipo 5</span></h2>
+              <h2><i class="icon-Web-Icons_Detalles-Apartamento mr-2"></i><span>Apartamento Tipo 5A</span></h2>
               <ul class="text-left">
                 <li>
                   <p>Salón comedor con chimenea y balcón.</p>

@@ -70,7 +70,7 @@
                                 <a class="dropdown-item" href="<?php echo $base_url ?>/apartamentos/tipo-2/">Apartamento tipo 2</a>
                                 <a class="dropdown-item" href="<?php echo $base_url ?>/apartamentos/tipo-3/">Apartamento tipo 3</a>
                                 <a class="dropdown-item" href="<?php echo $base_url ?>/apartamentos/tipo-4/">Apartamento tipo 4</a>
-                                <a class="dropdown-item" href="<?php echo $base_url ?>/apartamentos/tipo-5/">Apartamento tipo 5</a>
+                                <a class="dropdown-item" href="<?php echo $base_url ?>/apartamentos/tipo-5/">Apartamento tipo 5A</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
