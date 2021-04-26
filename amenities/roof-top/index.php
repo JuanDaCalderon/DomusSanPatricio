@@ -14,14 +14,14 @@
   </div>  
 </section>
 
-<section id="more-info" class="container pt-5">
+<section id="more-info" class="container pt-4 pt-md-5 pb-3">
   <div class="row align-items-center">
-    <div class="col-sm-4 px-2">
+    <div class="col-sm-12 col-md-4 px-2">
       <h2><span>DOMUS</span> SAN PATRICIO</h2>
       <h1>Amenities <span>Roof top</span></h1>
       <p class="h5">Terraza para realizar actividades sociales y familiares.</p>
     </div>
-    <div class="col-sm-8 px-2">
+    <div class="col-sm-12 col-md-8 px-2">
       <img class="img-fluid" src="<?php echo $base_url ?>/assets/terrazas/Terrace01.jpg" alt="Terraza 1">
     </div>
     <di class="col-12 py-3 px-2">
@@ -33,7 +33,7 @@
 
 
 
-<section id="about-this" class="container px-2">
+<section id="about-this" class="container px-2 pb-0 pb-md-3">
   <div class="">
     <div class="col-sm-12 inner-block">
     <div class="row">

@@ -14,32 +14,32 @@
   </div>  
 </section>
 
-<section id="more-info" class="container pt-5">
+<section id="more-info" class="container pt-4 pt-md-5 pb-3">
   <div class="row align-items-center">
     
-    <div class="col-md-4 py-2">
+    <div class="col-lg-6 col-xl-4 py-2 px-2">
       <h2><span>DOMUS</span> SAN PATRICIO</h2>
       <h1><span>COWORKING</span></h1>
       <p class="h5">Distintos espacios de trabajo colaborativo e individual, todo esto complementado con un mueble de Snack and Bar</p>
     </div>
-    <div class="col-md-8 py-2">
+    <div class="col-lg-6 col-xl-8 py-2 px-2">
       <img class="img-fluid" src="<?php echo $base_url ?>/assets/zonas_comunes/Conference.jpg" alt="Coworking">
     </div>
-    <div class="col-md-8 py-2 px-0 px-md-2">
+    <div class="col-md-8 py-2 px-2">
       <h3 class="textsecondimage font-weight-bold pb-3"> Salon de coworking con espacios individuales, WiFi y terraza al aire libre.</h3>
       <img class="img-fluid" src="<?php echo $base_url ?>/assets/zonas_comunes/Co-working.jpg" alt="Sala de juntas">
     </div>
-    <div class="col-md-4 py-2 px-0 px-md-2">
+    <div class="col-md-4 py-2 px-2">
       <img class="img-fluid objfill1" src="<?php echo $base_url ?>/assets/zonas_comunes/Co-working2.jpg" alt="coworking">
     </div>
-    <div class="col-md-4 py-2 px-0 px-md-2">
+    <div class="col-md-4 py-2 px-2">
       <img class="img-fluid objfill2" src="<?php echo $base_url ?>/assets/zonas_comunes/SnackBar.jpg" alt="Snackbar">
     </div>
-    <div class="col-md-8 py-2 px-0 px-md-2">
+    <div class="col-md-8 py-2 px-2">
       <h3 class="textsecondimage font-weight-bold pb-3">Dispensadores de snacks y un coffee station</h3>
       <img class="img-fluid" src="<?php echo $base_url ?>/assets/zonas_comunes/Conference2.jpg" alt="Teatro">
     </div>
-    <div class="col-12 py-2 px-0 px-md-2">
+    <div class="col-12 py-2 px-2">
       <h3 class="textfirstimage font-weight-bold pb-3">Un teatro diseñado como un espacio cómodo y cálido para los usuarios</h3>
       <img class="img-fluid" src="<?php echo $base_url ?>/assets/zonas_comunes/Teatrino.jpg" alt="Teatro">
     </div>
@@ -48,7 +48,7 @@
 
 
 
-<section id="about-this" class="container px-2">
+<section id="about-this" class="container px-2 pb-0 pb-md-3">
   <div class="">
     <div class="col-sm-12 inner-block">
       <div class="row">

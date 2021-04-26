@@ -14,14 +14,14 @@
   </div>  
 </section>
 
-<section id="more-info" class="container pt-5">
+<section id="more-info" class="container pt-4 pt-md-5 pb-3">
   <div class="row align-items-center">
-    <div class="col-sm-4">
+    <div class="col-sm-6 col-md-4 px-2">
       <h2><span>DOMUS</span> SAN PATRICIO</h2>
       <h1><span>gimnasio</span></h1>
       <p class="h5">Espacio de uso múltiple diseñado para hacer clases de yoga, pilates y ejercicio físico</p>
     </div>
-    <div class="col-sm-8">
+    <div class="col-sm-6 col-md-8 px-2">
       <img class="img-fluid" src="<?php echo $base_url ?>/assets/zonas_comunes/Gym.jpg" alt="Coworking">
     </div>  
   </div>
@@ -29,7 +29,7 @@
 
 
 
-<section id="about-this" class="container px-2">
+<section id="about-this" class="container px-2 pb-0 pb-md-3">
   <div class="">
     <div class="col-sm-12 inner-block">
       <div class="row">

@@ -14,7 +14,7 @@
   </div>  
 </section>
 
-<section id="more-info" class="container pt-5">
+<section id="more-info" class="container pt-4 pt-md-5 pb-3">
   <div class="row align-items-center">
     <div class="col-sm-4 px-2">
       <h2><span>DOMUS</span> SAN PATRICIO</h2>
@@ -34,7 +34,7 @@
 
 
 
-<section id="about-this" class="container px-2">
+<section id="about-this" class="container px-2 pb-0 pb-md-3">
   <div class="">
     <div class="col-sm-12 inner-block">
       <div class="row">
