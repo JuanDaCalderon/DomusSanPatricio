@@ -525,7 +525,7 @@ h4 {
 }
 
 h4.title-type-01 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 700;
 }
 
@@ -540,7 +540,6 @@ p.text-type-01 {
   font-weight: 400;
   font-family: "Cormorant Garamond", serif;
   line-height: 30px;
-  text-align: justify;
 }
 
 p.text-type-01 span {

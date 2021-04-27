@@ -615,7 +615,7 @@ h4 {
   font-size: map-get($SizeFontsPX, Font24);
 }
 h4.title-type-01 {
-  font-size: map-get($SizeFontsPX, Font40);
+  font-size: map-get($SizeFontsPX, Font30);
   font-weight: map-get($FontWeights, w700);
 }
 h4.title-type-02 {
@@ -631,7 +631,6 @@ p.text-type-01 {
   span {
     font-weight: map-get($FontWeights, w700);
   }
-  text-align: justify;
 }
 p.text-type-02 {
   font-size: map-get($SizeFontsPX, Font18);

@@ -95,7 +95,7 @@
 <section id="mc_embed_signup" class="signup-form">
     <div class="container">
         <form action="https://hoyosluque.us7.list-manage.com/subscribe/post?u=1068e954887b799fc9a7e15c9&amp;id=e3cb7ba6fb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-            <div class="form-container row mt-5 mt-lg-0">
+            <div class="form-container row mt-5 mt-lg-0 px-2 px-md-5">
                 <div class="col-12">
                     <div class="form-row">
                         <div class="col">
@@ -108,18 +108,18 @@
                         </div>
                     </div>
                     <div class="form-row pt-1 pb-0 pb-xl-1">
-                        <div class="col-12 col-xl-6">
+                        <div class="col-12 col-xl-6 py-1 py-xl-0">
                             <input type="text" value="" name="FNAME" class="required w-100" id="mce-FNAME" placeholder="Nombre">    
                         </div>
-                        <div class="col-12 col-xl-6">
+                        <div class="col-12 col-xl-6 py-1 py-xl-0">
                         	<input type="text" value="" name="LNAME" class="required w-100" id="mce-LNAME" placeholder="Apellido">
                         </div>
                     </div>
                     <div class="form-row pt-0 pb-1 pt-xl-1">
-                        <div class="col-12 col-xl-6">
+                        <div class="col-12 col-xl-6 py-1 py-xl-0">
                             <input type="email" value="" name="EMAIL" class="required email w-100" id="mce-EMAIL"  placeholder="Email">
                         </div>
-                        <div class="col-12 col-xl-6">
+                        <div class="col-12 col-xl-6 py-1 py-xl-0">
                         	<input type="text" name="PHONE" class="required w-100" value="" id="mce-PHONE"  placeholder="Teléfono">
                         </div>
                     </div>
@@ -143,7 +143,7 @@
                                 <option value="San Patricio - Tipo 3">San Patricio - Tipo 3</option>
                                 <option value="San Patricio - Tipo 4">San Patricio - Tipo 4</option>
                                 <option value="San Patricio - Tipo 5">San Patricio - Tipo 5</option>
-                                <option value="104 - General">104 - General</option>
+                                <!--<option value="104 - General">104 - General</option>
                                 <option value="104 - Tipo 3">104 - Tipo 3</option>
                                 <option value="104 - Tipo 5">104 - Tipo 5</option>
                                 <option value="104 - Tipo 6">104 - Tipo 6</option>
@@ -152,7 +152,7 @@
                                 <option value="Original - General">Original - General</option>
                                 <option value="Original - Tipo 2">Original - Tipo 2</option>
                                 <option value="Original - Tipo 3">Original - Tipo 3</option>
-                                <option value="Original - Tipo 7">Original - Tipo 7</option>
+                                <option value="Original - Tipo 7">Original - Tipo 7</option> -->
                             </select>
                         </div>
                         <div class="col-sm-12">
@@ -197,12 +197,11 @@
 <section id="apartments">
     <div class="container">
         <div class="row">
-        <div class="col-12 col-lg-5 mt-2 mt-md-5 pt-3">
-            <h4 class="title-type-01">ESPACIOS para compartir y disfrutar</h4>
+        <div class="col-12 col-lg-5 mt-4 mt-md-5 pt-3">
+            <h4 class="title-type-01 mt-2 mt-lg-0">ESPACIOS para compartir y disfrutar</h4>
             <p class="text-type-01">
-            El proyecto de vivienda DOMUS San Patricio es un espacio para vivir y mostrar. Contarás con una variedad de complementos para que disfrutes con tu familia, amigos y equipo de trabajo.
-            <br><br>
-                <span>CREANDO EXPERIENCIAS</span>
+                El proyecto de vivienda DOMUS San Patricio es un espacio para vivir y mostrar. Contarás con una variedad de complementos para que disfrutes con tu familia, amigos y equipo de trabajo.
+                <span class="d-block mt-3 mb-5 my-lg-5">CREANDO EXPERIENCIAS</span>
             </p>
         </div>
         <div class="col-12 col-lg-7 mt-0 gallery px-0 px-sm-3">
@@ -243,7 +242,7 @@
     <div class="inner-bg pb-3 pt-5 pb-lg-6 pt-lg-5 mt-lg-5">
         <div id="galeria" class="container">
             <div class="row">
-                <div class="col-md-12 col-lg-6 bg-purple mb-4 p-lg-0 m-lg-0">
+                <div class="col-md-12 col-lg-6 bg-purple mb-2 p-lg-0 m-lg-0">
                     <h4 class="title-type-02">
                         conoce todos<br>los modelos<br>de apartamento<br>que tenemos<br>para tí
                     </h4>
@@ -299,11 +298,14 @@
         </div>
         <div id="ubicacion" class="container">
             <div class="row p-0 pt-md-5 align-items-center">
+                <div class="col-12 col-md-3 text-left d-block d-sm-none">
+                    <h4 class="font-weight-bold text-uppercase text-light"> TENEMOS LA MEJOR UBICACIÓN</h4>
+                </div>
                 <div class="col-12 col-md-9 mb-4 p-lg-0 m-lg-0">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d994.1110932560084!2d-74.04825797076593!3d4.692586236396391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ab962194c03%3A0x6399b0ca4ac2df5c!2zQ3JhLiAxNyAjIzEwNi03MywgQm9nb3TDoQ!5e0!3m2!1ses-419!2sco!4v1619103941289!5m2!1ses-419!2sco" width="100%" height="400px" style="border:0;" loading="lazy"></iframe>
                 </div>
                 <div class="col-12 col-md-3 text-right">
-                        <h4 class="font-weight-bold text-uppercase text-light"> TENEMOS LA MEJOR UBICACIÓN</h4>
+                        <h4 class="font-weight-bold text-uppercase text-light d-none d-sm-block"> TENEMOS LA MEJOR UBICACIÓN</h4>
                         <h5 class="text-uppercase text-light"> cra 17 # 106 - 73/85</h5>
                         <h6 class="text-uppercase text-light"> SAN PATRICIO</h6>
                         <a href="#home-carousel" class="btn btn_cita text-light w-50 text-right">Agenda tú cita</a>
