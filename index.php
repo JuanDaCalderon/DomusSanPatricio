@@ -123,18 +123,41 @@
                         	<input type="text" name="PHONE" class="required w-100" value="" id="mce-PHONE"  placeholder="Teléfono">
                         </div>
                     </div>
+
                     <div id="mce-responses" class="clear">
                         <div class="response" id="mce-error-response" style="display:none"></div>
                         <div class="response" id="mce-success-response" style="display:none"></div>
                     </div> 
                     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                     <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                        <input type="text" name="b_84f309e64dfcb60806074423c_a3a35433d4" tabindex="-1" value="">
+                        <input type="text" name="b_1068e954887b799fc9a7e15c9_e3cb7ba6fb" tabindex="-1" value="">
                     </div>
+
                     <div class="form-row">
+                        <div class="col-sm-12 py-1">
+                            <select name="DPROJECT" class="required w-100" id="mce-DPROJECT">
+                                <option value="" disabled>¿Qué tipo de apartamento te interesa?</option>
+                                <option value="San Patricio - General" selected>San Patricio - General</option>
+                                <option value="San Patricio - Tipo 1">San Patricio - Tipo 1</option>
+                                <option value="San Patricio - Tipo 2">San Patricio - Tipo 2</option>
+                                <option value="San Patricio - Tipo 3">San Patricio - Tipo 3</option>
+                                <option value="San Patricio - Tipo 4">San Patricio - Tipo 4</option>
+                                <option value="San Patricio - Tipo 5">San Patricio - Tipo 5</option>
+                                <option value="104 - General">104 - General</option>
+                                <option value="104 - Tipo 3">104 - Tipo 3</option>
+                                <option value="104 - Tipo 5">104 - Tipo 5</option>
+                                <option value="104 - Tipo 6">104 - Tipo 6</option>
+                                <option value="104 - Tipo 8">104 - Tipo 8</option>
+                                <option value="104 - Tipo 11">104 - Tipo 11</option>
+                                <option value="Original - General">Original - General</option>
+                                <option value="Original - Tipo 2">Original - Tipo 2</option>
+                                <option value="Original - Tipo 3">Original - Tipo 3</option>
+                                <option value="Original - Tipo 7">Original - Tipo 7</option>
+                            </select>
+                        </div>
                         <div class="col-sm-12">
-                            <input type="radio" value="Acepto términos y condiciones" name="MMERGE6" id="mce-MMERGE6-0">
-                            <label for="mce-MMERGE6-0">Acepto términos y condiciones</label>
+                            <input type="radio" value="Acepto términos y condiciones" name="AGREETERMS" id="mce-AGREETERMS-0">
+                            <label for="mce-AGREETERMS-0">Acepto términos y condiciones</label>
                         </div>
                     </div>
                     <div class="clear text-center">
@@ -145,28 +168,28 @@
         </form>
     </div>        
 
-    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[4]='PHONE';ftypes[4]='phone'; /*
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[5]='DPROJECT';ftypes[5]='dropdown';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[4]='PHONE';ftypes[4]='phone';fnames[6]='AGREETERMS';ftypes[6]='radio'; /*
     * Translated default messages for the $ validation plugin.
     * Locale: ES
     */
     $.extend($.validator.messages, {
-        required: "Este campo es obligatorio.",
-        remote: "Por favor, rellena este campo.",
-        email: "Por favor, escribe una dirección de correo válida",
-        url: "Por favor, escribe una URL válida.",
-        date: "Por favor, escribe una fecha válida.",
-        dateISO: "Por favor, escribe una fecha (ISO) válida.",
-        number: "Por favor, escribe un número entero válido.",
-        digits: "Por favor, escribe sólo dígitos.",
-        creditcard: "Por favor, escribe un número de tarjeta válido.",
-        equalTo: "Por favor, escribe el mismo valor de nuevo.",
-        accept: "Por favor, escribe un valor con una extensión aceptada.",
-        maxlength: $.validator.format("Por favor, no escribas más de {0} caracteres."),
-        minlength: $.validator.format("Por favor, no escribas menos de {0} caracteres."),
-        rangelength: $.validator.format("Por favor, escribe un valor entre {0} y {1} caracteres."),
-        range: $.validator.format("Por favor, escribe un valor entre {0} y {1}."),
-        max: $.validator.format("Por favor, escribe un valor menor o igual a {0}."),
-        min: $.validator.format("Por favor, escribe un valor mayor o igual a {0}.")
+    required: "Este campo es obligatorio.",
+    remote: "Por favor, rellena este campo.",
+    email: "Por favor, escribe una dirección de correo válida",
+    url: "Por favor, escribe una URL válida.",
+    date: "Por favor, escribe una fecha válida.",
+    dateISO: "Por favor, escribe una fecha (ISO) válida.",
+    number: "Por favor, escribe un número entero válido.",
+    digits: "Por favor, escribe sólo dígitos.",
+    creditcard: "Por favor, escribe un número de tarjeta válido.",
+    equalTo: "Por favor, escribe el mismo valor de nuevo.",
+    accept: "Por favor, escribe un valor con una extensión aceptada.",
+    maxlength: $.validator.format("Por favor, no escribas más de {0} caracteres."),
+    minlength: $.validator.format("Por favor, no escribas menos de {0} caracteres."),
+    rangelength: $.validator.format("Por favor, escribe un valor entre {0} y {1} caracteres."),
+    range: $.validator.format("Por favor, escribe un valor entre {0} y {1}."),
+    max: $.validator.format("Por favor, escribe un valor menor o igual a {0}."),
+    min: $.validator.format("Por favor, escribe un valor mayor o igual a {0}.")
     });}(jQuery));var $mcj = jQuery.noConflict(true);</script>
     <!--End mc_embed_signup-->
 </section>
@@ -468,13 +491,8 @@
 </script>
 
 <script>
-    
-
     var $item = $('#gallery .carousel-item');
     var $wHeight = $(window).height();
-
-
-
     $(".0").click(function(){
         $item.removeClass('active');
         $item.eq(0).addClass('active');

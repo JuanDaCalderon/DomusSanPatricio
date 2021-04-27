@@ -899,7 +899,8 @@ body.new-nav-bar {
       box-shadow: 0 0 23px rgba(0, 0, 0, 0.4);
       padding: 50px;
     }
-    input {
+    input,
+    select {
       background-color: rgba(50, 70, 82, 0.1);
       border: none;
       border-radius: 0;
@@ -1273,7 +1274,7 @@ section#more-info.container {
   body.new-nav-bar {
     form#mc-embedded-subscribe-form {
       .form-container {
-        max-width: 33.333333%;
+        max-width: 31.5%;
         top: 260px;
         right: 200px;
       }
