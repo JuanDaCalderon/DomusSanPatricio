@@ -229,7 +229,7 @@
                             <a class="imgPopUp" data-toggle="modal" data-target="#popUpGallery">
                                 <img class="0 img-fluid" src="assets/stills/tipo1/Comply1.jpg" data-color="lightblue" alt="First Image">
                             </a>
-                            <button type="button" class="gallery-access-button btn-home open" data-toggle="modal" data-target="#popUpGallery">
+                            <button type="button" class="0 gallery-access-button btn-home open" data-toggle="modal" data-target="#popUpGallery">
                                 <i class="bi bi-arrows-angle-expand"></i>
                             </button>
                         </div>
@@ -237,7 +237,7 @@
                             <a class="imgPopUp" data-toggle="modal" data-target="#popUpGallery">
                                 <img class="2 img-fluid" src="assets/stills/tipo2/Comply1.jpg" data-color="lightblue" alt="First Image">
                             </a>
-                            <button type="button" class="gallery-access-button btn-home open" data-toggle="modal" data-target="#popUpGallery">
+                            <button type="button" class="2 gallery-access-button btn-home open" data-toggle="modal" data-target="#popUpGallery">
                                 <i class="bi bi-arrows-angle-expand"></i>
                             </button>
                         </div>
@@ -249,7 +249,7 @@
                             <a class="imgPopUp" data-toggle="modal" data-target="#popUpGallery">
                                 <img class="5 img-fluid" src="assets/stills/tipo3/Comply1.jpg" data-color="lightblue" alt="First Image">
                             </a>
-                            <button type="button" class="gallery-access-button btn-home open" data-toggle="modal" data-target="#popUpGallery">
+                            <button type="button" class="5 gallery-access-button btn-home open" data-toggle="modal" data-target="#popUpGallery">
                                 <i class="bi bi-arrows-angle-expand"></i>
                             </button>
                         </div>
@@ -257,7 +257,7 @@
                             <a class="imgPopUp" data-toggle="modal" data-target="#popUpGallery">
                                 <img class="9 img-fluid" src="assets/stills/tipo4/Comply1.jpg" data-color="lightblue" alt="First Image">
                             </a>
-                            <button type="button" class="gallery-access-button btn-home open" data-toggle="modal" data-target="#popUpGallery">
+                            <button type="button" class="9 gallery-access-button btn-home open" data-toggle="modal" data-target="#popUpGallery">
                                 <i class="bi bi-arrows-angle-expand"></i>
                             </button>
                         </div>
@@ -266,7 +266,7 @@
                         <a class="imgPopUp" data-toggle="modal" data-target="#popUpGallery">
                             <img class="3 img-fluid" src="assets/stills/tipo2/Comply2.jpg" data-color="lightblue" alt="First Image">
                         </a>
-                        <button type="button" class="gallery-access-button btn-home open" data-toggle="modal" data-target="#popUpGallery">
+                        <button type="button" class="3 gallery-access-button btn-home open" data-toggle="modal" data-target="#popUpGallery">
                             <i class="bi bi-arrows-angle-expand"></i>
                         </button>
                     </div>
