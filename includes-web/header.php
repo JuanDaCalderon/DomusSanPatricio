@@ -86,10 +86,10 @@
                                 <a class="dropdown-item" href="<?php echo $base_url ?>/amenities/zona-de-juegos/">Zona de juegos</a>
                             </div>
                         </li>
-                        <li class="nav-item ml-md-auto">
+                        <li class="nav-item ml-md-auto itemaux mr-md-5">
                             <a class="nav-link" href="<?php echo $base_url ?>#ubicacion">UBICACIÓN</a>
                         </li>
-                        <li class="nav-item pr-md-5">
+                        <li class="nav-item itemaux mr-md-5">
                             <a id="galerialink" class="nav-link" href="<?php echo $base_url ?>#galeria">GALERIA</a>
                         </li>
                     </ul>

@@ -760,6 +760,10 @@ body.new-nav-bar header ul.navbar-nav {
   text-transform: uppercase;
 }
 
+body.new-nav-bar header ul.navbar-nav li.itemaux {
+  background-color: rgba(74, 66, 87, 0.9);
+}
+
 body.new-nav-bar header ul.navbar-nav a {
   color: #fff;
 }
@@ -1028,6 +1032,9 @@ section#more-info.container img.objfill2 {
   }
   body.new-nav-bar header {
     background: transparent;
+  }
+  body.new-nav-bar header ul.navbar-nav li.itemaux {
+    background-color: transparent !important;
   }
   body.new-nav-bar header div.navbar-collapse {
     background: rgba(39, 35, 45, 0.9) !important;

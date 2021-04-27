@@ -820,6 +820,9 @@ body.new-nav-bar {
       }
     }
     ul.navbar-nav {
+      li.itemaux {
+        background-color: rgba(74, 66, 87, 0.9);
+      }
       text-transform: uppercase;
       a {
         color: map-get($ColorsHexa, PrimaryWhite);
@@ -1084,6 +1087,11 @@ section#more-info.container {
       background: map-get($ColorsHexa, PrimaryGray) !important;
     }
     header {
+      ul.navbar-nav {
+        li.itemaux {
+          background-color: transparent !important;
+        }
+      }
       background: map-get($ColorsHexa, Transparent);
       div.navbar-collapse {
         background: map-get($ColorsHexa, PrimaryGray) !important;
