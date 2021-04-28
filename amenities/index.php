@@ -54,16 +54,16 @@
       <div class="card mb-2">
           <img class="card-img-top h-100" src="<?php echo $base_url ?>/assets/zonas_comunes/Co-working.jpg" alt="Card image cap">
           <div class="card-body">
-            <a href="<?php echo $base_url ?>/amenities/areas-comunes/" class="btn btn-primary"><p>SALA DE TRABAJO COMPARTIDO</p></a>
+            <a href="<?php echo $base_url ?>/amenities/co-working/" class="btn btn-primary"><p>SALA DE TRABAJO COMPARTIDO</p></a>
           </div>
         </div>
       </div>
 
       <div class="col-md-4 clearfix d-none d-md-block">
       <div class="card mb-2">
-          <img class="card-img-top h-100" src="<?php echo $base_url ?>/assets/zonas_comunes/Conference.jpg" alt="Card image cap">
+          <img class="card-img-top h-100" src="<?php echo $base_url ?>/assets/zonas_comunes/Gym.jpg" alt="Card image cap">
           <div class="card-body">
-            <a href="<?php echo $base_url ?>/amenities/areas-comunes/" class="btn btn-primary"><p>SALON COMUNAL</p></a>
+            <a href="<?php echo $base_url ?>/amenities/gimnasio/" class="btn btn-primary"><p>GIMNASIO</p></a>
           </div>
         </div>
       </div>
@@ -80,21 +80,21 @@
       <div class="card mb-2">
           <img class="card-img-top h-100" src="<?php echo $base_url ?>/assets/zonas_comunes/Lobby.jpg" alt="Card image cap">
           <div class="card-body">
-            <a href="<?php echo $base_url ?>/amenities/areas-comunes/" class="btn btn-primary"><p>LOBBY</p></a>
-          </div>
-        </div>
-      </div>
-<!--
-      <div class="col-md-4 clearfix d-none d-md-block">
-      <div class="card mb-2">
-          <img class="card-img-top" src="<?php echo $base_url ?>/assets/amenities/rooftop/thumb-01.jpg" alt="Card image cap">
-          <div class="card-body">
-            <a href="<?php echo $base_url ?>/apartamentos/tipo-2/" class="btn btn-primary"><p>Modelo tipo 2</p></a>
+            <a href="<?php echo $base_url ?>/amenities/lobby/" class="btn btn-primary"><p>LOBBY</p></a>
           </div>
         </div>
       </div>
 
       <div class="col-md-4 clearfix d-none d-md-block">
+      <div class="card mb-2">
+          <img class="card-img-top h-100" src="<?php echo $base_url ?>/assets/terrazas/Terrace03.jpg" alt="Card image cap">
+          <div class="card-body">
+            <a href="<?php echo $base_url ?>/amenities/zona-de-juegos/" class="btn btn-primary"><p>ZONA DE JUEGOS</p></a>
+          </div>
+        </div>
+      </div>
+
+<!--       <div class="col-md-4 clearfix d-none d-md-block">
       <div class="card mb-2">
           <img class="card-img-top" src="<?php echo $base_url ?>/assets/amenities/rooftop/thumb-01.jpg" alt="Card image cap">
           <div class="card-body">
@@ -102,46 +102,10 @@
           </div>
         </div>
       </div>
-    </div>
--->
+    </div> -->
+
   </div>
   <!--/.Second slide-->
-
-  <!--Third slide-->
-  <!--<div class="carousel-item">
-
-    <div class="row">
-      <div class="col-md-4">
-      <div class="card mb-2">
-          <img class="card-img-top" src="<?php echo $base_url ?>/assets/amenities/rooftop/thumb-01.jpg" alt="Card image cap">
-          <div class="card-body">
-            <a href="<?php echo $base_url ?>/apartamentos/tipo-1/" class="btn btn-primary"><p>Modelo tipo 1</p></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 clearfix d-none d-md-block">
-      <div class="card mb-2">
-          <img class="card-img-top" src="<?php echo $base_url ?>/assets/amenities/rooftop/thumb-01.jpg" alt="Card image cap">
-          <div class="card-body">
-            <a href="<?php echo $base_url ?>/apartamentos/tipo-2/" class="btn btn-primary"><p>Modelo tipo 2</p></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 clearfix d-none d-md-block">
-      <div class="card mb-2">
-          <img class="card-img-top" src="<?php echo $base_url ?>/assets/amenities/rooftop/thumb-01.jpg" alt="Card image cap">
-          <div class="card-body">
-            <a href="<?php echo $base_url ?>/apartamentos/tipo-3/" class="btn btn-primary"><p>Modelo tipo 3</p></a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>-->
-  <!--/.Third slide-->
-
 </div>
 <!--/.Slides-->
 
