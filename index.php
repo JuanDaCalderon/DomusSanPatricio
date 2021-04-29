@@ -138,11 +138,11 @@
                             <select name="DPROJECT" class="required w-100" id="mce-DPROJECT">
                                 <option value="" disabled>¿Qué tipo de apartamento te interesa?</option>
                                 <option value="San Patricio - General" selected>San Patricio - General</option>
-                                <option value="San Patricio - Tipo 1">San Patricio - Tipo 1</option>
-                                <option value="San Patricio - Tipo 2">San Patricio - Tipo 2</option>
-                                <option value="San Patricio - Tipo 3">San Patricio - Tipo 3</option>
-                                <option value="San Patricio - Tipo 4">San Patricio - Tipo 4</option>
-                                <option value="San Patricio - Tipo 5">San Patricio - Tipo 5</option>
+                                <option value="San Patricio - Tipo 1">San Patricio - Tipo 1 Desde: $479.166.000</option>
+                                <option value="San Patricio - Tipo 2">San Patricio - Tipo 2 Desde: $369.662.000</option>
+                                <option value="San Patricio - Tipo 3">San Patricio - Tipo 3 Desde: $912.159.000</option>
+                                <option value="San Patricio - Tipo 4">San Patricio - Tipo 4 Desde: $1'262.648.000</option>
+                                <option value="San Patricio - Tipo 5">San Patricio - Tipo 5 Desde: $1'459.593.000</option>
                                 <!--<option value="104 - General">104 - General</option>
                                 <option value="104 - Tipo 3">104 - Tipo 3</option>
                                 <option value="104 - Tipo 5">104 - Tipo 5</option>
