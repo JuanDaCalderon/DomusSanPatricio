@@ -96,6 +96,15 @@
     <div class="container">
         <form action="https://hoyosluque.us7.list-manage.com/subscribe/post?u=1068e954887b799fc9a7e15c9&amp;id=e3cb7ba6fb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <div class="form-container row mt-5 mt-lg-0 px-2 px-md-5">
+                <!-- Valor Quemado -->
+                <div class="mc-field-group d-none" >
+                    <select name="DOMUSCOM" class="required" id="mce-DOMUSCOM">
+                        <option value="Domus San Patricio" selected>Domus San Patricio</option>
+                        <option value="Domus 104">Domus 104</option>
+                        <option value="Domus Original">Domus Original</option>
+                    </select>
+                </div>
+                <!-- /Valor Quemado -->
                 <div class="col-12">
                     <div class="form-row">
                         <div class="col">
@@ -143,16 +152,6 @@
                                 <option value="San Patricio - Tipo 3">San Patricio - Tipo 3 Desde: $912.159.000</option>
                                 <option value="San Patricio - Tipo 4">San Patricio - Tipo 4 Desde: $1'262.648.000</option>
                                 <option value="San Patricio - Tipo 5">San Patricio - Tipo 5 Desde: $1'459.593.000</option>
-                                <!--<option value="104 - General">104 - General</option>
-                                <option value="104 - Tipo 3">104 - Tipo 3</option>
-                                <option value="104 - Tipo 5">104 - Tipo 5</option>
-                                <option value="104 - Tipo 6">104 - Tipo 6</option>
-                                <option value="104 - Tipo 8">104 - Tipo 8</option>
-                                <option value="104 - Tipo 11">104 - Tipo 11</option>
-                                <option value="Original - General">Original - General</option>
-                                <option value="Original - Tipo 2">Original - Tipo 2</option>
-                                <option value="Original - Tipo 3">Original - Tipo 3</option>
-                                <option value="Original - Tipo 7">Original - Tipo 7</option> -->
                             </select>
                         </div>
                         <div class="col-sm-12">
@@ -168,7 +167,7 @@
         </form>
     </div>        
 
-    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[5]='DPROJECT';ftypes[5]='dropdown';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[4]='PHONE';ftypes[4]='phone';fnames[6]='AGREETERMS';ftypes[6]='radio'; /*
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[3]='DOMUSCOM';ftypes[3]='dropdown';fnames[5]='DPROJECT';ftypes[5]='dropdown';fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[4]='PHONE';ftypes[4]='phone';fnames[6]='AGREETERMS';ftypes[6]='radio'; /*
     * Translated default messages for the $ validation plugin.
     * Locale: ES
     */
