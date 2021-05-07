@@ -1,6 +1,7 @@
 <?php
     //$base_url="http://www.dynamikcollective.com/clients/hoyosluque/webapp/";
     $base_url="https://www.proyectodomus.com/DomusSanPatricio";
+    $domain="https://www.proyectodomus.com";
     //$base_url="http://localhost:8888/clients/hoyosluque/repo-webapp/DomusSanPatricio"; 
     //$base_url="http://localhost/DomusSanPatricio"; 
     $url= $_SERVER["REQUEST_URI"];
@@ -49,7 +50,7 @@
         <div class="row no-gutters">
             <nav class="navbar navbar-expand-md w-100 p-0">
                 <!-- Brand -->
-                <a class="navbar-brand mt-1 mb-1" href="<?php echo $base_url ?>">
+                <a class="navbar-brand mt-1 mb-1" href="<?php echo $base_url?>">
                     <img class="w-md-50 w-lg-75" src="<?php echo $base_url ?>/assets/logo.svg">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -60,6 +61,9 @@
                 <!-- Links -->
                 <div class="collapse navbar-collapse pl-3 pb-2 pt-0 pt-md-2" id="collapsibleNavbar">
                     <ul class="navbar-nav w-100">
+                        <li class="nav-item mr-md-3">
+                            <a class="nav-link" href="<?php echo $domain?>">INICIO</a>
+                        </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="<?php echo $base_url ?>/apartamentos/index.php" id="navbardrop" data-toggle="dropdown">
                                 Apartamentos
