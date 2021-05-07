@@ -199,7 +199,7 @@
         <div class="col-12 col-lg-5 mt-4 mt-md-5 pt-3">
             <h4 class="title-type-01 mt-2 mt-lg-0">El placer de vivir y trabajar en un solo lugar</h4>
             <p class="text-type-01">
-                El proyecto de vivienda DOMUS San Patricio es un espacio para compartir y trabajar. Contarás con una variedad de complementos para que disfrutes con tu familia, amigos y equipo de trabajo.
+                El proyecto de vivienda DOMUS San Patricio es un espacio para compartir y disfrutar. Contarás con una variedad de complementos para que disfrutes con tu familia, amigos y equipo de trabajo.
                 <span class="d-block mt-3 mb-5 mb-lg-3 mt-lg-5">CREANDO EXPERIENCIAS</span>
                 <a href="https://wa.me/message/2VZQ3OIOALVEK1" class="btn btn_cita text-light text-center rounded-0" target="_blank">Contáctanos por Whatsapp</a>
             </p>
