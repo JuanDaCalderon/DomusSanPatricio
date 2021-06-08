@@ -21,7 +21,7 @@
       <h2><span>DOMUS</span> SAN PATRICIO</h2>
       <h1>Apartamento <span>tipo 4</span></h1>
       <p class="h5">
-        2 apartamentos de dos alcobas de 109.37 mts<sup>2</sup> con terraza privada de 40 mts<sup>2</sup> ubicados uno en cada torre del quinto piso.
+        2 apartamentos de dos alcobas de 109.37 mts<sup>2</sup> con terraza comunal de uso exclusivo de 40 mts<sup>2</sup> ubicados uno en cada torre del quinto piso.
       </p>
     </div>
     <div class="col-sm-12 col-md-7 py-2 px-2">
