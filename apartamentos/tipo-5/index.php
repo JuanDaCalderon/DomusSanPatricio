@@ -9,7 +9,7 @@
 </script>
 
 <section id="tour" class="container-fluid p-0 tour">
-  <a id="more-info-btn" class="btn-type-01 more-info pull-right" href="#more-info">Más información</a>
+  <!-- <a id="more-info-btn" class="btn-type-01 more-info pull-right" href="#more-info">Más información</a> -->
   <a id="tour-btn" class="btn-type-01 to-tour pull-right" href="#tour">Tour 360º</a>
   <div class="embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" src="../../views-360/tipo-5/index.htm" allowfullscreen></iframe>

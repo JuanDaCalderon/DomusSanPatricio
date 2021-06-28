@@ -806,7 +806,7 @@ button:focus {
 
 body.new-nav-bar {
   header {
-    background: map-get($ColorsHexa, PrimaryGray);
+    background: linear-gradient(90deg, #27232de6 60%, transparent 70%);
     position: absolute;
     top: 0;
     width: 100%;
